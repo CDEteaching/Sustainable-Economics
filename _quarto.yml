@@ -1,0 +1,116 @@
+project:
+  type: book
+
+  output-dir: docs
+  resources:
+    - "*.png"
+    - "*.jpeg"
+    - "*.jfif"
+    - "*.svg"
+
+execute:
+  engine: knitr
+  echo: false
+
+lang: en-GB
+
+book:
+  title: "Introduction to Sustainable Economics"
+  subtitle: "Prosperity for All – Within Ecological Limits"
+  favicon: images/cdelogo_e.png
+  reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
+  search: true
+
+  sidebar:
+    search: true
+    logo: images/cdelogo_e.png
+    tools:
+      - icon: file-earmark-pdf
+        href: https://github.com/CDEteaching/Sustainable-Economics/blob/main/pdf/SustainableEconomics.pdf
+        text: "Course script (PDF)"
+
+  page-footer:
+    border: true
+    left: |
+      "This a product of <a href="www.cde.unibe.ch/">![](/images/cdelogo_e.png){style='width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
+    center: |
+
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a [CC-BY-NC-SA 4.0 Int License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+  chapters:
+  - index.qmd
+  - part: "Sustainable Economics"
+    chapters:
+    - 1_thinking-economics/1_intro.qmd
+    - 2_scope-of-economics/2_intro.qmd
+    - 3_problem-analysis/3_intro.qmd
+    - 4_strategies/4_intro.qmd
+    - 5_state-and-guiding-models/5_intro.qmd
+    - 6_synthesis/6_intro.qmd
+  - references.qmd
+
+bibliography: references.bib
+
+number-depth: 3
+
+format:
+  html:
+    mainfont: Roboto
+    monofont: Fira Code
+    highlight-style: arrow
+    monobackgroundcolor: "#F7F7F7"
+    theme:
+      light: [theme.scss]
+      dark: [darkly]
+    toggle: true
+    default-mode: dark
+    callout-icon: false
+    css: webex.css
+    include-after-body: webex.js
+    df-print: kable
+
+  pdf:
+    output-file: SustainableEconomics
+    # render pdf to separate folder -> do it manually via terminal
+    # "quarto render --to pdf --output-dir pdf --output SustainableEconomics.pdf"
+    title: "Introduction to Sustainable Economics"
+    documentclass: scrreprt
+    classoption: ["oneside", "openany"]
+
+    mainfont: "Alegreya"
+    sansfont: "Source Sans Pro"
+    urlcolor: "blue"
+
+    number-depth: 3
+    papersize: a4
+    fig-pos: "H"
+    pdf-engine: xelatex
+    callout-icon: false
+
+    keep-tex: true
+    tables: true
+    include-in-header:
+      text: |
+        \usepackage{booktabs}
+        \usepackage{longtable}
+        \usepackage{microtype}
+        \clubpenalty=10000
+        \widowpenalty=10000
+        \usepackage[font=footnotesize,labelfont={footnotesize}]{caption}
+        \usepackage[skins,breakable]{tcolorbox}
+        \definecolor{selfstudyviolet}{HTML}{6F42C1}
+        \definecolor{selfstudyvioletbg}{HTML}{F3EEFA}
+        \newtcolorbox{selfstudyphase}[1][]{
+          colback=selfstudyvioletbg,
+          colframe=selfstudyviolet,
+          coltitle=white,
+          colbacktitle=selfstudyviolet,
+          fonttitle=\bfseries,
+          breakable,
+          boxrule=0.6pt,
+          arc=1mm,
+          title=Self-study phase
+        }

@@ -1,0 +1,105 @@
+---
+title: "The Role of the State and Economic Policy Guiding Models"
+lightbox: true
+format: html
+tbl-cap-location: top
+fig-cap-location: bottom
+---
+
+*↗ Textbook chapters 10 and 21*
+
+::: {.callout-note .guiding-question collapse="false"}
+#### Guiding question
+
+How can a society ensure that its economy actually achieves the goal we took as our starting point in Chapter 2 -- prosperity for all, within ecological limits?
+:::
+
+We have covered a lot of ground in this script. In Chapter 1, we saw that there is no single economics, but rather different schools of thought, each with its own basic assumptions. In Chapter 2, we examined prosperity as the actual goal of economic activity. We asked what is used to provide this prosperity (factors of production, goods) and how this provision is coordinated. In Chapter 3, we saw that today's economy misses this goal in several respects, and in Chapter 4, we encountered three strategies for addressing these problems: efficiency, consistency, and sufficiency. This closes the circle with the original question from Chapter 2: How must an economy be coordinated so that prosperity for all, within ecological limits, is actually achieved?
+
+This brings us to the question of implementation: Who actually ensures that we get there? The market alone, or do we need the state? This question cannot be answered independently of what we have already seen. Depending on one's understanding of the economy, markets, and capitalism, the answer on the role of the state differs as well -- from an intervention limited to market failure to a state that actively shapes the economy or even sets limits.
+
+These different ideas about the state and the market do not simply stand side by side in isolation. In practice, they condense into larger, coherent **economic policy guiding models** -- that is, overall pictures of how the state, the market, and society should interact in order to achieve the shared goal. In this course, following @novyZukunftsfaehigesWirtschaften2023, we distinguish three basic economic policy guiding models that can be observed today as the result of the influence of different schools of thought: **market liberalism**, **welfare capitalism**, and **post-growth**. Each of them can be traced back to the styles of thought that accompany us throughout the script.
+
+## Why "Market vs. State" Is Historically Not a Given
+
+![SRF report, 15 March 2023. Source: <https://www.srf.ch/news/schweiz/wohnungen-werden-knapper-staatliche-wohnbaufoerderung-oder-mehr-freier-markt>.](images/fig1.png)
+
+That we can speak at all of the state "intervening in the market" is not a universal historical truth. For people who lived before the emergence of modern capitalism, this formulation would simply have made no sense. In this chapter, we explore the specific role of the state in capitalism and how the actions of state institutions in relation to the economy can be explained.
+
+As we saw in the introductory chapter, it was only with the transition from feudalism to industrial capitalism that the economy came to be thought of as a supposedly separate sphere, detached from political power. Ellen Meiksins Wood [-@woodOriginCapitalismLonger2017] shows that under feudalism, economic and political rule were inseparably linked: the nobility appropriated part of the serfs' production through direct political coercion. Wage labour was a marginal phenomenon at the time, and production was shaped by craft workshops, agriculture, and subsistence production. In the transition to industrial capitalism and emerging liberalism, the state came to be understood as the sphere of power, of its distribution and limitation, and increasingly of democratic participation. In contrast stood civil society, which was understood as a part of society separate from the state, protected by rights, and characterized by the individual, rational pursuit of economic interests. The economy was thus conceived, in particular through the right to private property, as a separate space protected from the state and understood as largely free of power relations.
+
+When we talk today about the right form of the state, we usually mean the liberal parliamentary democracy, in which elections take place but which also protects private property from state interference. The economy is thus not an area in which democratic procedures have a place. When we go to the supermarket, we do not face goods that we have agreed on as a society, but goods that the supermarket chain considers profitable. When we go to work, we do not expect to have a say in production goals and the distribution of profits, but accept our employer's decisions in return for a wage. Democracy thus takes place in the political sphere through elections, but in everyday life, which is shaped above all by wage labour and the purchase of goods, the possibility of exerting democratic influence on our living conditions is limited (Anderson 2019).
+
+That we can meaningfully speak of "state interventions in the market" today is therefore itself the product of a specific historical and political constellation, and hence not a neutral starting point. This insight is central to the following sections: if the separation between market and state is historically made, then the question of *how* the state and the market should relate to each other is not a purely technical one but always also a political one.
+
+## Market-Liberal Guiding Model: The State as Night-Watchman
+
+In the most widely used economics textbook [@mankiwEconomics2020], the role of the state is defined through four concepts: property rights, market power, market failure, and externalities. The market is considered fundamentally efficient, and deviations require justification. This gives rise to a certain circular reasoning, however: if the market leads to poor outcomes, the market itself is never at fault, but rather incomplete property rights or incomplete markets. Accordingly, new markets must be created instead of questioning the market as an organizing principle. This very circular reasoning is the starting point for Samuel Bowles's critique (see below).
+
+David Harvey summarizes the prevailing basic idea of the role of the state from a neoclassical perspective as follows:
+
+> "State interventions in markets (once they have been created) must be kept to an absolute minimum, because according to the theory the state cannot possibly have enough information to anticipate market signals (prices)" [translated from @harveyBriefHistoryNeoliberalism2005, p. 3]
+
+Today, this understanding is often referred to by the term *night-watchman state*. In contrast, critics such as Michel Foucault and Quinn Slobodian point out that enforcing, maintaining, and managing markets by no means results in a weak state but requires a strong one [@slobodianGlobalistsEndEmpire2018].
+
+We call the role of the state described here on the basis of a neoclassical understanding -- limited to guaranteeing private ownership of the means of production (property rights), preventing monopolies (market power), and limited interventions to correct market outcomes (market failure and externalities) -- the **market-liberal guiding model**.
+
+### Critique of the market-liberal guiding model: markets are not neutral -- they constitute
+
+An important critique of the market-liberal guiding model and the role it assigns to the state arises from the observation that its concept of market failure is often too narrow. The economist Samuel Bowles, for instance, argues that markets not only allocate resources and distribute income but also **shape culture, preferences, and power structures**. They are thus "as much political and cultural institutions as economic ones" [@bowlesWelcheGueterSollen2014, p. 471]. Four building blocks support this argument:
+
+- **Endogenous vs. exogenous participants.** The abstract textbook market, as we discussed it in Chapter 2.5, assumes exogenous, unchanging preferences. Once participants are *endogenous* (the market itself affects their abilities, values, and wishes), allocation in markets no longer works as efficiently as described in the model, because the model relies on precisely this exogeneity assumption [@bowlesWelcheGueterSollen2014, p. 481].
+- **Contested markets.** Where claims are enforced endogenously (by the participants themselves rather than by third parties), a power relationship arises between the side facing greater scarcity and the other side, "even if the exchange takes place under full information, without coercion, and under fully competitive conditions" [@bowlesWelcheGueterSollen2014, p. 478].
+- **Incomplete contracts as the rule, not the exception.** Because contracts can never cover all contingencies, political or social mechanisms are needed to fill the gaps. This is precisely why markets are political.
+- **Constitutive exchange processes.** "When friends give each other gifts, gifts make friends" [@bowlesWelcheGueterSollen2014, p. 475] -- how work is organized and distributed shapes the development of our abilities and norms. This means that markets are constitutive.
+
+If we follow Bowles's arguments, market failure is not a rare exception but is structurally present almost everywhere outside the abstract model of the (market-liberal) textbook.
+
+## Welfare-Capitalist Guiding Model: The State as Stabilizer and Co-Shaper
+
+Another widely recognized critique of the market-liberal guiding model comes from the economist John Maynard Keynes, who formulated it in the aftermath of the Great Depression (from 1929). A central insight of Keynes is that market economies generate uncertainty and instability out of their own logics. Markets, and in particular aggregate demand, do not stabilize themselves but are always prone to crises, since long-term, rational decisions are hardly possible in an environment marked by strong uncertainty. In times of crisis, uncertainty about the future can lead to underinvestment and reduced consumption, and thus to a suboptimal use of societal resources. According to Keynesian theory, the state therefore has the role of stabilizing aggregate demand through countercyclical action (that is, if necessary, also by increasing its spending in times of crisis through debt financing). In principle, the state should also stabilize societal investment, for example through public investment programmes.
+
+> "The important thing for government is not to do things which individuals are doing already, and to do them a little better or a little better; but to do those things which at present are not done at all." @keynesENDLAISSEZFAIRE19261978 [p. 291]
+John Maynard Keynes (1926) in "The End of Laissez-Faire" [@keynesEndLaissezFaireEconomic2020]
+
+The role of the state expands compared with that in neoclassical economics. Based on Keynes's ideas, the state has the task of securing and protecting material prosperity, for example by building a welfare state. In this way, competitive economic measures are to be combined with social justice and, in green variants, also with environmental protection. We describe this understanding of the role of the state as the **welfare-capitalist guiding model**.
+
+### Critique of the welfare-capitalist guiding model: from "correcting" to "shaping"
+
+Taking up Bowles's observation, the economist Mariana Mazzucato argues that the corrective function of the state, as Keynes justified it, will ultimately not be sufficient: if markets have a constitutive effect, correction is not enough -- the state must proactively help to shape markets ("market shaping, not fixing"). Mazzucato [-@mazzucatoMissionEconomyMoonshot2022; -@mazzucatoValueEverythingMaking2018] turns this into a government programme: market failure should be treated not as an exception but as the rule. Her work rests on the historical observation that many groundbreaking technologies were, at least initially, made possible only by (often massive) state investment. The most famous example is the internet, whose precursor, Arpanet, was developed as a military technology. She also points to countless civilian applications of innovations that were originally developed with large amounts of public money for NASA's space programmes. In other words, had states not made the first move and made the investments in core technologies that were far too expensive and risky for private funders, many later innovations building on them could not have been developed either. Such public upfront financing could accordingly be understood as "anticipatory" correction of market failure, but it would be more accurate to speak instead of active shaping and co-design.
+
+Mazzucato and Bowles thus both ascribe a much more active and present role to the state than a neoclassical (or welfare-capitalist) perspective does. Bornemann et al. (2018) describe three different roles that a state can take on in societal transformation: (1) **regulator**, with a focus on limiting and preserving; (2) innovator and exnovator, with a focus on **shaping** markets; and (3) **enabler**, for example of experiments and social innovations for more sustainable patterns of production and consumption.
+
+The different state interventions during the COVID-19 pandemic illustrate the different ideas about the role and function of a state. While in Switzerland COVID loans were granted almost entirely without conditions (for example, Swiss International Air Lines was granted a loan of billions of francs without conditions such as a ban on dividend payments in the years following the pandemic), other countries attached conditions to COVID loans: Denmark did not grant rescue loans to companies in tax havens, and France tied its loans to Air France to climate conditions (for example, fewer domestic flights, although this was not legally binding).
+
+## Post-Growth Guiding Model: The State as Guardian of Limits -- or Part of the Problem?
+
+The main goal of the post-growth approach is a fulfilling life in a sustainable society that relates to nature in a harmonious way by overcoming the compulsion for constant economic growth in the capitalist system. It aims at an economy that remains in a stable state (*steady-state economy*) or can function independently of economic growth and that ensures people's basic provision, in particular through the principle of sufficiency (the right amount of resource use, not the maximum).
+
+Ecological economics understands the economy as an embedded subsystem of the Earth rather than as an isolated circuit between households and firms. This also shifts the question of the role of the state: the primary concern is not to correct individual market failures but to keep the entire economic throughput within the carrying capacity of the planet [@rockstromSafeOperatingSpace2009]. Herman Daly [-@dalyNewEconomicsOur2017], a founding figure of ecological economics, derives from this an explicitly state-centred institutional design for a "steady-state economy". It involves three instruments that require a strong, shaping state, because no market can give them to itself:
+
+- Cap-auction-trade systems: The state sets a physical upper limit for resource extraction and pollutant emissions (the "cap"), auctions usage rights, and only within this limit leaves the allocation to the market.
+
+- Limits on the distribution of income and wealth (minimum and maximum incomes), so that capped resource use does not simply lead to sharper distributional competition over a fixed "slice of the cake".
+
+- Population policy instruments to stabilize resource demand.
+
+The market remains desirable as an allocation mechanism within the limits, but only the state can legitimately set and enforce the limit itself. This logic coincides with the functions of a "shaping state" discussed above, and also with Gabor and Braun's ([@schmelzerDegrowthPostwachstum2019]) "big green state", who distinguish four models of state-led ecological transformation. These models range between two poles: (1) **carbon shock therapy**: forcing the transformation through a very high CO~2~ price commensurate with the climate crisis, an example of fully market-based steering; and (2) **big green state**: a massively interventionist state with its own stakes in the economy that engages in ecological planning and forces private investors to act ecologically.
+
+### Critique of the post-growth guiding model: the state as ideal collective capitalist
+
+However far-reaching the toolkit of ecological economics may be, it shares with the welfare-capitalist guiding model a basic assumption that, from the perspective of Marxist political economy (MPE), is the real problem: that the state is in principle a neutral body acting in the common good, which only needs to be equipped with the right competences and the right mandate. MPE, by contrast, understands the state decidedly not as neutral but as an instrument of the respective ruling class: "The modern state, whatever its form, is \[…\] the ideal collective capitalist" (Engels 1975, p. 260). The state does not act in the interest of individual fractions of capital but in the interest of maintaining capitalism as a whole, which may well include social policy or co-determination, as long as private ownership of the means of production is not called into question.
+
+For the role of the state in post-growth, this means, among other things, that even a "big green state" remains structurally tied to the reproduction of the capital relation. A cap-auction-trade system, for example, auctions usage rights to the same actors who previously profited from overuse, and the proceeds flow back to the same state, which remains structurally bound to this very capitalist production through growth, employment, and tax revenue. The state can administer limits -- but, according to MPE, it can hardly dissolve growth dependencies from within, because it is itself part of them (growth imperative via the tax system and social insurance, legitimation via employment).
+
+MPE therefore looks more consistently for the alternative outside the market and the (capitalist) state: in commons, cooperatives, and collective self-management.
+
+## Beyond Market and State
+
+With the commons, cooperatives, and forms of collective self-management that MPE puts forward as an alternative, a path beyond the alternative of "market or state" is already hinted at. At the same time, a plural view that places the different perspectives presented side by side makes clear that what the state does and may do is the result of political and societal negotiation processes. If -- as we saw in Chapter 5.1 (*Why "Market vs. State" Is Historically Not a Given*) -- even the separation between market and state is itself historically produced and by no means a given, then new questions arise all the more urgently: What does democratic and common-good-oriented control of economic processes look like in concrete terms? Who decides, and in what way, what is produced, how much, and how? How can market concentration and abuse be prevented and a long-term orientation towards the common good be ensured?
+
+In this chapter, we have become acquainted with three economic policy guiding models -- market liberalism, welfare capitalism, and post-growth -- that interpret the role of the state differently. They draw on the scientific concepts of the different styles of thought but in turn also shape the scientific debate itself -- after all, as discussed at the outset, economics too is not free of normative influences.
+
+In the in-depth block, we orient ourselves towards these guiding models and the styles of thought underlying them, with a focus on the post-growth guiding model and, to a lesser extent, on green growth approaches within the welfare-capitalist guiding model. The following overview shows how the styles of thought feed into the three guiding models. This assignment is not set in stone, however: it can vary depending on one's standpoint, and some schools of thought cannot be clearly assigned to one of the three guiding models.
+
+![Economic policy guiding models and schools of thought. Source: Own illustration based on the illustrations of [Exploring Economics](https://www.exploring-economics.org/en/){target="_blank"}.](images/fig2.png)

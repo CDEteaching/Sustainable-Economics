@@ -1,0 +1,73 @@
+---
+title: "Sustainable Economics: Synthesis"
+lightbox: true
+format: html
+tbl-cap-location: top
+fig-cap-location: bottom
+---
+
+::: {.callout-note .guiding-question}
+### Guiding question
+
+How can we build a coherent answer to our initial question from everything we have learned so far -- how can we, as a society, achieve prosperity within ecological limits?
+:::
+
+At the end of Chapter 1, we announced that this script follows the **sustainable economics** approach -- and deliberately left open what that means in concrete terms. We noted at the time that sustainable economics does not start with a fixed answer ("more green growth" or "shrinkage") but with the **goals** of economic activity itself. Ever since, we have pursued precisely this question -- what the goal of economic activity actually is -- throughout the script.
+
+In this final chapter, we bring these threads together. Sustainable economics is not a further, fourth guiding model alongside market liberalism, welfare capitalism, and post-growth. Rather, it is a framework that derives what is needed from the goals themselves, and it therefore cuts across the guiding models discussed so far. We now make this approach concrete along three goals -- global ecological justice, a good life for all, and growth independence -- and six core elements. Together, they allow us to give a coherent answer to the initial question of this script: how must an economy be designed so that it actually achieves its real purpose?
+
+Drawing on @schmelzerDegrowthPostwachstum2019 and @rogallNachhaltigeOkonomieOkonomische2012, sustainable economics can be captured through three goals:
+
+- **Global ecological justice**: This includes environmental and climate justice, as well as debates on post-extractivism, that is, the critique of resource-intensive logics of extraction and export [@acostaPostExtractivismDiscoursePractice2017], and post-development approaches that question the Western development model as Eurocentric and normative [@klapeerPostDevelopment2023].
+
+- **A good life for all**: not growth as an end in itself, but an economy that meets real needs.
+
+- **Growth independence**: The ability of an economy to fulfil its core functions (employment, social security, public finances) without structurally depending on continuous GDP growth.
+
+These three goals are deliberately not built on a logic of growth or shrinkage. They leave open whether and where growth takes place, as long as the three goals are achieved. This is precisely where their bridging function lies: sustainable economics does not ask "growth: yes or no?" but *"what is needed to make ecological justice and a good life for all possible, regardless of whether the economy grows, stagnates, or shrinks in the process?"*
+
+## Six Core Elements
+
+Following @rogallNachhaltigeOkonomieOkonomische2012 and Novy et al. [-@novyZukunftfahigesWirtscchaften2020; -@novyZukunftsfaehigesWirtschaften2023], the approach can be made concrete in six core elements:
+
+1.  **Strong rather than weak sustainability**: Natural capital can be substituted by manufactured or human capital only to a limited extent.
+
+2.  **Pluralist approach**: Sustainable economics does not draw on a single economic theory. Instead, it integrates ecological, institutional, feminist, and post-Keynesian perspectives.
+
+3.  **Sustainability paradigm rather than growth paradigm**: This is the real controversy in the growth debate: How can the growth paradigm be replaced by a sustainability paradigm? The answer is "selective growth": sectors that contribute to sustainability goals (such as renewable energy, care, and education) can grow, while others (such as fossil fuels and armaments) must shrink. Growth thus turns from a goal into a dependent variable.
+
+4.  **Ethical principles**: Precaution rather than remediation, and intra- and intergenerational justice rather than pure Pareto efficiency. The concern is not only efficiency goals but explicitly also questions of distribution. Responsibility is understood in two ways here: as consumer sovereignty (responsibility for oneself) and as responsibility for the environment and the more-than-human world.
+
+5.  **Changing the framework conditions**: political and legal instruments such as standard-price approaches or cap-and-trade, merit goods, and a sustainable economic policy, for example financing work rather than unemployment, reducing working time, and promoting the regional economy.
+
+6.  **Inter- and transdisciplinary collaboration**: The complexity of the challenges requires collaboration across disciplinary boundaries, between science, politics, and society.
+
+## Outlook: Approaches in the Self-Study Phase
+
+In the following self-study phases, we want to look more closely at possible approaches to sustainable economics and explore how we can achieve its goals. We will see that the possible approaches differ depending on which political guiding model we take as our basis. We will focus on approaches within the welfare-capitalist guiding model and the post-growth guiding model, since, in our view, the market-liberal guiding model lies largely outside sustainable economics. In the next self-study phase, we will address the following approaches:
+
+Welfare-capitalist guiding model:
+
+- Green growth
+
+- Circular economy
+
+Post-growth guiding model:
+
+- Growth-independent institutions
+
+- Sufficient lifestyles
+
+- Collective action
+
+- Caring economy
+
+- Overcoming the imperial mode of living
+
+::: {.callout-caution collapse="true"}
+### Further reading
+
+If you are interested, you can watch [the statement by Paolo Gentiloni](https://www.youtube.com/watch?v=2rYNewZEazA&t=1129s){target="_blank"} (European Commissioner for Economy) at the Beyond Growth conference to illustrate the green growth position.
+
+The post-growth position is well illustrated in [a talk by Timothée Parrique](https://www.youtube.com/watch?v=vij3Q6bE6X4){target="_blank"} at the same conference.
+:::

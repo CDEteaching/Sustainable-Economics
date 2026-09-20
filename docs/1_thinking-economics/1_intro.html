@@ -1,0 +1,2459 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1&nbsp; How Can We Think About Economics? – Introduction to Sustainable Economics</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../2_scope-of-economics/2_intro.html" rel="next">
+<link href="../index.html" rel="prev">
+<link href="../images/cdelogo_e.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-80b0c6923ef377c2a16da28855610d15.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-1c366c5e3a5ce293be8e5fffc489f15f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-80b0c6923ef377c2a16da28855610d15.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../webex.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../1_thinking-economics/1_intro.html">Sustainable Economics</a></li><li class="breadcrumb-item"><a href="../1_thinking-economics/1_intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">How Can We Think About Economics?</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/cdelogo_e.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../images/cdelogo_e.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Introduction to Sustainable Economics</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/CDEteaching/Sustainable-Economics/blob/main/pdf/SustainableEconomics.pdf" title="Course script (PDF)" class="quarto-navigation-tool px-1" aria-label="Course script (PDF)"><i class="bi bi-file-earmark-pdf"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Sustainable Economics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../1_thinking-economics/1_intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">How Can We Think About Economics?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2_scope-of-economics/2_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Scope of Economics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../3_problem-analysis/3_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Problem Analysis: What Ails Our Economy?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../4_strategies/4_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Strategies for a Sustainable Economy: Efficiency, Consistency, Sufficiency</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../5_state-and-guiding-models/5_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">The Role of the State and Economic Policy Guiding Models</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../6_synthesis/6_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Sustainable Economics: Synthesis</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#what-is-economics" id="toc-what-is-economics" class="nav-link active" data-scroll-target="#what-is-economics"><span class="header-section-number">1.1</span> What Is Economics?</a>
+  <ul class="collapse">
+  <li><a href="#understandings-of-economics-in-history1_intro-1" id="toc-understandings-of-economics-in-history1_intro-1" class="nav-link" data-scroll-target="#understandings-of-economics-in-history1_intro-1"><span class="header-section-number">1.1.1</span> Understandings of economics in history</a></li>
+  <li><a href="#understandings-of-economics-in-the-present" id="toc-understandings-of-economics-in-the-present" class="nav-link" data-scroll-target="#understandings-of-economics-in-the-present"><span class="header-section-number">1.1.2</span> Understandings of economics in the present</a></li>
+  </ul></li>
+  <li><a href="#history-of-economic-thought" id="toc-history-of-economic-thought" class="nav-link" data-scroll-target="#history-of-economic-thought"><span class="header-section-number">1.2</span> History of Economic Thought</a></li>
+  <li><a href="#how-do-these-different-understandings-of-economics-come-about" id="toc-how-do-these-different-understandings-of-economics-come-about" class="nav-link" data-scroll-target="#how-do-these-different-understandings-of-economics-come-about"><span class="header-section-number">1.3</span> How Do These Different Understandings of Economics Come About?</a></li>
+  <li><a href="#styles-of-thought-and-thought-collectives" id="toc-styles-of-thought-and-thought-collectives" class="nav-link" data-scroll-target="#styles-of-thought-and-thought-collectives"><span class="header-section-number">1.4</span> Styles of Thought and Thought Collectives</a>
+  <ul class="collapse">
+  <li><a href="#thought-collectives-in-economics" id="toc-thought-collectives-in-economics" class="nav-link" data-scroll-target="#thought-collectives-in-economics"><span class="header-section-number">1.4.1</span> Thought collectives in economics</a></li>
+  </ul></li>
+  <li><a href="#pluralist-economics" id="toc-pluralist-economics" class="nav-link" data-scroll-target="#pluralist-economics"><span class="header-section-number">1.5</span> Pluralist Economics</a>
+  <ul class="collapse">
+  <li><a href="#scavenger-hunt-through-pluralist-economics" id="toc-scavenger-hunt-through-pluralist-economics" class="nav-link" data-scroll-target="#scavenger-hunt-through-pluralist-economics"><span class="header-section-number">1.5.1</span> Scavenger hunt through pluralist economics</a></li>
+  </ul></li>
+  <li><a href="#sustainable-economics-the-approach-of-this-script" id="toc-sustainable-economics-the-approach-of-this-script" class="nav-link" data-scroll-target="#sustainable-economics-the-approach-of-this-script"><span class="header-section-number">1.6</span> Sustainable Economics: The Approach of This Script</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../1_thinking-economics/1_intro.html">Sustainable Economics</a></li><li class="breadcrumb-item"><a href="../1_thinking-economics/1_intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">How Can We Think About Economics?</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">How Can We Think About Economics?</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="guiding-question callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Guiding question
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What actually is economics – and why are there such different ideas about what counts as “economic” and how economic activity should be thought about?</p>
+</div>
+</div>
+<section id="what-is-economics" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="what-is-economics"><span class="header-section-number">1.1</span> What Is Economics?</h2>
+<p><em>↗ Textbook chapters 1 and 2</em></p>
+<p>The concept of economics is omnipresent in our everyday lives. Economic topics take a prominent place, for example, in newspapers, in our everyday discussions, in political debates, and on social media. And on the evening news, topics are repeatedly put into context by economists from an <em>economic perspective</em>. But what exactly is this economic perspective? It quickly seems as if everyone knows exactly what is meant by it. Intuitively, we often associate it with terms such as markets, prices, and finance. In fact, however, neither in the history of the term nor in the present has it been conclusively settled what is meant by economics and thus by the subject matter of economics as a discipline (in German, <em>Volkswirtschaftslehre</em>). Since economics is a social science, we are not dealing with laws of nature that we discover and describe. <strong>Rather, there are different perspectives and theories on how we can look at particular questions</strong>. In this context, we speak of schools of economic thought, which differ in their understanding of economics. The distinction is never clear-cut, since there is always overlap between schools of thought and always differences within them. What is understood by economics thus depends strongly on the perspective we take. The debate between schools of economic thought is consequently a constant societal and scientific process of negotiation. Accordingly, there have been and still are different definitions of economics and its subject matter, that is, of what exactly <em>economics</em> deals with.</p>
+<p>Before we turn in the next chapter to the subject matter of economics and to central terms and concepts, we briefly survey different understandings of economics in history and in the present. To find our own bearings in this negotiation process about the subject matter of economics, it seems central to us to have a rough overview of the different understandings of economics and their subject matter.</p>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Excursus: Economics as a discipline of the economic sciences
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The economic sciences can be divided into two areas: business administration (<em>Betriebswirtschaftslehre</em>, BWL) and economics (<em>Volkswirtschaftslehre</em>, VWL).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/fig1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Disciplinary location of the economic sciences. Source: Own illustration after @engelkampEinfuehrungVolkswirtschaftslehre2013 [p. 3]."><img src="images/fig1.png" class="img-fluid figure-img" alt="Disciplinary location of the economic sciences. Source: Own illustration after Engelkamp and Sell (2013, 3)."></a></p>
+<figcaption>Disciplinary location of the economic sciences. Source: Own illustration after <span class="citation" data-cites="engelkampEinfuehrungVolkswirtschaftslehre2013">Engelkamp and Sell (<a href="../references.html#ref-engelkampEinfuehrungVolkswirtschaftslehre2013" role="doc-biblioref">2013, 3</a>)</span>.</figcaption>
+</figure>
+</div>
+<p><strong>Business administration</strong> “is the study of the economic, organisational, technical, and financial processes in companies and the various economic institutions” <span class="citation" data-cites="friedliBetriebswirtschaftslehreZusammenhangeVerstehen2019">(<a href="../references.html#ref-friedliBetriebswirtschaftslehreZusammenhangeVerstehen2019" role="doc-biblioref">Friedli et al. 2019, 16</a>)</span>. Researchers in this field develop a microeconomic perspective on the respective object of study.</p>
+<p><strong>Economics</strong>, by contrast, does not examine what happens within individual economic actors but the interplay between them – that is, a macroeconomic perspective. This course deals with this perspective.</p>
+<p>Economics can be divided into <strong>three larger subfields</strong>:</p>
+<p><strong>Economic theory</strong>: describes economic theories and their implications. It is divided into <strong>microeconomics</strong> (the behaviour of individual households and firms and their coordination through markets and prices). Microeconomics makes no statements about aggregate economic relationships but examines the behaviour of individual firms and households and their coordination process via the market by means of price adjustments <span class="citation" data-cites="bontrupVolkswirtschaftslehreAusOrthodoxer2021a">(<a href="../references.html#ref-bontrupVolkswirtschaftslehreAusOrthodoxer2021a" role="doc-biblioref">Bontrup and Marquardt 2021, 1</a>)</span>. In contrast, <strong>macroeconomics</strong> deals with economy-wide phenomena and the relationships between economic sectors and different markets. It examines, for example, overarching economic indicators such as the unemployment rate or inflation.</p>
+<p><strong>Economic policy</strong>: deals with state interventions in the economy to increase societal welfare <span class="citation" data-cites="bontrupVolkswirtschaftslehreAusOrthodoxer2021a">(<a href="../references.html#ref-bontrupVolkswirtschaftslehreAusOrthodoxer2021a" role="doc-biblioref">Bontrup and Marquardt 2021, 2</a>)</span>, for instance through interventions such as cartel bans or the introduction of minimum wages.</p>
+<p><strong>Public finance</strong> examines the various components of the state budget, such as taxes or subsidies, and their mutual relationship. In doing so, it implicitly examines questions about the role of the state in resource allocation and in the distribution of income and wealth.</p>
+</div>
+</div>
+</div>
+<section id="understandings-of-economics-in-history1_intro-1" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="understandings-of-economics-in-history1_intro-1"><span class="header-section-number">1.1.1</span> Understandings of economics in history<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h3>
+<p>The term economics first appears in the history of Western thought in ancient Greece, as the study of household management. The word is composed of two terms: <em>oikos</em> (house) and <em>nemein</em> (to manage or arrange). In this understanding, economics dealt, among other things, with questions of managing one’s own property, planning and assessing agricultural activities, selecting slaves, and the relationship between husband and wife. Economics was strongly embedded in politics and ethics and was meant to contribute to strengthening the <em>polis</em>, the city-state. The ultimate goal was the happy life, <em>eudaimonia</em>. In sharp contrast to economics stood so-called chrematistics, which aimed at the accumulation of money instead of the happy life and was rejected in ancient Greece.</p>
+<p>In medieval Europe, the understanding of economics initially remained closely tied to moral and religious ideas. Economic activity was not understood as an independent area of society but was part of a divine and moral order. The goal of economic activity was not the greatest possible accumulation of wealth but securing a livelihood and the common good. This understanding was strongly shaped by Scholasticism, in particular by Thomas Aquinas (c.&nbsp;1225-1274). At the centre were questions about a just price (<em>iustum pretium</em>), a just wage, and the moral legitimacy of economic activities. Trade was accepted in principle as long as it served the exchange of necessary goods. By contrast, making profit purely for its own sake was considered problematic. The charging of interest was judged particularly critically, since money itself was regarded as unproductive and was not supposed to serve the multiplication of money. The economy was thus strongly embedded in ethical and societal norms.</p>
+<p>This began to change only with the emergence of modern capitalism, the expansion of trade, and industrialization, and an understanding of the economy as an independent area of society gradually became established. With the rise of mercantile capitalism and the Industrial Revolution, classical political economy emerged in the 18th century. Representatives such as Adam Smith (1723-1790), David Ricardo (1772-1823), or, later, Karl Marx (1818-1883) were less interested in the management of individual households than in the creation, distribution, and development of the societal wealth of entire national economies. The subject matter of economics thus shifted from household management to the analysis of the production, distribution, and accumulation of wealth. Questions such as these were at the centre: How does economic prosperity arise? How is societal income distributed between labour, capital, and land? The analyses focused on social classes – for example workers, owners of capital, and landowners – and their relationships to one another. The economy was understood as a societal process whose development is shaped by institutions, property relations, and the distribution of the societal surplus.</p>
+<p>Towards the end of the 19th century, the so-called marginalist revolution fundamentally changed the understanding of certain parts of economics. The works of representatives of this new current, such as William Stanley Jevons (1835-1882), Carl Menger (1840-1921), and Léon Walras (1834-1910), formed the basis for the emergence of neoclassical economics. At the centre of this new perspective was no longer the production of societal wealth but the individual endowed with the capacity for decision-making. The starting point of the analysis was now households and firms that make rational decisions on markets under conditions of scarce resources and maximize their utility or profit. The economy was understood as the result of the decisions of many individual economic subjects. This change meant a fundamental shift in perspective. While classical political economy looked at the national economy, that is, entire economies, and put social classes, production, and distribution at the centre, neoclassical economics takes individual markets above all as its frame of reference and focuses on individual decisions and price mechanisms. With the works of John Maynard Keynes (1883-1946), economy-wide relationships came into view again in the mid-20th century, not only in Keynesian schools of thought but also in neoclassical economics. Macroeconomics emerged on the basis of Keynes’s work.</p>
+<p>History was by no means a linear development from one understanding of economics to the next. Often, different understandings existed at the same time, influencing, contradicting, and developing one another. The perspectives outlined above are meant to make clear that the picture of what the economy is has changed considerably over time and continues to change. Moreover, present-day understandings build on these developments, so it is also important to understand where certain understandings come from and how they developed.</p>
+</section>
+<section id="understandings-of-economics-in-the-present" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="understandings-of-economics-in-the-present"><span class="header-section-number">1.1.2</span> Understandings of economics in the present</h3>
+<p>With the development of economic theories, different ideas have developed about what economics actually studies. Two fundamentally different ways of understanding economics can be distinguished. Karl Polanyi already made this distinction in 1957 <span class="citation" data-cites="polanyiEconomyInstitutedProcess1957a">(<a href="../references.html#ref-polanyiEconomyInstitutedProcess1957a" role="doc-biblioref">Polanyi et al. 1957</a>)</span>:</p>
+<ul>
+<li><p>On the one hand, economics can be understood through its <strong>subject matter</strong>: one determines <em>which section of reality</em> one studies – regardless of the analytical perspective. Medicine, for example, defines itself through its subject matter: the human body and its health. Polanyi calls this understanding the substantivist one. It places the economy as an empirical subject area at the centre of the investigation.</p></li>
+<li><p>On the other hand, economics can be understood through a <strong>specific analytical approach</strong>. In this approach, the analytical approach is the starting point – regardless of which area of reality it is used to study, that is, regardless of the subject matter. Polanyi calls this a formal understanding of economics. This analytical approach results from a logical derivation rather than from an empirical investigation.</p></li>
+</ul>
+<p>In principle, almost all historical understandings defined themselves through the study of their subject matter. In ancient Greece, for example, this was the management of a household (how does one best manage the land, supplies, and slaves of a household?). In the 17th and 18th centuries, it was the national economy (how does a country as a whole become prosperous, for example through trade and gold?). In both cases, it was clearly outlined <em>what</em> was being talked about – a specific section of reality.</p>
+<p>With the marginalist revolution, the current economic mainstream increasingly departs from this principle, defines itself through its analytical approach, and develops a formal understanding of economics. Based on a definition by Lionel Robbins from the 1930s, economics is described as a science that studies how people choose between alternatives under conditions of scarcity in order to achieve their goals. Robbins writes:</p>
+<blockquote class="blockquote">
+<p>“Economics is the science which studies human behaviour as a relationship between ends and scarce means which have alternative uses” <span class="citation" data-cites="robbinsEssayNatureSignificance1932">(<a href="../references.html#ref-robbinsEssayNatureSignificance1932" role="doc-biblioref">Robbins 1932, 15</a>)</span>.</p>
+</blockquote>
+<p>Put simply: economics studies how people use scarce means (time, money, resources) to achieve their goals as well as possible – no matter <em>what</em> the goals are, although it almost always involves maximizing individual utility. A simple example: a student has only three hours in the evening (a scarce resource) and must decide whether to study for the exam, go jogging, or meet friends (alternative uses). Precisely such a decision under scarcity is at the centre of the mainstream approach and forms the analytical starting point of this understanding of economics. Economics students are not infrequently introduced to “the foundations of economic thinking” in a course. It is precisely about practising this analytical approach as the basis of economics.</p>
+<p>From this analytical starting point, the actions of actors in the economy are then analysed, with a strong focus on markets, the price mechanism, and utility-optimizing individuals. Markets form the framework within which individuals try to optimize their utility through decisions under scarcity. This means that questions outside this framework often receive no attention. In this <a href="https://www.youtube.com/watch?v=D-6rQmHpGfE" target="_blank">video</a>, the economist Ha-Joon Chang talks about the neoclassical understanding, which, through its underlying analytical starting point, already gives a certain orientation and systematically screens out certain aspects <span class="citation" data-cites="changLifeUniverseEverything2014">(see also <a href="../references.html#ref-changLifeUniverseEverything2014" role="doc-biblioref">Chang and Chang 2014</a>)</span>. And because this approach is not tied to a particular subject matter, in practice it is also applied to topics that one would not intuitively call “economic” – for example, the question of why people marry or have children (analysed as an “economic decision” under scarcity of, for example, time, money, and affection). In 1992, the economist Gary Becker received the Nobel Memorial Prize in Economic Sciences for precisely this extension of the field of application.</p>
+<p>Many other schools of thought, by contrast, continue to define economics through its subject matter: the economy itself. They thus follow a substantivist understanding. The subject matter, and above all its boundaries (what belongs to the economy), can be defined in different ways. For Polanyi, the substantivist understanding is about examining how humans, as a society and in relation to their environment, provide the means of subsistence and distribute material prosperity. Concretely, this means questions such as “How is bread produced and distributed?” or “Who gets how much of societal wealth?” – regardless of the analytical approach used to examine these questions. As mentioned above, however, there are also different views on how exactly this subject matter should be delimited. <em>Feminist economics</em>, for example, emphasizes that activities outside the market, such as unpaid care work, are a central area of the economy and must be included in the analysis. <em>Ecological economics</em> similarly emphasizes that the economy is embedded in nature, that nature forms the basis of all economic activity, and that it must therefore be included in economic analysis. In line with the different understandings of the subject matter, different schools of thought also focus on different aspects, such as power structures, institutions, or economy-wide and societal relationships and structures. In the section on pluralist economics (see Chapter 1.5, <em>Pluralist Economics</em>), we will look more closely at what characterizes neoclassical economics (the mainstream) and get to know some of the other schools of thought.</p>
+<p>In this script, we follow a substantivist understanding and define economics through the subject matter of the economy. In Chapter 2 (<em>Scope of Economics</em>), we will then examine this subject matter in more detail.</p>
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Further reading
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Ha-Joon Chang’s book <em>Economics: The User’s Guide</em> offers an easy introduction to topics in economics and gives a good overview of the history and current debates. Depending on your interest, individual chapters can also easily be consulted on their own.</p>
+<p>Chang, Ha-Joon. 2014. <em>Economics: The User’s Guide</em>. First U.S. edition. Bloomsbury Press.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="history-of-economic-thought" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="history-of-economic-thought"><span class="header-section-number">1.2</span> History of Economic Thought</h2>
+<p>We have now looked briefly at different understandings of economics. In this section, we want to engage a little more with the history of economic theory and ask how economics itself has developed. The emphasis is on the emergence of the dominant school of thought, neoclassical economics.</p>
+<div class="self-study-phase">
+<div class="self-study-phase-header">
+<p>Self-study phase</p>
+</div>
+<div class="self-study-phase-body">
+<p>Below you will find excerpts from Walter Ötsch’s lecture on the history of economic theory (in German). Walter Ötsch describes how economics developed from a moral science under Adam Smith (1723-1790) into a science with a biologically determined image of the human under Thomas Malthus (1766-1834) and David Ricardo (1772-1823). In this process, metaphors from the natural sciences (clock system, balance equilibrium, computer information) come to bear more and more. The development of neoclassical economics was strongly shaped by this process.</p>
+<p>Walter Ötsch is a professor at the University of Society Design (Hochschule für Gesellschaftsgestaltung) in Koblenz. As an economist and cultural historian, he researches and publishes on socio-political and economic topics such as populism and the societal role of markets.</p>
+<iframe src="https://tobira.unibe.ch/~embed/!v/IineOaY_-0I" title="Lecture by Walter Ötsch on the history of economic theory, part 1 of 4" allow="fullscreen" allowfullscreen="" style="width: 100%; aspect-ratio: 16 / 9; border: 0;"></iframe>
+<iframe src="https://tobira.unibe.ch/~embed/!v/FvPlT5Mw1SS" title="Lecture by Walter Ötsch on the history of economic theory, part 2 of 4" allow="fullscreen" allowfullscreen="" style="width: 100%; aspect-ratio: 16 / 9; border: 0;"></iframe>
+<iframe src="https://tobira.unibe.ch/~embed/!v/A9ZcKT_PHBK" title="Lecture by Walter Ötsch on the history of economic theory, part 3 of 4" allow="fullscreen" allowfullscreen="" style="width: 100%; aspect-ratio: 16 / 9; border: 0;"></iframe>
+<iframe src="https://tobira.unibe.ch/~embed/!v/FGDzMNnPoI4" title="Lecture by Walter Ötsch on the history of economic theory, part 4 of 4" allow="fullscreen" allowfullscreen="" style="width: 100%; aspect-ratio: 16 / 9; border: 0;"></iframe>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Excursus: History of homo oeconomicus
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The history of homo oeconomicus goes back at least to the mention of the “economicus” in Xenophon’s work of the same name in the fourth century BCE <span class="citation" data-cites="wilsonHistoryHomoEconomicus2014">(<a href="../references.html#ref-wilsonHistoryHomoEconomicus2014" role="doc-biblioref">Wilson and Dixon 2014, 11</a>)</span>. In the long period until the founding of modern economics by Adam Smith in the 18th century, various conceptions of the economic man<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> were used – often strongly shaped by the respective spirit of the age.</p>
+<p>The concept of homo oeconomicus, as a rational utility maximizer, is commonly located as early as Smith, since he recognizes self-love as a central human characteristic in behaviour. But as so often when it comes to Smith’s concepts, this common portrayal is idealized. Besides self-love, Adam Smith identifies further human characteristics that are central to behaviour. Smith paints a much more complex picture of human behaviour than the reduced version of the modern homo oeconomicus does <span class="citation" data-cites="hillAdamSmithThumos2012a">(<a href="../references.html#ref-hillAdamSmithThumos2012a" role="doc-biblioref">Hill 2012</a>)</span>. Smith’s dense description of the economic man makes it impossible to model him or to work with him mathematically <span class="citation" data-cites="morganEconomicManModel2006a morganWorldModelHow2012b">(<a href="../references.html#ref-morganEconomicManModel2006a" role="doc-biblioref">Morgan 2006</a>, <a href="../references.html#ref-morganWorldModelHow2012b" role="doc-biblioref">2012</a>)</span>. This was to change over time through a deliberate reduction of the description of the economic man.</p>
+<p>Thomas Robert Malthus and David Ricardo already used somewhat more reduced versions of the <em>economic man</em> at the beginning of the 19th century, which already show a certain model character (Morgan 1996, 2006, 2012). John Stuart Mill (1806-1873) took this further and reduced the economic man to the characteristics considered central to the economic domain: the desire to accumulate wealth, the aversion to work, and the desire for luxury goods <span class="citation" data-cites="millEssaysEconomicsSociety1996">(<a href="../references.html#ref-millEssaysEconomicsSociety1996" role="doc-biblioref">Robson and Mill 1996</a>)</span>. Although the model of the economic man was reduced in Malthus, Ricardo, and Mill, it could not yet be used, and was not used, in the way it is today.</p>
+<p>A decisive foundation for this development was laid by William Stanley Jevons (1835-1882) and Francis Edgeworth (1845-1926) towards the end of the 19th century. Alongside Alfred Marshall (1842-1924), Léon Walras (1834-1910), and Vilfredo Pareto (1848-1923), they are regarded as important founders of neoclassical economics and were part of the marginalist revolution. Like some other economists with a background in mathematics or physics, the two economists were willing to make economics a natural science. The neoclassical economists were convinced that the analytical and deductive method should also be the royal road for economics. Jevons justified the necessity of mathematics for economics simply by the fact that economics deals with quantities <span class="citation" data-cites="jevonsTheoryPoliticalEconomy1879">(<a href="../references.html#ref-jevonsTheoryPoliticalEconomy1879" role="doc-biblioref">Jevons 1879, 4</a>)</span>. This group of economists took their orientation from physics and physical concepts. Irving Fisher (1867-1947), another of the first neoclassical economists, explicitly used various mechanical or hydraulic concepts for his theories and applied them to the economy.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/fig2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Fisher’s mechanical balance of exchange, used to represent the quantity theory of money [@fisherPurchasingPowerMoney1922a, p. 21]."><img src="images/fig2.png" class="img-fluid figure-img" alt="Fisher’s mechanical balance of exchange, used to represent the quantity theory of money (Fisher 1922, 21)."></a></p>
+<figcaption>Fisher’s mechanical balance of exchange, used to represent the quantity theory of money <span class="citation" data-cites="fisherPurchasingPowerMoney1922a">(<a href="../references.html#ref-fisherPurchasingPowerMoney1922a" role="doc-biblioref">Fisher 1922, 21</a>)</span>.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/fig3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Fisher uses a hydraulic model to represent purchasing power in a bimetallism system [@fisherPurchasingPowerMoney1922a, p. 119]."><img src="images/fig3.png" class="img-fluid figure-img" alt="Fisher uses a hydraulic model to represent purchasing power in a bimetallism system (Fisher 1922, 119)."></a></p>
+<figcaption>Fisher uses a hydraulic model to represent purchasing power in a bimetallism system <span class="citation" data-cites="fisherPurchasingPowerMoney1922a">(<a href="../references.html#ref-fisherPurchasingPowerMoney1922a" role="doc-biblioref">Fisher 1922, 119</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>The idea of equilibrium itself is a concept borrowed from physics. This fixation on physics is also described as <em>physics envy</em>, and Mirowski shows that this orientation towards physics was a fundamental driver in the development of the history of theory <span class="citation" data-cites="mirowskiMoreHeatLight1989a">(<a href="../references.html#ref-mirowskiMoreHeatLight1989a" role="doc-biblioref">Mirowski 1989, 396</a>)</span>. The explicit analogy to physics in economics persists well into the 20th century. A good illustrative example of this, and of economists’ basic toolbox, is the <a href="https://www.youtube.com/watch?v=rAZavOcEnLg" target="_blank">machine</a> built by William Phillips (1914-1975) in the 1940s to represent the British economy. The development of homo oeconomicus is accordingly also exemplary of the mechanistic worldview that emerged in neoclassical economics, as Walter Ötsch describes it in his lecture.</p>
+<p>Among other things, the complexity of the <em>economic man</em> stood in the way of applying mathematics to economics. Jevons therefore attempted to reduce this complexity. Shaped by the utilitarianism of Jeremy Bentham (1748-1832), Jevons reduced the seven criteria Bentham had formulated, which are central to calculating utility and thus influence human action, to just two, on the grounds that only these were economically relevant <span class="citation" data-cites="jevonsTheoryPoliticalEconomy1879">(<a href="../references.html#ref-jevonsTheoryPoliticalEconomy1879" role="doc-biblioref">Jevons 1879, 17</a>)</span>. In this way, Jevons was able to work mathematically with the economic man <span class="citation" data-cites="reissMathematicsEconomicsSchmoller2000a">(<a href="../references.html#ref-reissMathematicsEconomicsSchmoller2000a" role="doc-biblioref">Reiss 2000</a>)</span>. This abstraction and objectification of economics and of the economic man is most vividly illustrated by the conceptions of Francis Edgeworth and, later, Frank Knight. Edgeworth speaks of the economic man as a “pleasure machine” and Knight of the “slot machine” <span class="citation" data-cites="morganEconomicManModel2006a">(<a href="../references.html#ref-morganEconomicManModel2006a" role="doc-biblioref">Morgan 2006</a>)</span>. Pareto’s use of his “homo oeconomicus” also grounds an analysis of the human from a mechanical viewpoint. Pareto writes: “Just as analytical mechanics treats material points and rigid bodies, mathematical economics considers an abstract human being, a homo oeconomicus” <span class="citation" data-cites="paretoAnwendungenMathematikAuf1902">(<a href="../references.html#ref-paretoAnwendungenMathematikAuf1902" role="doc-biblioref">Pareto and Meyer 1902, 1100</a>)</span>.</p>
+<p>With the marginalist revolution, homo oeconomicus became the focus of economics, which stands in strong contrast to the classical economists (such as Smith, Malthus, Ricardo, and Marx), who focused predominantly on class analysis. Moreover, the abstraction now enabled modelling and mathematical applications, which was meant to bring economics closer to the natural sciences. The rational, utility-maximizing agent became the foundation of economics. The rational choice theory behind it was subsequently developed further and adapted (for example through the concept of bounded rationality) but remains in its fundamentals to this day.</p>
+<p>The history behind this development shows that it was not a natural one but that a particular orientation of economics was deliberately pushed forward. The neoclassical orientation, for example, makes it impossible to recognize and analyse structural problems, since the focus is on marginal changes in certain indicators (for example inflation or interest rates). The work of the 2019 winners of the Nobel Memorial Prize in Economic Sciences, Abhijit Banerjee, Esther Duflo, and Michael Kremer, seems exemplary of this. In their research on poverty reduction, they use experiments (so-called <em>randomized controlled trials</em>) to examine the effects of specific individual measures to reduce poverty. The analysis (and thus also a change) of the structural causes of these people’s poverty falls out of view here.</p>
+<p>This development of economics, as outlined here, was strongly criticized right from its emergence. Criticism of the orientation, the fixation on analytical models, and the strong abstractions from the real world continues to this day. In view of the weaknesses of neoclassical economics that have increasingly been exposed in the years since the 2008 financial crisis, Alfred Marshall’s concerns about this development have become topical again. In 1881, in a commentary on Edgeworth’s “Mathematical Psychics”, Marshall wondered whether Edgeworth would succeed in preventing mathematics from running away with him and driving him out of sight of the actual facts of the economy <span class="citation" data-cites="vazquezMarshallMathematizationEconomics1995a">(<a href="../references.html#ref-vazquezMarshallMathematizationEconomics1995a" role="doc-biblioref">Vazquez 1995, 251</a>)</span>.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Further reading
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>If you are interested, you can also watch the <a href="https://www.youtube.com/watch?v=zS3QgFE5ASE" target="_blank">entire lecture by Walter Ötsch</a> (in German).</p>
+<p>Lisa Herzog (2014) in her book <em>Der Wert des Marktes</em> [The Value of the Market]: <a href="https://ilias.unibe.ch/go/file/3803489" target="_blank">The defence of the market from the 18th century to the present (pp.&nbsp;13-27)</a> (in German).</p>
+<p><a href="https://www.youtube.com/watch?v=kgAKCvhDHIw" target="_blank">Lecture by Lisa Herzog</a> on the history of ideas as an interdisciplinary approach to economics (in German).</p>
+<p>Hans Christoph Binswanger (2006) in his book <em>Die Wachstumsspirale</em> [The Growth Spiral]: <a href="https://ilias.unibe.ch/go/file/3803487" target="_blank">From Aristotle to Walras and back – Aristotle as a precursor of modern economics (pp.&nbsp;377-387)</a> (in German).</p>
+<p>The following further reading is for students who want to dive somewhat deeper and engage more intensively with the history of theory:</p>
+<ul>
+<li>Ambler, Lucy, Joe Earle, and Nicola Scott. 2022. “Whitewashes History”. In <em>Reclaiming Economics for Future Generations</em>, Manchester Capitalism Ser, Manchester: Manchester University Press, 118–60.</li>
+<li>McCloskey, Deirdre N. 1998. <em>The Rhetoric of Economics</em>. 2nd ed.&nbsp;Rhetoric of the Human Sciences. Madison, Wis: University of Wisconsin Press.</li>
+<li>Mirowski, Philip. 1989. <em>More Heat than Light: Economics as Social Physics, Physics as Nature’s Economics</em>. Cambridge: Cambridge University Press. https://doi.org/10.1017/CBO9780511559990.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="how-do-these-different-understandings-of-economics-come-about" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="how-do-these-different-understandings-of-economics-come-about"><span class="header-section-number">1.3</span> How Do These Different Understandings of Economics Come About?</h2>
+<p>Philosophy of science distinguishes between two basic questions: <strong>Ontology</strong> asks what reality actually is. <strong>Epistemology</strong> asks how we can gain knowledge about this reality. These questions seem abstract but have important consequences for our understanding of the economy.</p>
+<p>Many economists, especially in neoclassical economics and the economic mainstream, hold, for example, that economic theory must be independent of images of the human and of society, and thus also independent of social philosophies and values. According to this view, economic theory should be neutral and free of values and able to formulate universally valid laws. This view understands economics as a “positive” science. <strong>Positivism</strong> results from an ontological and an epistemological position, even if these are not always made explicit. Ontologically, positivism assumes that there is a social and physical nature or reality that exists independently of the historical context and is subject to universal laws. These laws exist independently of our perception. Epistemologically, positivism also assumes that laws can be objectively recognized and described. Scientific methods serve this purpose and can bring this reality to light. Since positivism is mainly associated with the natural sciences (although this view is not shared by everyone there either), a positivist conception of economics often draws strongly on the natural sciences. It claims to describe the world “as it is” without having previously made a value judgement or taken a particular perspective. Accordingly, this view distinguishes between positive statements (how the world is) and normative statements (how the world should be) and argues that these spheres can be clearly separated. Economics should focus on positive statements. For economics, this position consequently means that there cannot necessarily be different schools of thought that reach different conclusions, since there is one objective reality that we can also describe as such.</p>
+<p>Critics argue that such a clear separation between positive and normative statements, between facts and values, is not possible for social sciences such as economics and accordingly makes an objective and value-free analysis impossible <span class="citation" data-cites="davisEconomistsOddStand2016">(see, for example, <a href="../references.html#ref-davisEconomistsOddStand2016" role="doc-biblioref">DeMartino et al. 2016</a>)</span>. Hilary Putnam argues that facts and values are often not clearly separable but intertwined <span class="citation" data-cites="putnamCollapseFactValue2002">(<a href="../references.html#ref-putnamCollapseFactValue2002" role="doc-biblioref">Putnam 2002</a>)</span>. Here, too, we find ontological and epistemological basic assumptions that lead to such conclusions. The term <strong>“constructivism”</strong> can serve as a collective term for many epistemological currents. All of these currents assume, in one way or another, a socially constructed reality. Although some currents assume an objective reality ontologically, they agree that the way we generate knowledge and what we recognize as knowledge is historically and socially specific. Accordingly, constructivism supports the position that scientific insights are always also shaped by social contexts, historical developments, and normative presuppositions. Economic concepts and theories are therefore always already shaped in their construction by values and worldviews. Which questions are asked and which answers seem plausible thus also depends on the respective perspectives of the researchers. For economics, this means that different theoretical approaches can legitimately arrive at different interpretations of economic reality or realities.</p>
+<p>Our position: We consider a strict separation of the positive and the normative impossible and orient ourselves towards a constructivist understanding of science. The different views on how economics can be defined already show that value judgements are always made implicitly. One perspective can focus on the efficient allocation of scarce resources in a society, another on overcoming poverty and meeting the basic needs of all people in an economy. As soon as we adopt one perspective at the expense of another, we have made a first value judgement.</p>
+<p>This does not mean, however, that there are no facts or that all approaches are equally valid, nor that there is no reality independent of our interpretation – we can only approach it more or less closely. Like any other science, economics has to orient itself towards scientific principles and methods. In addition, assumptions and value judgements should be made explicit and transparent.</p>
+<p>The dispute over whether economics is free of any value judgements or not has run from the emergence of economics as its own field of science to the present and has not been conclusively resolved. Two quotes from two well-known economists of the first half of the 20th century illustrate this:</p>
+<blockquote class="blockquote">
+<p>“Economics deals with ascertainable facts; ethics with valuations and obligations. The two fields of enquiry are not the same plane of discourse” Lionel Robbins in An Essay on the Nature and Significance of Economic Science <span class="citation" data-cites="robbinsEssayNatureSignificance1932">(<a href="../references.html#ref-robbinsEssayNatureSignificance1932" role="doc-biblioref">Robbins 1932, 132</a>)</span>.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“As against Robbins, Economics is essentially a moral science. That is to say, it employs introspection and judgement of value” John M. Keynes in a letter to Sir Roy Harrod, 4 July 1938, in <span class="citation" data-cites="atkinsonEconomicsMoralScience2009">(<a href="../references.html#ref-atkinsonEconomicsMoralScience2009" role="doc-biblioref">Atkinson 2009, 791</a>)</span></p>
+</blockquote>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Excursus: Do assumptions have to be realistic?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Besides the criticism of the value judgements implied in neoclassical economics, its explicit framework of assumptions also leads to controversial discussions, in particular over the extent to which assumptions must represent reality realistically. Do the initial assumptions, such as the existence of perfect competition, have to be realistic in order to gain valuable insights? At first glance, the finding seems clear: unrealistic or incomplete assumptions would also have to lead to false conclusions. According to the American Paul Samuelson (1915-2009), one of the best-known economists of the 20th century, it is impossible to infer true insights from demonstrably false assumptions. Proponents of so-called <strong>instrumentalism</strong>, however, argue differently. In view of the complexity of human behaviour, they say, one must positively abstract in the analysis and leave out what is inessential. The American economist Milton Friedman (1912-2006), also one of the best-known economists of the 20th century, in search of an efficient method for discovering far-reaching insights and policy recommendations, even establishes an extreme anti-realist position. Analysing within a make-believe world is declared an unproblematic necessity:</p>
+<p><em>“Truly important and significant hypothesis will be found to have assumptions that are widely inaccurate descriptive representations of reality, and in general the more significant the theory, the more unrealistic the assumption. […] To be important, therefore, a hypothesis must be descriptively false in its assumptions”</em> Milton <span class="citation" data-cites="friedmanMethodologyPositiveEconomics1953a">Friedman (<a href="../references.html#ref-friedmanMethodologyPositiveEconomics1953a" role="doc-biblioref">1953</a>)</span> [p.&nbsp;14].</p>
+</div>
+</div>
+</div>
+</section>
+<section id="styles-of-thought-and-thought-collectives" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="styles-of-thought-and-thought-collectives"><span class="header-section-number">1.4</span> Styles of Thought and Thought Collectives</h2>
+<p>As discussed in the previous section, economic theories are always shaped by value judgements and worldviews. There is therefore no clearly objective economic theory but a multitude of perspectives that make it possible to analyse and describe economic phenomena. There is no neutral “view from nowhere” or purely objective perspective, since our perception is shaped by numerous influences, such as our education, our social and cultural environment, our language, our material living conditions, and our personal experiences. These influences shape our perspective on looking at the world.</p>
+<p>Perspectives can also be regarded as “glasses”: some glasses allow a view of the big picture, while others serve to identify details and subtleties. These different glasses mean that we can see the world in different colours and shades. Nevertheless, this does not mean that the world can be interpreted arbitrarily. There are limits to multiperspectivity, which require economics to orient itself towards scientific principles and methods.</p>
+<p>In the philosophy of science, perspectives are also referred to as <strong>paradigms or styles of thought</strong>. Ludwik Fleck (1896-1961), a Polish physician and philosopher of science, developed the concept of the style of thought decades before Thomas Kuhn (1922-1996), who created the better-known concept of the paradigm. In 1944, Fleck was deported to the Buchenwald concentration camp, where he was made to develop a typhus vaccine. However, he supplied the SS only with a placebo and distributed the real medicine to fellow prisoners.</p>
+<p>In his scientific work, Fleck emphasized the <strong>dependence of thinking on values and contexts</strong>. He objected to the idea that knowledge is objective, neutral, and universal. He argued that the production and use of knowledge take place in specific environments, which influences their meaning and effect. Knowledge is used differently in concentration camps than in NGOs or corporate research departments. Knowledge is always embedded in institutions and power structures, and scientists are influenced by their environment and experiences.</p>
+<p><strong>Thought collectives</strong> are groups of people who share a common style of thought and use particular concepts and methods. Thought collectives thus use a particular pair of glasses to look at the world. These thought collectives often resist change and resist further developments of their way of thinking. Since, as Fleck emphasized, people can think, argue, and understand in fundamentally different ways, people who belong to different thought collectives often have difficulty following the trains of thought of other styles of thought.</p>
+<p>Fleck’s insights show that science and thinking are by no means independent of social, cultural, and historical contexts. They make clear the <strong>diversity of perspectives</strong> from which scientific problems can be viewed and underline that no single theory or way of thinking can capture the whole of reality completely. Instead, different styles of thought and thought collectives are able to provide diverse insights and enrich the understanding of complex phenomena. This leads to different economic policy recommendations and offers a broad range of approaches to solving complex challenges.</p>
+<section id="thought-collectives-in-economics" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="thought-collectives-in-economics"><span class="header-section-number">1.4.1</span> Thought collectives in economics</h3>
+<p>As already indicated several times, economics too consists of a multitude of different thought collectives that take particular perspectives, or styles of thought, based on value judgements and worldviews. This diversity of styles of thought is described by the term “pluralist economics”. At present, economics is strongly dominated by one style of thought, neoclassical economics, which is often described as the economic mainstream. Nevertheless, or perhaps precisely for this reason, it is central that students have a rough overview of the different styles of thought in order to gain a comprehensive understanding of the economy. Accordingly, the next section briefly introduces pluralist economics, in which students can then explore the different styles of thought according to their interests. We believe, however, that students should not only get to know the style of thought of the dominant thought collective but also gain insight into how the styles of thought in economics have developed and which other styles of thought exist in economics. In the next section, you will get an overview of the different styles of thought in economics. In what follows, we will mostly call them schools of thought rather than styles of thought, since this is what they are usually called.</p>
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Further reading
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><a href="https://ilias.unibe.ch/go/file/3803488" target="_blank">Yuval Harari and the Peugeot legend in his book <em>Sapiens: A Brief History of Humankind</em></a> (in German)<br>
+His thesis: the truly sufficient difference between us and the other animals is the ability to create cooperative networks in which sometimes millions of complete strangers work together towards shared goals. We can cooperate with one another on a large scale because we follow shared intersubjective fictions. We work successfully with strangers because, like them, we believe in things such as gods, nations, money, or human rights. And yet none of these things exists outside the stories that people invent and tell one another. There are no gods in the universe, no nations, no money, and no human rights – except in the shared imagination of human beings.</p>
+<p><a href="https://pitchforkeconomics.com/episode/what-is-the-trick-in-trickle-down/" target="_blank">Podcast with Yuval Harari on “trickle-down economics”: What is the trick in trickle down?</a><br>
+How do wealthy elites and their neoliberal mouthpieces manage to convince us that what benefits them – tax cuts, deregulation, and the like – also benefits all of us? And why, of all things, are the minimum wage, paid overtime, or sick days considered a danger to the economy? Economics is ultimately a story we tell ourselves to explain who gets what – and why. The podcast explores the question: What might a better story look like?</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="pluralist-economics" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="pluralist-economics"><span class="header-section-number">1.5</span> Pluralist Economics</h2>
+<p>As has been indicated several times, there are different schools of thought based on different understandings and perspectives. Some of the differences arise from fundamental philosophical questions, from methodological approaches, or from differences in content (for example different foci). Despite its diversity, present-day economics is dominated by the neoclassical school of thought. The dominance was particularly strong towards the end of the 20th century and in the 2000s. The great financial crisis of 2008 boosted the rise of theories that had been marginalized until then, since neoclassical economics was evidently inadequate to fully explain this crisis. Nevertheless, neoclassical economics remains dominant in the economic sciences to this day.</p>
+<p>To be able to meet the complexity of present-day challenges, we consider it essential to be able to draw on this diversity of theories and tools. The dominance of a single school of thought carries the risk that we perceive certain phenomena from only one perspective and can accordingly offer only solutions that follow from that perspective, as the following quote illustrates:</p>
+<blockquote class="blockquote">
+<p>“I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail” Abraham Maslow in Psychology of Science <span class="citation" data-cites="maslowPsychologyScience1966">(<a href="../references.html#ref-maslowPsychologyScience1966" role="doc-biblioref">Maslow 1966, 15</a>)</span>.</p>
+</blockquote>
+<p>This short section is therefore meant to give you the opportunity to engage with the diversity of the economic sciences, that is, pluralist economics. Engaging with different schools of thought should enable students to perceive and reflect on economic questions in a more differentiated way. It will not be possible, however, to cover all schools of thought in depth. In the self-study phase, you will find opportunities to familiarize yourself independently with the different schools of thought if you are interested. We are also happy to provide further material if you would like to engage more intensively with pluralist economics or individual schools of thought. In addition, for students who want to engage more intensively with different schools of thought, we offer the course “Introduction to pluralist economics” in the spring semester.</p>
+<p>Before you set out to explore in the “scavenger hunt through pluralist economics”, this <a href="https://www.youtube.com/watch?v=NdbbcO35arw" target="_blank">video</a> by Professor Ha-Joon Chang of SOAS University gives you a rough overview of different schools of economic thought and how they can (or could) lead to different economic policy programmes.</p>
+<section id="scavenger-hunt-through-pluralist-economics" class="level3" data-number="1.5.1">
+<h3 data-number="1.5.1" class="anchored" data-anchor-id="scavenger-hunt-through-pluralist-economics"><span class="header-section-number">1.5.1</span> Scavenger hunt through pluralist economics</h3>
+<p>Exploring Economics is an open project of the Network for Pluralist Economics, which cooperates with various international actors in designing the e-learning platform. The network consists of many local groups and individuals. There are numerous ways to take part and contribute. We believe that this open platform offers a great many good contributions. We have therefore designed a scavenger hunt through the platform so that you can get to know it in a playful way.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exercise – Pluralist economics
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>In this learning section, you solve the crossword puzzle <a href="https://ilias.unibe.ch/go/file/3803483" target="_blank">“Tour through economic theories”</a> (in German) using the <a href="https://www.exploring-economics.org/en/" target="_blank">Exploring Economics platform</a>. Under the heading “Orientation” there, you will find solutions to the terms sought in the puzzle. This gives you an overview of the different schools of thought in economics and of how these perspectives influence research and its results. This exercise is voluntary and is meant to allow you to get to know pluralist economics in a playful way. The crossword puzzle will not be discussed in the in-person session. You are welcome, however, to use the office hours to discuss questions and points of uncertainty.</p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/fig4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Excerpt from the Exploring Economics website, categorizing the different schools of thought according to the question. Source: Exploring Economics."><img src="images/fig4.png" class="img-fluid figure-img" alt="Excerpt from the Exploring Economics website, categorizing the different schools of thought according to the question. Source: Exploring Economics."></a></p>
+<figcaption>Excerpt from the Exploring Economics website, categorizing the different schools of thought according to the question. Source: <a href="https://www.exploring-economics.org/en/" target="_blank">Exploring Economics</a>.</figcaption>
+</figure>
+</div>
+<p>In this course, we explicitly orient ourselves in what follows towards an understanding that defines economics through its subject matter and takes no theoretical orientation as the basis of our understanding of economics. Accordingly, this understanding also leaves room to draw on many different approaches and schools of thought to understand economic relationships. In what follows, we therefore first want to approach the subject matter and get to know some basic terms and concepts.</p>
+</section>
+</section>
+<section id="sustainable-economics-the-approach-of-this-script" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="sustainable-economics-the-approach-of-this-script"><span class="header-section-number">1.6</span> Sustainable Economics: The Approach of This Script</h2>
+<p><em>↗ Textbook chapter 5</em></p>
+<p>As we have seen in this chapter, there is no single economics but a multitude of schools of thought with different basic assumptions, questions, and perspectives on economic phenomena. We have also established that scientific perspectives are never entirely neutral but always already contain value judgements. This script follows the approach of <strong>sustainable economics</strong>. The guiding question is how our economy can be designed sustainably. Sustainable economics thus explicitly has a normative character. We will see that answering this question also depends strongly on the specific understanding of sustainability, but also on fundamental questions about the goals of economic activity and on the understanding of the subject matter of economics itself.</p>
+<p>A first point of approach is the contrast often drawn in debates about a more sustainable economy, that between <strong>green growth</strong> and <strong>post-growth</strong><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</p>
+<p>Green growth approaches <span class="citation" data-cites="oecdGreenGrowth2011 worldbankInclusiveGreenGrowth2012">(e.g. <a href="../references.html#ref-oecdGreenGrowth2011" role="doc-biblioref">OECD 2011</a>; <a href="../references.html#ref-worldbankInclusiveGreenGrowth2012" role="doc-biblioref">World Bank 2012</a>)</span> assume that economic growth and declining environmental pressure can be reconciled – the economy is meant to grow but become “green”. Post-growth approaches <span class="citation" data-cites="dalisaNachwortAusteritaetZur2016 jacksonProsperityGrowthTransition2009 seidlPostwachstumsgesellschaftKonzepteFur2010">(e.g. <a href="../references.html#ref-dalisaNachwortAusteritaetZur2016" role="doc-biblioref">D’Alisa et al. 2016</a>; <a href="../references.html#ref-jacksonProsperityGrowthTransition2009" role="doc-biblioref">Jackson 2009</a>; <a href="../references.html#ref-seidlPostwachstumsgesellschaftKonzepteFur2010" role="doc-biblioref">Seidl and Zahrnt 2010</a>)</span>, by contrast, argue that growth itself – and the growth imperative of capitalist economies associated with it (see Chapter 2.1.3, <em>Economic growth</em> and Chapter 2.5.4, <em>What actually makes an economic system capitalist?</em>) – is a central cause of ecological problems.</p>
+<p>This polarization is didactically helpful because it makes a real debate visible. But it is also misleading if taken too literally: in practice, it is rarely an either-or between two closed camps but a question of how to design an economy that respects ecological limits while enabling a good life for all.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/fig5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figure 5. Sustainable economics. Source: Own illustration, adapted from @petschowGesellschaftlichesWohlergehenInnerhalb2018 [p. 22]."><img src="images/fig5.png" class="img-fluid figure-img" alt="Figure 5. Sustainable economics. Source: Own illustration, adapted from Petschow et al. (2018, 22)."></a></p>
+<figcaption>Figure 5. Sustainable economics. Source: Own illustration, adapted from <span class="citation" data-cites="petschowGesellschaftlichesWohlergehenInnerhalb2018">Petschow et al. (<a href="../references.html#ref-petschowGesellschaftlichesWohlergehenInnerhalb2018" role="doc-biblioref">2018, 22</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>This is precisely where sustainable economics comes in: it does not position itself at either of the two poles but asks what ecological and social sustainability require, and only then derives what role growth can or must play. It thus does not start with a fixed answer (“more green growth” or “shrinkage”) but asks instead about the goals of economic activity.</p>
+<p>We will not yet present a definition of sustainable economics here but will approach an understanding of it over the next chapters. In the next chapter, we approach the subject matter of economics and address, among other things, the question of what the goal of economic activity actually is and what we understand by prosperity. After that, we look at the ecological and social limits and challenges of our current economic system. Sustainable economics aims to develop approaches to overcoming these challenges. Then, in Chapters 4 and 5, we look at possible strategies and roles of the state. In the concluding chapter of this script, we then want to draw a clearer picture of sustainable economics from all this.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-atkinsonEconomicsMoralScience2009" class="csl-entry" role="listitem">
+Atkinson, Anthony B. 2009. <span>‘Economics as a Moral Science’</span>. <em>Economica</em> 76: 791–804. <a href="https://doi.org/10.1111/j.1468-0335.2009.00788.x">https://doi.org/10.1111/j.1468-0335.2009.00788.x</a>.
+</div>
+<div id="ref-bauerleGrundfragenOkonomie2026" class="csl-entry" role="listitem">
+Bäuerle, Lukas, Anna Katharina Keil, Rouven Reinke, and Stella Wasenitz, eds. 2026. <em>Grundfragen Der <span>Ökonomie</span></em>. 1. Auflage. Schäffer-Poeschel Verlag.
+</div>
+<div id="ref-bontrupVolkswirtschaftslehreAusOrthodoxer2021a" class="csl-entry" role="listitem">
+Bontrup, Heinz-J., and Ralf-M. Marquardt. 2021. <em>Volkswirtschaftslehre Aus Orthodoxer Und Heterodoxer Sicht</em>. De Gruyter Oldenbourg.
+</div>
+<div id="ref-changLifeUniverseEverything2014" class="csl-entry" role="listitem">
+Chang, Ha-Joon, and Ha-Joon Chang. 2014. <span>‘Life, the Universe and Everything. What Is Economics?’</span> In <em>Economics: The User’s Guide</em>. Bloomsbury Press.
+</div>
+<div id="ref-dalisaNachwortAusteritaetZur2016" class="csl-entry" role="listitem">
+D’Alisa, Giacoma, Giorgos Kallis, and Federico Demaria. 2016. <span>‘Nachwort: <span>Von</span> Der <span>Austerität</span> Zur <span>Dépense</span>’</span>. In <em>Degrowth: <span>Handbuch</span> Für Eine Neue Ära</em>, edited by Giacoma D’Alisa, Federico Demaria, and Giorgios Kallis. Oekom Verlag.
+</div>
+<div id="ref-davisEconomistsOddStand2016" class="csl-entry" role="listitem">
+DeMartino, George F., Deirdre McCloskey, John B. Davis, and John B. Davis. 2016. <span>‘Economists’ Odd Stand on the Positive–Normative Distinction: A Behavioral Economics View’</span>. In <em>The Oxford Handbook of Professional Economic Ethics</em>. Oxford University Press. <a href="https://academic.oup.com/edited-volume/28011/chapter/211790248">https://academic.oup.com/edited-volume/28011/chapter/211790248</a>.
+</div>
+<div id="ref-engelkampEinfuehrungVolkswirtschaftslehre2013" class="csl-entry" role="listitem">
+Engelkamp, Paul, and Friedrich L. Sell. 2013. <em>Einführung in die Volkswirtschaftslehre</em>. 6., überarbeitete und erweiterte Aufl age. Springer Berlin Heidelberg. <a href="https://link.springer.com/10.1007/978-3-642-36522-5">https://link.springer.com/10.1007/978-3-642-36522-5</a>.
+</div>
+<div id="ref-fisherPurchasingPowerMoney1922a" class="csl-entry" role="listitem">
+Fisher, Irving. 1922. <em>The Purchasing Power of Money, Its Determination and Relation to Credit, Interest and Crises</em>. Macmillan.
+</div>
+<div id="ref-friedliBetriebswirtschaftslehreZusammenhangeVerstehen2019" class="csl-entry" role="listitem">
+Friedli, Vera, Renato Müller Vasquez Callo, and Rahel Balmer-Zahnd. 2019. <em>Betriebswirtschaftslehre: Zusammenhänge Verstehen</em>. 4. Auflage. Hep Verlag AG.
+</div>
+<div id="ref-friedmanMethodologyPositiveEconomics1953a" class="csl-entry" role="listitem">
+Friedman, Milton. 1953. <em>The Methodology of Positive Economics</em>. University of Chicago. <a href="https://www.marxists.org/reference/subject/philosophy/works/us/friedman.htm">https://www.marxists.org/reference/subject/philosophy/works/us/friedman.htm</a>.
+</div>
+<div id="ref-hillAdamSmithThumos2012a" class="csl-entry" role="listitem">
+Hill, Lisa. 2012. <span>‘Adam Smith on ’Thumos’ and Irrational Economic <span>“Man”</span>’</span>. <em>The European Journal of the History of Economic Thought</em> 19 (1): 1–22. <a href="https://doi.org/10.1080/09672561003632550">https://doi.org/10.1080/09672561003632550</a>.
+</div>
+<div id="ref-jacksonProsperityGrowthTransition2009" class="csl-entry" role="listitem">
+Jackson, Tim. 2009. <em>Prosperity Without Growth? <span>The</span> Transition to a Sustainable Economy</em>. Sustainable Development Commission.
+</div>
+<div id="ref-jevonsTheoryPoliticalEconomy1879" class="csl-entry" role="listitem">
+Jevons, William Stanley. 1879. <em>The Theory of Political Economy</em>. 2nd edn. Macmillan.
+</div>
+<div id="ref-maslowPsychologyScience1966" class="csl-entry" role="listitem">
+Maslow, Abraham H. 1966. <em>The Psychology of Science: A Reconnaissance</em>. Harper &amp; Row.
+</div>
+<div id="ref-mirowskiMoreHeatLight1989a" class="csl-entry" role="listitem">
+Mirowski, Philip. 1989. <em>More Heat Than Light: Economics as Social Physics, Physics as Nature’s Economics</em>. Cambridge University Press. <a href="https://www.cambridge.org/core/books/more-heat-than-light/4CD2ADE8D5DE8665E43E2922D7E360B3">https://www.cambridge.org/core/books/more-heat-than-light/4CD2ADE8D5DE8665E43E2922D7E360B3</a>.
+</div>
+<div id="ref-morganEconomicManModel2006a" class="csl-entry" role="listitem">
+Morgan, Mary S. 2006. <span>‘Economic Man as Model Man: Ideal Types, Idealization and Caricatures’</span>. <em>Journal of the History of Economic Thought</em> 28 (1): 1–27. <a href="https://doi.org/10.1080/10427710500509763">https://doi.org/10.1080/10427710500509763</a>.
+</div>
+<div id="ref-morganWorldModelHow2012b" class="csl-entry" role="listitem">
+Morgan, Mary S. 2012. <em>The World in the Model: How Economists Work and Think</em>. Cambridge University Press. <a href="https://www.cambridge.org/core/books/world-in-the-model/6FD82E4D498F94CBE5F56078FD007729">https://www.cambridge.org/core/books/world-in-the-model/6FD82E4D498F94CBE5F56078FD007729</a>.
+</div>
+<div id="ref-oecdGreenGrowth2011" class="csl-entry" role="listitem">
+OECD. 2011. <em>Towards <span>Green</span> <span>Growth</span></em>. OECD Publishing. <a href="https://doi.org/10.1787/9789264111318-en">https://doi.org/10.1787/9789264111318-en</a>.
+</div>
+<div id="ref-paretoAnwendungenMathematikAuf1902" class="csl-entry" role="listitem">
+Pareto, Vilfredo, and Wilhelm Franz Meyer. 1902. <span>‘Anwendungen Der Mathematik Auf Nationalokonomie’</span>. In <em>Encyklopädie Der Mathematischen Wissenschaften Mit Einschluss Ihrer Anwendungen</em>. B.G. Teubner.
+</div>
+<div id="ref-petschowGesellschaftlichesWohlergehenInnerhalb2018" class="csl-entry" role="listitem">
+Petschow, Ulrich, Eugen Pissarskoi, Nils aus dem Moore, Hermann Ott, and Umweltbundesamt. 2018. <em>Gesellschaftliches Wohlergehen innerhalb planetarer Grenzen: Der Ansatz einer vorsorgeorientierten Postwachstumsposition</em>. No. 89. Umweltbundesamt.
+</div>
+<div id="ref-polanyiEconomyInstitutedProcess1957a" class="csl-entry" role="listitem">
+Polanyi, Karl, Karl Polanyi, Conrad M. Arensberg, and Harry W. Pearson. 1957. <span>‘The Economy as Instituted Process’</span>. In <em>Trade and Market in the Early empires</em>. The Free Press &amp; The Falcon’s Wing Press.
+</div>
+<div id="ref-putnamCollapseFactValue2002" class="csl-entry" role="listitem">
+Putnam, Hilary. 2002. <em>The Collapse of the Fact-Value Dichotomy and Other Essays</em>. Harvard University Press.
+</div>
+<div id="ref-reissMathematicsEconomicsSchmoller2000a" class="csl-entry" role="listitem">
+Reiss, Julian. 2000. <span>‘Mathematics in Economics: Schmoller, Menger and Jevons’</span>. <em>Journal of Economic Studies</em> 27 (4/5): 477–91. <a href="https://doi.org/10.1108/01443580010342393">https://doi.org/10.1108/01443580010342393</a>.
+</div>
+<div id="ref-robbinsEssayNatureSignificance1932" class="csl-entry" role="listitem">
+Robbins, Lionel. 1932. <em>An Essay on the Nature and Significance of Economic Science</em>. Macmillan &amp; Co. Limited.
+</div>
+<div id="ref-millEssaysEconomicsSociety1996" class="csl-entry" role="listitem">
+Robson, John M., and John Stuart Mill. 1996. <em>Essays on Economics and Society</em>. University of Toronto Press.
+</div>
+<div id="ref-seidlPostwachstumsgesellschaftKonzepteFur2010" class="csl-entry" role="listitem">
+Seidl, Irmi, and Angelika Zahrnt, eds. 2010. <em>Postwachstumsgesellschaft. <span>Konzepte</span> Für Die <span>Zukunft</span></em>. Ökologie Und <span>Wirtschaftsforschung</span>. Marbug.
+</div>
+<div id="ref-vazquezMarshallMathematizationEconomics1995a" class="csl-entry" role="listitem">
+Vazquez, Andres. 1995. <span>‘Marshall and the Mathematization of Economics’</span>. <em>Journal of the History of Economic Thought</em> 17 (2): 247–65. <a href="https://doi.org/10.1017/S1053837200002625">https://doi.org/10.1017/S1053837200002625</a>.
+</div>
+<div id="ref-wilsonHistoryHomoEconomicus2014" class="csl-entry" role="listitem">
+Wilson, David, and William Dixon. 2014. <em>A History of Homo Economicus - the Nature of the Moral in Economic Theory</em>. Paperback Edition. Routledge.
+</div>
+<div id="ref-worldbankInclusiveGreenGrowth2012" class="csl-entry" role="listitem">
+World Bank. 2012. <em>Inclusive <span>Green</span> <span>Growth</span>: <span>The</span> <span>Pathway</span> to <span>Sustainable</span> <span>Development</span></em>. <a href="https://hdl.handle.net/10986/6058">https://hdl.handle.net/10986/6058</a>.
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>This short overview is based in part on <span class="citation" data-cites="bauerleGrundfragenOkonomie2026">Bäuerle et al. (<a href="../references.html#ref-bauerleGrundfragenOkonomie2026" role="doc-biblioref">2026</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>In this text, the English term economic man is used when the concern is, in general, the idea of an economic agent. This is because the term homo oeconomicus stands for the currently dominant conception, and economic man is used in this sense in the (predominantly English-language) literature. The term is problematic in that it implies the exclusion of an economic woman. If we look at the orientation of economics today and in history, however, such a portrayal of economics is unfortunately not that far-fetched, as feminist economics shows us.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>The term degrowth is also often used. Although the two terms are not entirely identical, they largely overlap. For simplicity, we will therefore use the term post-growth throughout. In our view, the strength of the term post-growth lies above all in the fact that it does not emphasize a possible shrinkage of the economy so much as the necessary growth independence.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script>
+
+
+
+/* definition of content for the buttons */
+
+const webex_buttons = {check_hidden:          "<b>&check;</b>",
+
+                       check_hidden_alt:      "Check answer",
+
+                       check_shown:           "<b>&lsh;</b>",
+
+                       check_shown_alt:       "Hide check",
+
+                       check_of_total:        "/",
+
+                       solution:              "<b>&quest;</b>",
+
+                       solution_alt:          "Correct solution",
+
+                       question_next:         "<b>&#8634;</b>",
+
+                       question_next_alt:     "Next question",
+
+                       question_previous:     "",
+
+                       question_previous_alt: ""}
+
+
+
+
+
+/* update total correct if #webex-total_correct exists */
+
+update_total_correct = function() {
+
+  console.log("webex: update total_correct");
+
+
+
+  document.querySelectorAll(".webex-total_correct").forEach(total => {
+
+    p = total.closest(".webex-box");
+
+    var correct = p.getElementsByClassName("webex-correct").length;
+
+    var solvemes = p.getElementsByClassName("webex-solveme").length;
+
+    var radiogroups = p.getElementsByClassName("webex-radiogroup").length;
+
+    var selects = p.getElementsByClassName("webex-select").length;
+
+    /* no specific class on input node, thus searching via query selector */
+
+    var checkboxgroups = p.querySelectorAll("div[class=webex-checkboxgroup] input[type=checkbox]").length
+
+
+
+    /* show number of correct / total number of answers */
+
+    total.innerHTML = correct + "&nbsp;" + webex_buttons.check_of_total + "&nbsp;" + (solvemes + radiogroups + checkboxgroups + selects);
+
+  });
+
+}
+
+
+
+/* check answers */
+
+check_func = function() {
+
+  console.log("webex: check answer");
+
+
+
+  //var cl = elem.parentElement.classList;
+
+  var cl = this.closest(".webex-box").classList;
+
+  if (cl.contains("unchecked")) {
+
+    cl.remove("unchecked");
+
+    this.innerHTML = webex_buttons.check_shown; //"Hide check";
+
+    if (webex_buttons.check_shown_alt.length > 0) this.setAttribute("title", webex_buttons.check_shown_alt);
+
+  } else {
+
+    cl.add("unchecked");
+
+    this.innerHTML = webex_buttons.check_hidden; //"Check answer";
+
+    if (webex_buttons.check_hidden_alt.length > 0) this.setAttribute("title", webex_buttons.check_hidden_alt);
+
+  }
+
+}
+
+
+
+/* helper functions for checking the webex ID */
+
+const id_checker = {"fmt": new RegExp("[g-zG-Z]"),
+
+                    "load": function(e) { return e.getAttribute("id").match("(?<=(-)).*$")[0]; },
+
+                    "eval": new TextEncoder(),
+
+                    "dval": new TextDecoder()}
+
+
+
+/* Show/hide correct solution */
+
+solution_func = function() {
+
+  console.log("webex: show/hide solution");
+
+
+
+  var div = this.closest(".webex-question").querySelector(".webex-solution");
+
+  var cl = div.classList;
+
+
+
+  if (cl.contains("visible")) {
+
+    cl.remove("visible");
+
+  } else {
+
+    cl.add("visible");
+
+  }
+
+}
+
+
+
+/* function to check if the real answer is numeric */
+
+convert_to_numeric = function(x) {
+
+  if (typeof x == "string") {
+
+    /* do nothing */
+
+  } else if (x.length == 1) {
+
+    /* take first element */
+
+    x = x[0]
+
+  } else {
+
+    return NaN;
+
+  }
+
+
+
+  /* remove spaces for easier parsing */
+
+  x = x.replace(/\s/g, "");
+
+
+
+  /* Define patterns for different formats, note that spaces have been removed above */
+
+  const patterns = [
+
+    {regex: /^[+-]?\d+(\.\d{3})*,\d+$/, decimal: ",", thousand: "." },  // Format: "1.100.100.100,3"
+
+    {regex: /^[+-]?\d+(,\d{3})*\.\d+$/, decimal: ".", thousand: "," },  // Format: "1,100,100,100.3"
+
+    {regex: /^[+-]?\d+(\.|\.\d+)?$/, decimal: "." },                    // Format: "1100100100.5" or "1100100100."
+
+    {regex: /^[+-]?\d+(,|,\d+)$/, decimal: "," }                        // Format: "1100100100,5" or "1100100100,"
+
+  ];
+
+
+
+
+
+  /* testing all regular expressions, convert to float if possible */
+
+  for (const { regex, decimal, thousand } of patterns) {
+
+    if (regex.test(x)) {
+
+      let numeric = x;
+
+      if (thousand) numeric = numeric.replace(new RegExp(`\\${thousand}`, "g"), "");
+
+      numeric = numeric.replace(decimal, ".");
+
+      return parseFloat(numeric);
+
+    }
+
+  }
+
+
+
+  /* input of length 1 but none of the known formats, return NaN */
+
+  return NaN;
+
+}
+
+
+
+/* Checking webex ID, returns formalsol */
+
+check_id = function(e) {
+
+  /* loading webex ID */
+
+  var id = id_checker["load"](e);
+
+
+
+  /* extracting answer */
+
+  let answer = e.dataset.answer;
+
+
+
+  /* checking unique id, prepare and return array */
+
+  if (!id_checker["fmt"].test(id)) {
+
+    const a = id_checker["eval"].encode(atob(answer));
+
+    const b = id_checker["eval"].encode(id);
+
+    const res = a.map((byte, index) => byte^b[index % b.length]);
+
+    answer = id_checker["dval"].decode(res);
+
+    /* Replacing &amp; with ' before parsing */
+
+    answer = answer.replaceAll("&apos;", "'");
+
+  }
+
+
+
+  return JSON.parse(answer);
+
+}
+
+
+
+/* function for checking solveme answers */
+
+solveme_func = function(e) {
+
+  /* avoid that keyup and keychange twice execute this function within nms = 10
+
+   * ms, clearing inputTimer and add timeout */
+
+  console.log("webex: check solveme");
+
+
+
+  /* float, precision for checking numeric answers */
+
+  const eps = 0.00000000000001;
+
+
+
+  /* get last checked user answer */
+
+  const question = this.closest(".webex-question")
+
+
+
+  /* extracting classes */
+
+  var cl = this.classList;
+
+  var my_answer = this.value;
+
+
+
+  /* extracting classes */
+
+  var cl = this.classList;
+
+
+
+  /* empty answer? Job done */
+
+  if (my_answer == "") {
+
+    cl.remove("webex-correct");
+
+    cl.remove("webex-incorrect");
+
+    return false;
+
+  }
+
+
+
+  /* Find closest (parent) webex-question */
+
+  let formalsols = check_id(this)
+
+
+
+  /* by default we assume the users' answer is incorrect */
+
+  var user_answer_correct = false;
+
+
+
+  /* check if the correct answer is numeric, i.e. if 
+
+   * formalsols is of length 1 containing one single numeric
+
+   * value in a known format, else, NaN is returned */
+
+  const num_formalsol = convert_to_numeric(formalsols);
+
+  const num_my_answer = convert_to_numeric(my_answer);
+
+
+
+  /* if the correct answer is numeric (float), the user's answer
+
+   * must also be numeric. If not, it is wrong. Else we can
+
+   * compare floating point numbers */
+
+  if (!isNaN(num_formalsol) && !isNaN(num_my_answer)) {
+
+    /* check if the real answer and the user input are numerically the same;
+
+     * adding 'delta' to avoid precision issues */
+
+    var diff = Math.abs(num_formalsol - num_my_answer);
+
+    if (diff < parseFloat(this.dataset.tol) + eps) { user_answer_correct = true; }
+
+
+
+  /* if the question contains regex, a regular expression is used
+
+   * to evaluate the users answer. Allows for multiple regular expressions */
+
+  } else if (cl.contains("regex")) {
+
+    for (let i = 0; i < formalsols.length; i++) {
+
+        let regex = new RegExp(formalsols[i], cl.contains("ignorecase") ? "i" : "");
+
+        if (regex.test(my_answer)) { user_answer_correct = true; break; }
+
+    }
+
+
+
+  /* else we evaluate on 'string level', considering the creators preferences
+
+   * regarding set options */
+
+  } else {
+
+    /* modify/prepare answer */
+
+    if (cl.contains("ignorecase")) { my_answer = my_answer.toLowerCase(); }
+
+    if (cl.contains("nospaces"))   { my_answer = my_answer.replace(/ /g, ""); }
+
+
+
+    /* if the real answer includes user input - correct */
+
+    if (formalsols.includes(my_answer)) {
+
+      user_answer_correct = true;
+
+  
+
+      // added regex bit
+
+      if (cl.contains("regex")) {
+
+        answer_regex = RegExp(formalsols.join("|"))
+
+        if (answer_regex.test(my_answer)) {
+
+          cl.add("webex-correct");
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+
+  if (user_answer_correct) {
+
+      cl.add("webex-correct");
+
+      cl.remove("webex-incorrect");
+
+  } else {
+
+      cl.add("webex-incorrect");
+
+      cl.remove("webex-correct");
+
+  }
+
+
+
+  update_total_correct();
+
+
+
+}
+
+
+
+/* function for checking select answers */
+
+select_func = function(e) {
+
+  console.log("webex: check select");
+
+
+
+  var options   = [];
+
+  Array.from(this.querySelectorAll("option")).forEach((option, index) => {
+
+    if (!option.hasAttribute("value") || !option.getAttribute("value") === "blank") {
+
+      options.push(option);
+
+    }
+
+  });
+
+
+
+  /* get selected option */
+
+  function get_selected(options) { return options.findIndex(option => option.selected); }
+
+  var option_index = get_selected(options)
+
+
+
+  /* loading webex ID */
+
+  var formalsol = check_id(this)
+
+
+
+  /* add class for current selection */
+
+  this.classList.remove("webex-incorrect");
+
+  this.classList.remove("webex-correct");
+
+  if (option_index >= 0) {
+
+    this.classList.add(formalsol[option_index] === 1 ? "webex-correct" : "webex-incorrect");
+
+  }
+
+
+
+  update_total_correct();
+
+}
+
+
+
+/* function for checking radiogroups answers */
+
+radiogroups_func = function(e) {
+
+  console.log("webex: check radiogroups");
+
+
+
+  /* get real answer (binary integer array) */
+
+  var id = e.target.getAttribute("name");
+
+  var group = document.querySelector(".webex-radiogroup[id='webex-" + id + "']");
+
+  var formalsol = check_id(group)
+
+
+
+  /* check which radiobuttion is selected (user answer) */
+
+  function get_checked(radios) {
+
+    return radios.findIndex(radios => radios.checked);
+
+  }
+
+  var radios = Array.from(group.querySelectorAll("input[type='radio']"))
+
+  var radio_index = get_checked(radios);
+
+
+
+  /* remove existing classes */
+
+  radios.forEach(radio => {
+
+    let cl = radio.closest("label").classList
+
+    cl.remove("webex-incorrect");
+
+    cl.remove("webex-correct");
+
+  });
+
+
+
+  /* add class for current selection */
+
+  let cl = radios[radio_index].closest("label").classList
+
+  if (formalsol[radio_index] === 1) {
+
+      cl.add("webex-correct");
+
+  } else {
+
+      cl.add("webex-incorrect");
+
+  }
+
+
+
+  update_total_correct();
+
+}
+
+
+
+
+
+/* function for checking checkboxgroups answers */
+
+checkboxgroups_func = function(e) {
+
+  console.log("webex: check checkboxgroups");
+
+
+
+  /* get real answer (binary integer array) */
+
+  var group = document.querySelector(".webex-checkboxgroup[id='" + this.id + "']");
+
+  var formalsol = check_id(group);
+
+
+
+  /* check which checkbox is checked (user answer) */
+
+  function get_checked(group) {
+
+      const checkboxes = Array.from(group.querySelectorAll("input[type='checkbox']"));
+
+      return checkboxes.reduce((indices, checkbox, index) => {
+
+          if (checkbox.checked) indices.push(index);
+
+          return indices;
+
+      }, []);
+
+  }
+
+  var checks = Array.from(group.querySelectorAll("input[type='checkbox']"));
+
+  var check_index = get_checked(group);
+
+
+
+  checks.forEach((e, index) => {
+
+    var label = e.parentNode;
+
+    var ans = formalsol[index];
+
+    if ((e.checked && ans === 1) || (!e.checked && ans === 0)) {
+
+        label.setAttribute("class", "webex-correct")
+
+    } else {
+
+        label.setAttribute("class", "webex-incorrect")
+
+    }
+
+  });
+
+
+
+  update_total_correct();
+
+}
+
+
+
+/* shuffling array (thanks to stack overflow)
+
+ * If argument x is an integer we create an integer sequence
+
+ * from 0, 1, ..., (x - 1) and return a shuffled version. If
+
+ * the input is an array, we simply shuffle it */
+
+shuffle_array = function(x) {
+
+   if (Number.isInteger(x) && !isNaN(x)) {
+
+     x = Array.from({length: x}, (v, i) => i);
+
+   }
+
+   let shuffled = x.map(value => ({ value, sort: Math.random() }))
+
+        .sort((a, b) => a.sort - b.sort).map(({ value }) => value)
+
+   return shuffled;
+
+}
+
+
+
+/* ---------------------------------------------------------
+
+ * ---------------------------------------------------------
+
+ * --------------------------------------------------------- */
+
+window.onload = function() {
+
+  //console.log("webex: onload");
+
+
+
+  /* setting up buttons and actions to show/hide answers */
+
+  document.querySelectorAll(".webex-check").forEach(section => {
+
+    section.classList.add("unchecked");
+
+
+
+    /* ul to take up the list items with buttons */
+
+    let button_ul = document.createElement("ul");
+
+    button_ul.setAttribute("class", "webex-button-list");
+
+    section.appendChild(button_ul);
+
+
+
+    /* button to _check_ if answers given are correct */
+
+    let li_check = document.createElement("li");
+
+    button_ul.appendChild(li_check); /* add list item to ul */
+
+    let btn_check = document.createElement("button");
+
+    btn_check.innerHTML = webex_buttons.check_hidden;  // "Check answer";
+
+    btn_check.setAttribute("class", "webex-button webex-button-check");
+
+    if (webex_buttons.check_hidden_alt.length > 0) btn_check.setAttribute("title", webex_buttons.check_hidden_alt);
+
+    btn_check.onclick = check_func;
+
+    li_check.appendChild(btn_check);
+
+
+
+    /* span to show current number of points (when _check_ active) */
+
+    let spn = document.createElement("span");
+
+    spn.classList.add("webex-total_correct");
+
+    li_check.appendChild(spn);
+
+
+
+    /* button to show the _solution_ if there is one */
+
+    var has_solution = section.parentNode.querySelectorAll(".webex-solution").length > 0;
+
+    if (has_solution) {
+
+      let li_solution = document.createElement("li");
+
+      button_ul.appendChild(li_solution); /* add list item to ul */
+
+      let btn_solution = document.createElement("button");
+
+      btn_solution.innerHTML = webex_buttons.solution; // "Correct answer";
+
+      btn_solution.setAttribute("class", "webex-button webex-button-solution");
+
+      if (webex_buttons.solution_alt.length > 0) btn_solution.setAttribute("title", webex_buttons.solution_alt);
+
+      btn_solution.onclick = solution_func;
+
+      li_solution.appendChild(btn_solution);
+
+    }
+
+
+
+  });
+
+
+
+  /* set up webex-solveme inputs */
+
+  document.querySelectorAll(".webex-solveme").forEach(solveme => {
+
+    solveme.setAttribute("autocomplete","off");
+
+    solveme.setAttribute("autocorrect", "off");
+
+    solveme.setAttribute("autocapitalize", "off");
+
+    solveme.setAttribute("spellcheck", "false");
+
+    solveme.value = "";
+
+
+
+    /* adjust answer for 'no spaces' (ignore spaces) */
+
+    if (solveme.classList.contains("nospaces")) {
+
+      solveme.dataset.answer = solveme.dataset.answer.replace(/ /g, "");
+
+    }
+
+
+
+    /* attach checking function, triggered on key up, change, and when
+
+     * elemnt is out of focus. Only evaluated once by tracking changes
+
+     * via variable solveme_last_user_answer */
+
+    solveme.addEventListener("keyup",  solveme_func);
+
+    solveme.addEventListener("change", solveme_func);
+
+    solveme.addEventListener("blur",   solveme_func);
+
+
+
+    /* adding span to show correct/incorrect icon */
+
+    solveme.insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+
+  });
+
+
+
+  /* set up radiogroups (single choice questions with display = "buttons") */
+
+  document.querySelectorAll(".webex-radiogroup").forEach(radiogroup => {
+
+    radiogroup.onchange = radiogroups_func;
+
+  });
+
+
+
+  /* set up checkboxgroups (multiple choice questions with display = "buttons") */
+
+  document.querySelectorAll(".webex-checkboxgroup").forEach(checkboxgroup => {
+
+    checkboxgroup.onchange = checkboxgroups_func;
+
+  });
+
+
+
+  /* set up selects (dropdown menus) */
+
+  document.querySelectorAll(".webex-select").forEach(select => {
+
+    select.onchange = select_func;
+
+    /* append webex-icon for correct/incorrect icons */
+
+    var elem = document.createElement("span")
+
+    elem.classList.add("webex-icon")
+
+    select.parentNode.appendChild(elem)
+
+  });
+
+
+
+  /* change to next/previous question if multiple are available */
+
+  function handleQuestionClick(group, questions, step) {
+
+    return async function() {
+
+      /* get question order as integer vector */
+
+      let questionOrder = group.dataset.questionOrder.split(",").map(str => parseInt(str));
+
+
+
+      /* current question/position */
+
+      let currentPosition = parseInt(group.dataset.currentPosition);
+
+
+
+      /* Hide the current question */
+
+      questions.forEach(question => { question.classList.remove("active"); });
+
+
+
+      /* Move to the next question index */
+
+      currentPosition = (currentPosition + step) % questionOrder.length;
+
+      if (currentPosition < 0) currentPosition = currentPosition + questionOrder.length
+
+
+
+      /* Display the new question */
+
+      questions[questionOrder[currentPosition]].classList.add("active");
+
+
+
+      // Update the currentPosition data attribute on the group div
+
+      group.dataset.currentPosition = currentPosition;
+
+    };
+
+  }
+
+
+
+  document.querySelectorAll(".webex-group").forEach(group => {
+
+    const questions = Array.from(group.querySelectorAll(".webex-question"));
+
+
+
+    /* Create vector with question order. If the webex-group does
+
+     * not have class '.noshuffle' we will randomly shuffle the order */
+
+    let questionOrder = Array.from({length: questions.length}, (v, i) => i);
+
+    if (!group.classList.contains("noshuffle")) {
+
+      questionOrder = shuffle_array(questionOrder);
+
+    }
+
+
+
+    /* take start position (if set) or start at 0 */
+
+    const currentPosition = parseInt(group.getAttribute("data-start-position")) || 0;
+
+
+
+    /* show the default question for each group */
+
+    questions[questionOrder[currentPosition]].classList.add("active");
+
+
+
+    /* store random order of questions as well as current position */
+
+    group.dataset.questionOrder   = questionOrder;
+
+    group.dataset.currentPosition = currentPosition;
+
+
+
+    /* find all webex-questions, search for .webex-button-list and
+
+     * populate the list with necessary <li><button>...</button></li> elements */
+
+    questions.forEach(question => {
+
+        let button_ul = question.querySelector("ul.webex-button-list");
+
+
+
+        let li_next = document.createElement("li");
+
+        let nextButton = document.createElement("button");
+
+        nextButton.setAttribute("class", "webex-button webex-button-next");
+
+        if (webex_buttons.question_next_alt.length > 0) nextButton.setAttribute("title", webex_buttons.question_next_alt);
+
+        nextButton.innerHTML = webex_buttons.question_next; // "Next question";
+
+        nextButton.addEventListener("click", handleQuestionClick(group, questions, 1));
+
+        li_next.appendChild(nextButton);
+
+
+
+        let li_previous = document.createElement("li");
+
+        let previousButton = document.createElement("button");
+
+        previousButton.setAttribute("class", "webex-button webex-button-previous");
+
+        if (webex_buttons.question_previous_alt.length > 0) previousButton.setAttribute("title", webex_buttons.question_previous_alt);
+
+        previousButton.innerHTML = webex_buttons.question_previous; // "Previous question";
+
+        previousButton.addEventListener("click", handleQuestionClick(group, questions, -1));
+
+        li_previous.appendChild(previousButton);
+
+
+
+        if (webex_buttons.question_previous.length > 0) button_ul.appendChild(li_previous);
+
+        if (webex_buttons.question_next.length > 0) button_ul.appendChild(li_next);
+
+    });
+
+  });
+
+
+
+  /* Development options */
+
+  document.querySelectorAll(".webex-question.check").forEach(question => {
+
+      question.querySelector(".webex-button-check").click()
+
+  });
+
+  document.querySelectorAll(".webex-question.solution").forEach(question => {
+
+      let btn = question.querySelector(".webex-button-solution");
+
+      if (btn !== null) { btn.click(); }
+
+  });
+
+
+
+  /* Pre-filling <input> fields */
+
+  document.querySelectorAll(".webex-question.prefill").forEach(question => {
+
+      question.querySelectorAll("input.webex-solveme").forEach(solveme => {
+
+          let x = JSON.parse(solveme.dataset.answer);
+
+          solveme.value = x[0];
+
+          /* Trigger the on change event */
+
+          solveme.dispatchEvent(new Event("change"));
+
+      });
+
+
+
+      /* Pre-filling radiogroups, that is for schoice questions */
+
+      question.querySelectorAll(".webex-radiogroup").forEach(radiogroup => {
+
+          let x = JSON.parse(radiogroup.dataset.answer);
+
+          let idx = x.indexOf(1);
+
+          let radios = radiogroup.querySelectorAll('input[type="radio"]');
+
+          radios[idx].checked = true;
+
+          /* Trigger the on change event */
+
+          radios[idx].dispatchEvent(new Event("change", { bubbles: true }));
+
+      });
+
+
+
+      /* Pre-filling checkboxgroups, that is for schoice questions w/ dropdown menus */
+
+      question.querySelectorAll(".webex-select").forEach(dropdown => {
+
+          let x = JSON.parse(dropdown.dataset.answer);
+
+          let idx = x.indexOf(1) + 1; /* +1 to skip the first blank option */
+
+          let options = dropdown.querySelectorAll("option");
+
+          options[idx].selected = true;
+
+          /* Trigger the on change event */
+
+          options[idx].dispatchEvent(new Event("change", { bubbles: true }));
+
+      });
+
+
+
+      /* Pre-filling checkboxgroups, that is for mchoice questions */
+
+      question.querySelectorAll(".webex-checkboxgroup").forEach(radiogroup => {
+
+          let x = JSON.parse(radiogroup.dataset.answer);
+
+          let checkboxes = radiogroup.querySelectorAll('input[type="checkbox"]');
+
+          for (let i = 0; i < checkboxes.length; i++) {
+
+              checkboxes[i].checked = x[i];
+
+          }
+
+          /* Trigger the on change event */
+
+          checkboxes[0].dispatchEvent(new Event("change", { bubbles: true }));
+
+      });
+
+  });
+
+
+
+  /* Show set tolerance (devel option) */
+
+  function calc_width(x, txt, offset = 20) {
+
+      /* We do the following:
+
+       * Create a new span, insert the value we need in the .tolerance
+
+       * input node, and calculate its offsetWidth. Then remove it
+
+       * again; this is just used to calculate the required width. */
+
+      var cwtmp = document.createElement("span");
+
+      x.appendChild(cwtmp);
+
+      cwtmp.innerHTML = txt || "";
+
+      var w = parseInt(cwtmp.getBoundingClientRect().width) + offset;
+
+      cwtmp.remove();
+
+      return w;
+
+  }
+
+
+
+  /* If tolerance should be shown (devel option) we calculate:
+
+   * - the width required to properly display the solution
+
+   * - the width required to properly display the tolerance
+
+   * - add a new element to display the tolerance
+
+   * - reduce the width of the solution input box. */
+
+  document.querySelectorAll(".webex-question.tolerance").forEach(question => {
+
+      question.querySelectorAll("input[data-tol]").forEach(elem => {
+
+          var w = null;
+
+
+
+          /* Add new element showing the tolerance */
+
+          let tol = document.createElement("input");
+
+          tol.type = "text"; // <inpyt type="text">
+
+          tol.disabled = true; // Disable input element
+
+          tol.classList.add("tolerance"); // Appending class
+
+          tol.value = "Â± " + elem.getAttribute("data-tol");
+
+
+
+          /* Add new node */
+
+          elem.parentNode.insertBefore(tol, elem)
+
+
+
+          var body     = document.querySelector("body");
+
+          //tol.value = "Â± " + "0.0000007";
+
+          //tol.value = "Â± " + "0.07";
+
+          w    = calc_width(body, tol.value);
+
+          wold = parseInt(elem.getBoundingClientRect().width);
+
+          wmin = calc_width(body, elem.value);
+
+
+
+          /* Calculate required width of the 'tolerance' node, and the
+
+           * reduction of the original 'input' node */
+
+          let wnew = Math.max(wmin, wold - w);
+
+          tol.style.width  = w + "px";
+
+          elem.style.width = wnew + "px";
+
+      });
+
+  });
+
+
+
+  update_total_correct();
+
+}
+
+
+
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../index.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../2_scope-of-economics/2_intro.html" class="pagination-link" aria-label="Scope of Economics">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Scope of Economics</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>“This a product of <a href="www.cde.unibe.ch/"><img src="../images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0 Int License</a>.</p>
+</div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

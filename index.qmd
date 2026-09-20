@@ -1,0 +1,97 @@
+# Preface {.unnumbered}
+
+This script contains the learning sequences for the course "[Sustainable Economics](https://ilias.unibe.ch/go/crs/3701540){target="_blank"}" (the course is taught in German), which are worked through in the self-study phases. The script is meant to make working through the sequences easier, since ILIAS offers no satisfactory way of downloading the learning sequences. Please remember that you follow the self-study phases on ILIAS. There you will find additional texts, information, and exercises that you have to work through. In addition, many sections are interactive and contain links and videos. Overall, the script contains six chapters, which you work through in self-study phases 1 to 5. Alongside the explanations in the script, you will always find pointers to further material and literature. If you are interested, you are welcome to use these to explore certain topic areas in more depth. To deepen your understanding of fundamental questions of economics, we gladly refer to the recently published introductory textbook *Grundfragen der Ökonomie: Plural – Reflexiv – Lebensnah* [Fundamental Questions of Economics: Pluralist, Reflexive, Close to Life] by @bauerleGrundfragenOkonomie2026 (in German). It allows you to engage in depth with many aspects that are taken up in the script. If needed, you are also welcome to approach us at any time if you would like to explore certain topics in more depth. We are happy to provide further material.
+
+## Contribution Matrix (CRediT Taxonomy) {.unnumbered}
+
+```{r}
+library(kableExtra)
+is_pdf <- knitr::is_latex_output()
+
+orcid_link <- function(id) {
+  if (is.na(id)) return("—")
+  if (is_pdf) {
+    sprintf("\\href{https://orcid.org/%s}{%s}", id, id)
+  } else {
+    sprintf('<a href="https://orcid.org/%s" target="_blank">%s</a>', id, id)
+  }
+}
+
+esc <- function(x) if (is_pdf) gsub("&", "\\&", x, fixed = TRUE) else x
+
+df <- data.frame(
+  Name = c("Christoph Bader", "Nicolà Bezzola", "Samuel Brülisauer"),
+  Affiliation = rep("CDE, University of Bern", 3),
+  ORCID = c(
+    orcid_link("0000-0002-8991-353X"), orcid_link(NA), orcid_link("0000-0002-2196-1922")
+  ),
+  `Roles (CRediT)` = esc(c(
+    "Conceptualization, Software, Supervision, Writing – original draft, Writing – review & editing, Project administration",
+    "Conceptualization, Writing – original draft, Writing – review & editing",
+    "Conceptualization, Writing – original draft, Writing – review & editing"
+  )),
+  check.names = FALSE
+)
+
+df |>
+  kbl(booktabs = TRUE, align = "l", escape = FALSE) |>
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    latex_options = if (is_pdf) c("hold_position") else NULL,
+    full_width = !is_pdf,
+    font_size = if (is_pdf) 8 else NULL
+  ) |>
+  column_spec(1, bold = TRUE, width = if (is_pdf) "2.5cm" else NA) |>
+  column_spec(4, width = if (is_pdf) "6cm" else NA) |>
+  row_spec(0, bold = TRUE)
+```
+
+## How You Can Work With This Script
+
+Most chapters in this script contain various structuring elements:
+
+::: {.callout-note .guiding-question collapse="false"}
+#### Guiding questions
+
+The guiding question by which the respective chapter or section is oriented.
+:::
+
+::: {.callout-note collapse="false"}
+#### In-depth questions and exercises
+
+For each subsection, some in-depth questions are listed. On the one hand, these serve to check your own knowledge of the respective area; on the other hand, they are also meant to prompt thought and reflection.
+:::
+
+::: {.callout-tip collapse="false"}
+#### Excursuses and examples
+
+Those who are interested in more detail may explore a topic in greater depth in various boxes marked as excursuses. These are not compulsory reading, however.
+:::
+
+::: {.callout-caution collapse="false"}
+#### Further reading
+
+In-depth literature for those who want to know more.
+:::
+
+:::::: {.content-visible when-format="html"}
+::::: self-study-phase
+::: self-study-phase-header
+Self-study phase
+:::
+
+::: self-study-phase-body
+Here you will find information on the self-study phases.
+:::
+:::::
+::::::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{selfstudyphase}
+Here you will find information on the self-study phases.
+\end{selfstudyphase}
+```
+:::
+
+The textbook *Grundfragen der Ökonomie* by Bäuerle, Keil, Reinke, and Wasenitz (eds.) [-@bauerleGrundfragenOkonomie2026] complements many of the topics discussed. The script always mentions the corresponding textbook chapters.*↗ Textbook chapters 1 and 2*
