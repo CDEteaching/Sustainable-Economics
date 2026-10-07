@@ -74,7 +74,7 @@ Many other schools of thought, by contrast, continue to define economics through
 
 In this script, we follow a substantivist understanding and define economics through the subject matter of the economy. In Chapter 2 (*Scope of Economics*), we will then examine this subject matter in more detail.
 
-::: {.callout-caution collapse="true"}
+::: {.callout-note collapse="true"}
 #### Further reading
 
 Ha-Joon Chang's book *Economics: The User's Guide* offers an easy introduction to topics in economics and gives a good overview of the history and current debates. Depending on your interest, individual chapters can also easily be consulted on their own.
@@ -86,13 +86,9 @@ Chang, Ha-Joon. 2014. *Economics: The User's Guide*. First U.S. edition. Bloomsb
 
 We have now looked briefly at different understandings of economics. In this section, we want to engage a little more with the history of economic theory and ask how economics itself has developed. The emphasis is on the emergence of the dominant school of thought, neoclassical economics.
 
-:::::::::: {.content-visible when-format="html"}
-::::: self-study-phase
-::: self-study-phase-header
-Self-study phase
-:::
+::: {.callout-caution}
+#### Mandatory reading
 
-::: self-study-phase-body
 **Ötsch (2018): download and read at least chapters 4 to 9.**
 
 In this working paper, Walter Ötsch describes how economics developed from a moral science under Adam Smith (1723-1790) into a science with a biologically determined image of the human under Thomas Malthus (1766-1834) and David Ricardo (1772-1823). In this process, metaphors from the natural sciences (clock system, balance equilibrium, computer information) become increasingly important, and economics comes to be seen as "social physics". This process is very illustrative of the development of modern neoclassical economics.
@@ -100,22 +96,6 @@ In this working paper, Walter Ötsch describes how economics developed from a mo
 Walter Ötsch is a professor at the University of Society Design (Hochschule für Gesellschaftsgestaltung) in Koblenz. As an economist and cultural historian, he researches and publishes on socio-political and economic topics such as populism and the societal role of markets.
 
 [Download and read Ötsch (2018), at least chapters 4 to 9](https://ilias.unibe.ch/go/file/3524254){target="_blank"}
-:::
-:::::
-::::::::::
-
-::: {.content-visible when-format="pdf"}
-```{=latex}
-\begin{selfstudyphase}
-\textbf{Ötsch (2018): download and read at least chapters 4 to 9.}
-
-In this working paper, Walter Ötsch describes how economics developed from a moral science under Adam Smith (1723-1790) into a science with a biologically determined image of the human under Thomas Malthus (1766-1834) and David Ricardo (1772-1823). In this process, metaphors from the natural sciences (clock system, balance equilibrium, computer information) become increasingly important, and economics comes to be seen as ``social physics''. This process is very illustrative of the development of modern neoclassical economics.
-
-Walter Ötsch is a professor at the University of Society Design (Hochschule für Gesellschaftsgestaltung) in Koblenz. As an economist and cultural historian, he researches and publishes on socio-political and economic topics such as populism and the societal role of markets.
-
-You can download the working paper on ILIAS: \url{https://ilias.unibe.ch/go/file/3524254}
-\end{selfstudyphase}
-```
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -144,7 +124,7 @@ The history behind this development shows that it was not a natural one but that
 This development of economics, as outlined here, was strongly criticized right from its emergence. Criticism of the orientation, the fixation on analytical models, and the strong abstractions from the real world continues to this day. In view of the weaknesses of neoclassical economics that have increasingly been exposed in the years since the 2008 financial crisis, Alfred Marshall's concerns about this development have become topical again. In 1881, in a commentary on Edgeworth's "Mathematical Psychics", Marshall wondered whether Edgeworth would succeed in preventing mathematics from running away with him and driving him out of sight of the actual facts of the economy [@vazquezMarshallMathematizationEconomics1995a, p. 251].
 :::
 
-::: {.callout-caution collapse="true"}
+::: {.callout-note collapse="true"}
 #### Further reading
 
 If you are interested, you can also watch the [entire lecture by Walter Ötsch](https://www.youtube.com/watch?v=zS3QgFE5ASE){target="_blank"} (in German).
@@ -206,7 +186,7 @@ Fleck's insights show that science and thinking are by no means independent of s
 
 As already indicated several times, economics too consists of a multitude of different thought collectives that take particular perspectives, or styles of thought, based on value judgements and worldviews. This diversity of styles of thought is described by the term "pluralist economics". At present, economics is strongly dominated by one style of thought, neoclassical economics, which is often described as the economic mainstream. Nevertheless, or perhaps precisely for this reason, it is central that students have a rough overview of the different styles of thought in order to gain a comprehensive understanding of the economy. Accordingly, the next section briefly introduces pluralist economics, in which students can then explore the different styles of thought according to their interests. We believe, however, that students should not only get to know the style of thought of the dominant thought collective but also gain insight into how the styles of thought in economics have developed and which other styles of thought exist in economics. In the next section, you will get an overview of the different styles of thought in economics. In what follows, we will mostly call them schools of thought rather than styles of thought, since this is what they are usually called.
 
-::: {.callout-caution collapse="true"}
+::: {.callout-note collapse="true"}
 #### Further reading
 
 [Yuval Harari and the Peugeot legend in his book *Sapiens: A Brief History of Humankind*](https://ilias.unibe.ch/go/file/3803488){target="_blank"} (in German)\
@@ -234,10 +214,10 @@ Before you set out to explore in the "scavenger hunt through pluralist economics
 
 Exploring Economics is an open project of the Network for Pluralist Economics, which cooperates with various international actors in designing the e-learning platform. The network consists of many local groups and individuals. There are numerous ways to take part and contribute. We believe that this open platform offers a great many good contributions. We have therefore designed a scavenger hunt through the platform so that you can get to know it in a playful way.
 
-::: {.callout-note collapse="false"}
+::: {.callout-caution collapse="false"}
 #### Exercise -- Pluralist economics
 
-In this learning section, you solve the crossword puzzle ["Tour through economic theories"](https://ilias.unibe.ch/go/file/3803483){target="_blank"} (in German) using the [Exploring Economics platform](https://www.exploring-economics.org/en/){target="_blank"}. Under the heading "Orientation" there, you will find solutions to the terms sought in the puzzle. This gives you an overview of the different schools of thought in economics and of how these perspectives influence research and its results. This exercise is voluntary and is meant to allow you to get to know pluralist economics in a playful way.
+In this learning section, you solve the crossword puzzle ["Tour through economic theories"](https://ilias.unibe.ch/go/file/3550892){target="_blank"} using the [Exploring Economics platform](https://www.exploring-economics.org/en/){target="_blank"}. Under the heading "Orientation" there, you will find solutions to the terms sought in the puzzle. This gives you an overview of the different schools of thought in economics and of how these perspectives influence research and its results. This exercise is voluntary and is meant to allow you to get to know pluralist economics in a playful way.You are welcome to contact us to discuss any questions or clarify any uncertainties. On demand we provide you with the solutions of the crossword puzzle.
 
 :::
 

@@ -42,7 +42,7 @@ Following @rogallNachhaltigeOkonomieOkonomische2012 and Novy et al. [-@novyZukun
 
 6.  **Inter- and transdisciplinary collaboration**: The complexity of the challenges requires collaboration across disciplinary boundaries, between science, politics, and society.
 
-::: {.callout-caution collapse="true"}
+::: {.callout-note collapse="true"}
 ### Further reading
 
 If you are interested, you can watch [the statement by Paolo Gentiloni](https://www.youtube.com/watch?v=2rYNewZEazA&t=1129s){target="_blank"} (European Commissioner for Economy) at the Beyond Growth conference to illustrate the green growth position.

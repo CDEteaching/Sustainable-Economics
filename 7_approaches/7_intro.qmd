@@ -31,19 +31,15 @@ By the end of this chapter, students...
 
 ## Approaches of Sustainable Economics
 
-::::::::::: {.content-visible when-format="html"}
-::::: self-study-phase
-::: self-study-phase-header
-Self-study phase
-:::
+::: {.callout-caution}
+#### Self-study phase
 
-::: self-study-phase-body
 Below you will find a list of different approaches within sustainable economics and corresponding material for each approach. Please choose two of the following approaches and work through the material for each of them.
 
 [On Mural](https://app.mural.co/t/cde6674/m/cde6674/1759743384617/4b38e44dea858b12fbb1cca4bc38b88505fed944?sender=ua98dc58f8437b9b336bb4662){target="_blank"}, you will find questions on the approaches. Try to answer the questions for the approaches you have chosen. In this way, you can also gain an overview of the other approaches based on the work of other students. The lecturers will regularly check the Mural board and delete statements that are clearly incorrect or misleading; however, they will not correct every answer.
 :::
-:::::
 
+::::::::::: {.content-visible when-format="html"}
 ### Welfare-capitalist paradigm
 
 ::: panel-tabset
@@ -97,16 +93,6 @@ Further videos:
 :::::::::::
 
 ::: {.content-visible when-format="pdf"}
-```{=latex}
-\begin{selfstudyphase}
-Below you will find a list of different approaches within sustainable economics and corresponding material for each approach. Please choose two of the following approaches and work through the material for each of them.
-
-On Mural, you will find questions on the approaches. Try to answer the questions for the approaches you have chosen. In this way, you can also gain an overview of the other approaches based on the work of other students. The lecturers will regularly check the Mural board and delete statements that are clearly incorrect or misleading; however, they will not correct every answer.
-
-Mural board: \url{https://app.mural.co/t/cde6674/m/cde6674/1759743384617/4b38e44dea858b12fbb1cca4bc38b88505fed944}
-\end{selfstudyphase}
-```
-
 In the online version, the material for each approach is embedded directly (videos and texts). Here you find the links. Texts on ILIAS are only accessible with a UniBE login.
 
 ### Welfare-capitalist paradigm
