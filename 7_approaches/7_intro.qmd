@@ -1,0 +1,95 @@
+---
+title: "Approaches to Sustainable Economics"
+lightbox: true
+format: html
+tbl-cap-location: top
+fig-cap-location: bottom
+---
+
+::: {.callout-note .guiding-question}
+#### Guiding question
+
+What concrete approaches are there for achieving the goals of sustainable economics, and how do they differ?
+:::
+
+As outlined in Chapters 5 and 6, the debates around sustainable economics are shaped by different economic policy paradigms, which draw on various schools of thought within pluralist economics and differ in their understanding of sustainability. Most approaches within sustainable economics can be assigned to the post-growth paradigm. Approaches such as green growth and the circular economy can be derived from the welfare-capitalist paradigm. The market-liberal paradigm lies largely outside the debate on sustainable economics, although certain aspects of it are discussed under green growth, such as the internalization of external effects.
+
+In what follows, we engage more deeply with specific approaches. Since the debates within sustainable economics are very diverse, no definitive or fixed classification of the approaches is possible. Nevertheless, we distinguish between several approaches here. While there are many overlaps among them, in our view they can still be told apart by their distinct emphases. This classification is intended as an orientation. For the approaches within the post-growth paradigm, we follow @schmelzerDegrowthPostwachstumZur2023.
+
+::::: learning
+::: learning-header
+**Learning outcomes**
+:::
+
+::: learning-body
+By the end of this chapter, students...
+
+-   are able to distinguish between the main approaches of sustainable economics.
+-   know the key characteristics, solutions, and concepts of one approach and are able to explain it using examples.
+:::
+:::::
+
+## Approaches of Sustainable Economics
+
+::::: self-study-phase
+::: self-study-phase-header
+Self-study phase
+:::
+
+::: self-study-phase-body
+Below you will find a list of different approaches within sustainable economics and corresponding material for each approach. Please choose two of the following approaches and work through the material for each of them.
+
+[On Mural](https://app.mural.co/t/cde6674/m/cde6674/1759743384617/4b38e44dea858b12fbb1cca4bc38b88505fed944?sender=ua98dc58f8437b9b336bb4662){target="_blank"}, you will find questions on the approaches. Try to answer the questions for the approaches you have chosen. In this way, you can also gain an overview of the other approaches based on the work of other students. The lecturers will regularly check the Mural board and delete statements that are clearly incorrect or misleading; however, they will not correct every answer.
+:::
+:::::
+
+### Welfare-capitalist paradigm
+
+::: panel-tabset
+#### Green growth
+
+[The report by @petschowSocialWellBeingPlanetary2020](https://ilias.unibe.ch/go/file/3512925/download "Only accessible through ILIAS UniBE"){target="_blank"} serves as an introduction and provides an overview of green growth. [This video excerpt](https://tobira.unibe.ch/!v/B96EQrQRZHm){target="_blank"} is from a contribution by Michael Jacobs to the panel "Focus Panel 1 -- Which Prosperous Future? Confronting Narratives of Growth" at the Beyond Growth Conference 2023. If you are interested, you can watch [the full panel discussion](https://www.youtube.com/watch?v=KqtlQcU3PaQ){target="_blank"}.
+
+#### Circular economy
+
+The following video serves as a brief introduction. [The text by Lazarevic and Brandão (2020)](https://ilias.unibe.ch/go/file/3512927/download "Only accessible through ILIAS UniBE"){target="_blank"} provides a more in-depth introduction to the topic. If you are interested, you can read the text by [Bocken et al. (2022)](https://ilias.unibe.ch/go/file/3512928/download "Only accessible through ILIAS UniBE"){target="_blank"} as an additional resource.
+
+{{< video https://www.youtube.com/watch?v=NBEvJwTxs4w >}}
+:::
+
+### Post-growth paradigm
+
+::: panel-tabset
+#### Growth-independent institutions
+
+[The paper by Corlet Walker et al. (2024)](https://ilias.unibe.ch/go/file/3512933/download "Only accessible through ILIAS UniBE"){target="_blank"} presents this approach using the example of the UK welfare system. The following video discusses further how the UK welfare system could be made more independent of growth.
+
+{{< video https://www.youtube.com/watch?v=gK4iuguEDgQ >}}
+
+#### Sufficient lifestyles
+
+This video by Niko Paech, a prominent proponent of this approach, provides an introduction to its main ideas.
+
+{{< video https://www.youtube.com/watch?v=rS3ldLZ_kYE >}}
+
+[The text by Juliet Schor (2008)](https://ilias.unibe.ch/go/file/3512937/download "Only accessible through ILIAS UniBE"){target="_blank"}, a pioneer of research on consumerism in the US, discusses this approach further. The text is relatively old but provides a good overview of the central issues. Especially with regard to working-time reduction, there has been a lot of new research since then, which you are encouraged to explore if you are interested.
+
+{{< video https://www.youtube.com/watch?v=H3eSFIu3D0E >}}
+
+#### Collective action
+
+[The paper by David Bollier (2015)](https://ilias.unibe.ch/go/file/3512934/download "Only accessible through ILIAS UniBE"){target="_blank"} conveys the core idea of such approaches and gives a good overview. The following video on commoning the city discusses more concrete ideas of what this approach might look like.
+
+{{< video https://www.youtube.com/watch?v=qCmJcPkpI98 >}}
+
+Further videos:
+
+-   <https://www.youtube.com/watch?v=4MKu_jB-UkM>
+-   <https://www.youtube.com/watch?v=gydkOrGrs8Q>
+
+#### Overcoming the imperial mode of living
+
+[The text by the I.L.A. Kollektiv](https://ilias.unibe.ch/go/file/3512940/download "Only accessible through ILIAS UniBE"){target="_blank"} provides a concise introduction to the idea of this approach. The following video, taken from a talk by Ulrich Brand, one of the main proponents of this approach, discusses it further.
+
+{{< video https://www.youtube.com/watch?v=4UiT5J0HPHc >}}
+:::

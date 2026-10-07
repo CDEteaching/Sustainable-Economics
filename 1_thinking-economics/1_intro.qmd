@@ -14,8 +14,6 @@ What actually is economics -- and why are there such different ideas about what 
 
 ## What Is Economics?
 
-*↗ Textbook chapters 1 and 2*
-
 The concept of economics is omnipresent in our everyday lives. Economic topics take a prominent place, for example, in newspapers, in our everyday discussions, in political debates, and on social media. And on the evening news, topics are repeatedly put into context by economists from an *economic perspective*. But what exactly is this economic perspective? It quickly seems as if everyone knows exactly what is meant by it. Intuitively, we often associate it with terms such as markets, prices, and finance. In fact, however, neither in the history of the term nor in the present has it been conclusively settled what is meant by economics and thus by the subject matter of economics as a discipline (in German, *Volkswirtschaftslehre*). Since economics is a social science, we are not dealing with laws of nature that we discover and describe. **Rather, there are different perspectives and theories on how we can look at particular questions**. In this context, we speak of schools of economic thought, which differ in their understanding of economics. The distinction is never clear-cut, since there is always overlap between schools of thought and always differences within them. What is understood by economics thus depends strongly on the perspective we take. The debate between schools of economic thought is consequently a constant societal and scientific process of negotiation. Accordingly, there have been and still are different definitions of economics and its subject matter, that is, of what exactly *economics* deals with.
 
 Before we turn in the next chapter to the subject matter of economics and to central terms and concepts, we briefly survey different understandings of economics in history and in the present. To find our own bearings in this negotiation process about the subject matter of economics, it seems central to us to have a rough overview of the different understandings of economics and their subject matter.
@@ -95,25 +93,13 @@ Self-study phase
 :::
 
 ::: self-study-phase-body
-Below you will find excerpts from Walter Ötsch's lecture on the history of economic theory (in German). Walter Ötsch describes how economics developed from a moral science under Adam Smith (1723-1790) into a science with a biologically determined image of the human under Thomas Malthus (1766-1834) and David Ricardo (1772-1823). In this process, metaphors from the natural sciences (clock system, balance equilibrium, computer information) come to bear more and more. The development of neoclassical economics was strongly shaped by this process.
+**Ötsch (2018): download and read at least chapters 4 to 9.**
+
+In this working paper, Walter Ötsch describes how economics developed from a moral science under Adam Smith (1723-1790) into a science with a biologically determined image of the human under Thomas Malthus (1766-1834) and David Ricardo (1772-1823). In this process, metaphors from the natural sciences (clock system, balance equilibrium, computer information) become increasingly important, and economics comes to be seen as "social physics". This process is very illustrative of the development of modern neoclassical economics.
 
 Walter Ötsch is a professor at the University of Society Design (Hochschule für Gesellschaftsgestaltung) in Koblenz. As an economist and cultural historian, he researches and publishes on socio-political and economic topics such as populism and the societal role of markets.
 
-```{=html}
-<iframe src="https://tobira.unibe.ch/~embed/!v/IineOaY_-0I" title="Lecture by Walter Ötsch on the history of economic theory, part 1 of 4" allow="fullscreen" allowfullscreen style="width: 100%; aspect-ratio: 16 / 9; border: 0;"></iframe>
-```
-
-```{=html}
-<iframe src="https://tobira.unibe.ch/~embed/!v/FvPlT5Mw1SS" title="Lecture by Walter Ötsch on the history of economic theory, part 2 of 4" allow="fullscreen" allowfullscreen style="width: 100%; aspect-ratio: 16 / 9; border: 0;"></iframe>
-```
-
-```{=html}
-<iframe src="https://tobira.unibe.ch/~embed/!v/A9ZcKT_PHBK" title="Lecture by Walter Ötsch on the history of economic theory, part 3 of 4" allow="fullscreen" allowfullscreen style="width: 100%; aspect-ratio: 16 / 9; border: 0;"></iframe>
-```
-
-```{=html}
-<iframe src="https://tobira.unibe.ch/~embed/!v/FGDzMNnPoI4" title="Lecture by Walter Ötsch on the history of economic theory, part 4 of 4" allow="fullscreen" allowfullscreen style="width: 100%; aspect-ratio: 16 / 9; border: 0;"></iframe>
-```
+[Download and read Ötsch (2018), at least chapters 4 to 9](https://ilias.unibe.ch/go/file/3524254){target="_blank"}
 :::
 :::::
 ::::::::::
@@ -121,11 +107,13 @@ Walter Ötsch is a professor at the University of Society Design (Hochschule fü
 ::: {.content-visible when-format="pdf"}
 ```{=latex}
 \begin{selfstudyphase}
-In the online version, you will find three video excerpts from Walter Ötsch's lecture on the history of economic theory (in German) at this point. Walter Ötsch describes how economics developed from a moral science under Adam Smith (1723-1790) into a science with a biologically determined image of the human under Thomas Malthus (1766-1834) and David Ricardo (1772-1823). In this process, metaphors from the natural sciences (clock system, balance equilibrium, computer information) come to bear more and more. The development of neoclassical economics was strongly shaped by this process.
+\textbf{Ötsch (2018): download and read at least chapters 4 to 9.}
+
+In this working paper, Walter Ötsch describes how economics developed from a moral science under Adam Smith (1723-1790) into a science with a biologically determined image of the human under Thomas Malthus (1766-1834) and David Ricardo (1772-1823). In this process, metaphors from the natural sciences (clock system, balance equilibrium, computer information) become increasingly important, and economics comes to be seen as ``social physics''. This process is very illustrative of the development of modern neoclassical economics.
 
 Walter Ötsch is a professor at the University of Society Design (Hochschule für Gesellschaftsgestaltung) in Koblenz. As an economist and cultural historian, he researches and publishes on socio-political and economic topics such as populism and the societal role of markets.
 
-You can find the full lecture at: https://www.youtube.com/watch?v=zS3QgFE5ASE
+You can download the working paper on ILIAS: \url{https://ilias.unibe.ch/go/file/3524254}
 \end{selfstudyphase}
 ```
 :::
@@ -249,7 +237,7 @@ Exploring Economics is an open project of the Network for Pluralist Economics, w
 ::: {.callout-note collapse="false"}
 #### Exercise -- Pluralist economics
 
-In this learning section, you solve the crossword puzzle ["Tour through economic theories"](https://ilias.unibe.ch/go/file/3803483){target="_blank"} (in German) using the [Exploring Economics platform](https://www.exploring-economics.org/en/){target="_blank"}. Under the heading "Orientation" there, you will find solutions to the terms sought in the puzzle. This gives you an overview of the different schools of thought in economics and of how these perspectives influence research and its results. This exercise is voluntary and is meant to allow you to get to know pluralist economics in a playful way. The crossword puzzle will not be discussed in the in-person session. You are welcome, however, to use the office hours to discuss questions and points of uncertainty.
+In this learning section, you solve the crossword puzzle ["Tour through economic theories"](https://ilias.unibe.ch/go/file/3803483){target="_blank"} (in German) using the [Exploring Economics platform](https://www.exploring-economics.org/en/){target="_blank"}. Under the heading "Orientation" there, you will find solutions to the terms sought in the puzzle. This gives you an overview of the different schools of thought in economics and of how these perspectives influence research and its results. This exercise is voluntary and is meant to allow you to get to know pluralist economics in a playful way.
 
 :::
 
@@ -258,8 +246,6 @@ In this learning section, you solve the crossword puzzle ["Tour through economic
 In this course, we explicitly orient ourselves in what follows towards an understanding that defines economics through its subject matter and takes no theoretical orientation as the basis of our understanding of economics. Accordingly, this understanding also leaves room to draw on many different approaches and schools of thought to understand economic relationships. In what follows, we therefore first want to approach the subject matter and get to know some basic terms and concepts.
 
 ## Sustainable Economics: The Approach of This Script
-
-*↗ Textbook chapter 5*
 
 As we have seen in this chapter, there is no single economics but a multitude of schools of thought with different basic assumptions, questions, and perspectives on economic phenomena. We have also established that scientific perspectives are never entirely neutral but always already contain value judgements. This script follows the approach of **sustainable economics**. The guiding question is how our economy can be designed sustainably. Sustainable economics thus explicitly has a normative character. We will see that answering this question also depends strongly on the specific understanding of sustainability, but also on fundamental questions about the goals of economic activity and on the understanding of the subject matter of economics itself.
 

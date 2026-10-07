@@ -33,25 +33,25 @@ from cde_style import (
 )
 
 # ── DATA — edit this block ──────────────────────────────────────────────────
-TITLE = "Arbeitslosigkeit in der Schweiz"
-SUBTITLE = "Registrierte Arbeitslose (Anzahl) und Arbeitslosenquote (%), 1920–2025"
+TITLE = "Unemployment in Switzerland"
+SUBTITLE = "Registered unemployed (number) and unemployment rate (%), 1920–2025"
 
 HSSO_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hsso_f18a_full_1913-1995.csv")
 SECO_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seco_amarbma_full_1984-2025.csv")
 YEAR_START, YEAR_HSSO_END, YEAR_SECO_START, YEAR_END = 1920, 1995, 1996, 2025
 
-SERIES_LEFT_NAME = "Arbeitslosenquote"
-LEFT_Y_LABEL = "Arbeitslosenquote (%)"
+SERIES_LEFT_NAME = "Unemployment rate"
+LEFT_Y_LABEL = "Unemployment rate (%)"
 LEFT_VALUE_FMT = "{:.2f}%"
 
-SERIES_RIGHT_NAME = "Arbeitslose"
-RIGHT_Y_LABEL = "Registrierte Arbeitslose (Anzahl)"
+SERIES_RIGHT_NAME = "Unemployed"
+RIGHT_Y_LABEL = "Registered unemployed (number)"
 RIGHT_VALUE_FMT = "{:,.0f}"
 
 X_TICKS = [1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020, 2025]
-SOURCE_NOTE = "Quelle: 1920–1995 Historische Statistik der Schweiz HSSO, Tab. F.18a; 1996–2025 SNB-Datenportal (Reihe SECO amarbma, Total)"
-LANG = "de"
-OUT_NAME = "abbildung11-arbeitslosenquote-schweiz"
+SOURCE_NOTE = "Source: 1920–1995 Historical Statistics of Switzerland HSSO, table F.18a; 1996–2025 SNB data portal (SECO series amarbma, total)"
+LANG = "en"
+OUT_NAME = "figure11-unemployment-rate-switzerland"
 OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 # ─────────────────────────────────────────────────────────────────────────
 
@@ -65,12 +65,12 @@ with open(HSSO_CSV, encoding="utf-8") as f:
     for row in csv.DictReader(f):
         y = int(row["year"])
         if YEAR_START <= y <= YEAR_HSSO_END:
-            by_year[y] = (float(row["registrierte_arbeitslose_total"]), float(row["arbeitslosenquote_pct"]))
+            by_year[y] = (float(row["registered_unemployed_total"]), float(row["unemployment_rate_pct"]))
 with open(SECO_CSV, encoding="utf-8") as f:
     for row in csv.DictReader(f):
         y = int(row["year"])
         if YEAR_SECO_START <= y <= YEAR_END:
-            by_year[y] = (float(row["registrierte_arbeitslose_jahresdurchschnitt"]), float(row["arbeitslosenquote_pct_jahresdurchschnitt"]))
+            by_year[y] = (float(row["registered_unemployed_annual_mean"]), float(row["unemployment_rate_pct_annual_mean"]))
 
 years = sorted(by_year)
 count = [by_year[y][0] for y in years]

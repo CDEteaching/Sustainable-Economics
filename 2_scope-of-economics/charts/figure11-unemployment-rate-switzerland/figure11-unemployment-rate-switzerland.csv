@@ -1,4 +1,4 @@
-Jahr,Arbeitslosenquote (%),Registrierte Arbeitslose (Anzahl),Quelle
+year,unemployment_rate_pct,registered_unemployed,source
 1920,0.613,11539.5,HSSO F.18a
 1921,3.018,58466,HSSO F.18a
 1922,3.431,66995,HSSO F.18a

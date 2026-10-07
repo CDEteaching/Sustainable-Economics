@@ -1,0 +1,14 @@
+# Website profile (default): all chapters, including the online-only Chapter 7.
+book:
+  chapters:
+  - index.qmd
+  - part: "Sustainable Economics"
+    chapters:
+    - 1_thinking-economics/1_intro.qmd
+    - 2_scope-of-economics/2_intro.qmd
+    - 3_problem-analysis/3_intro.qmd
+    - 4_strategies/4_intro.qmd
+    - 5_state-and-guiding-models/5_intro.qmd
+    - 6_synthesis/6_intro.qmd
+    - 7_approaches/7_intro.qmd
+  - references.qmd

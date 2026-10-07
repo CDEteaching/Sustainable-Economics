@@ -55,7 +55,7 @@ Self-study phase
 :::
 
 ::: self-study-phase-body
-Several in-depth questions are listed for each subsection. On the one hand, these serve to check your own knowledge of the respective area; on the other hand, they are also meant to prompt thought and reflection. If questions remain open on individual contents, or if you need a more in-depth engagement, you can use the [forum for questions and discussions on the content](https://ilias.unibe.ch/go/frm/3803444){target="_blank"}. Here, students can support one another during the self-study phase, and the lecturers have the opportunity to answer questions for all course participants together. You are also welcome to use the office hours on 1 October 2026 for questions and a deeper engagement. Please register for them via ILIAS by 30 September at 23:55. Of course, questions and thoughts can also be discussed in the in-person sessions.
+Several in-depth questions are listed for each subsection. On the one hand, these serve to check your own knowledge of the respective area; on the other hand, they are also meant to prompt thought and reflection. If questions remain open on individual contents, or if you need a more in-depth engagement, you can use the [forum for questions and discussions on the content](https://ilias.unibe.ch/go/frm/3803444){target="_blank"}. Here, students can support one another during the self-study phase, and the lecturers have the opportunity to answer questions for all course participants together.
 :::
 :::::
 ::::::
@@ -63,14 +63,12 @@ Several in-depth questions are listed for each subsection. On the one hand, thes
 ::: {.content-visible when-format="pdf"}
 ```{=latex}
 \begin{selfstudyphase}
-Several in-depth questions are listed for each subsection. On the one hand, these serve to check your own knowledge of the respective area; on the other hand, they are also meant to prompt thought and reflection. If questions remain open on individual contents, or if you need a more in-depth engagement, you can use the forum for questions and discussions on the content. Here, students can support one another during the self-study phase, and the lecturers have the opportunity to answer questions for all course participants together. You are also welcome to use the office hours on 1 October 2026 for questions and a deeper engagement. Please register for them via ILIAS by 30 September at 23:55. Of course, questions and thoughts can also be discussed in the in-person sessions.
+Several in-depth questions are listed for each subsection. On the one hand, these serve to check your own knowledge of the respective area; on the other hand, they are also meant to prompt thought and reflection. If questions remain open on individual contents, or if you need a more in-depth engagement, you can use the forum for questions and discussions on the content. Here, students can support one another during the self-study phase, and the lecturers have the opportunity to answer questions for all course participants together.
 \end{selfstudyphase}
 ```
 :::
 
 ## Prosperity in a Changing World
-
-*↗ Textbook chapter 3*
 
 ::: {.callout-note .guiding-question}
 #### Guiding question
@@ -125,8 +123,6 @@ To illustrate how far different indicators can diverge, @fig-gpi-gdp shows the c
 ![GPI vs. GDP per capita. Source: Own illustration with data from @kubiszewskiGDPMeasuringAchieving2013 [p. 63].](images/fig3.png){#fig-gpi-gdp}
 
 ### Economic growth
-
-*↗ Textbook chapter 4*
 
 If prosperity is mostly measured by GDP, then the *increase* in this prosperity over time -- economic growth -- almost automatically becomes the central political goal. Economic growth refers to the increase in a country's economic output over time, usually measured by the development of GDP. It is the central target variable for politics, society, and the economy -- so central that @schmelzerDegrowthPostwachstum2019 [pp. 62-68] speak of the **growth paradigm**.
 
@@ -188,8 +184,6 @@ Back to the guiding question: prosperity thus does not arise through market exch
 
 ## (Re)production Factors
 
-*↗ Textbook chapter 16*
-
 ::: {.callout-note .guiding-question}
 #### Guiding question
 
@@ -206,8 +200,6 @@ In what follows, we turn to the three classical factors of production -- land, c
 
 ### Land -- can we replace nature with technology at will?
 
-*↗ Textbook chapter 13*
-
 The factor of production land often covers not only the area or ground itself but also the natural environment. The question is often how land and natural resources are handled and how they are used. These questions affect us very directly in everyday life. The design of living space, for example, is of central importance for all of us. But how we deal with agricultural land, forests, lakes, and the living beings within them also plays a central role in our everyday lives. In addition, land and natural resources are an elementary factor for the production of goods and services. Land is indispensable for production, whether for factories or agriculture. But natural resources such as water and rare earths are also central as inputs for production.
 
 What is special about land is that, on the one hand, it has unchangeable natural characteristics (for example land is immobile and cannot be multiplied), while, on the other hand, how it is handled is very strongly socially determined (for example rights of ownership, access, and use). This starting point means that the handling of land has a great deal of conflict potential, is necessarily linked to questions of distribution, and can also be an important aspect of inequality. Accordingly, questions about the handling of land are deeply political.
@@ -223,8 +215,6 @@ In contrast, there is a fundamentally different understanding of land and natura
 Whether nature can be replaced by technology at will is thus not a purely technical question but a theoretically and politically charged one. In Chapter 3.1, we go deeper into different understandings of nature and their consequences. What is important to take away here above all is that land, and its significance for economic life, can be understood and conceptualized in different ways. In addition, land and natural resources have some unchangeable, natural characteristics. Who has access to them, however, is not subject to any natural economic law but is the result of economic, political, and social structures.
 
 ### Capital -- why do some people own capital and others do not?
-
-*↗ Textbook chapter 11*
 
 We encounter capital every day in various forms, yet the term mostly hides in rather technical vocabulary. With a certain amount of start-up capital, for example, we can found a company, invest money in a capital investment (for example buying securities), or invest in our own education, which is referred to as human capital. Not least, our economic system -- capitalism -- is named after the (company) capital that empowers its owners to make the decisions that matter for the company. Accordingly, it must play an important role. But what exactly is it? The examples given already show that an important aspect is that one invests (in) something that is later supposed to yield a return (a *capital* return): by investing start-up capital, I want to build a company that later makes profits, the purchase of securities is supposed to yield regular interest, and the investment in education is supposed to pay off through a higher wage in working life. But do these examples all refer to capital to the same extent, or are there differences? Again, this question is answered differently depending on the perspective.
 
@@ -245,8 +235,6 @@ To distinguish it from money: mere money is not yet capital in this understandin
 Although public debates often act as if it were entirely clear what is meant by "capital", quite different understandings appear here -- and with them different answers to our guiding question. Whether inequality in capital ownership is understood as the result of individual decisions, as a structural power relation, or as a self-reinforcing wealth advantage depends on which concept of capital we take as a basis. It is therefore central to be aware of which concept of capital we use and for what purpose.
 
 ### Labour -- why do I earn as much as I do -- and why is some work, such as care work, often not paid at all?
-
-*↗ Textbook chapter 12*
 
 Labour is the third factor of production and is necessary so that goods and services can be obtained from raw materials. Coordinating, mental, and executing activities are necessary for the purposeful use of capital in order to be able to produce. Labour is thus a central factor for value creation. In many cases, labour also determines people's everyday lives and takes a central role in economic policy reporting, for example through discussions of unemployment, employment figures, and minimum wages. This often concerns a specific form of labour: **paid employment.**[^2_intro-2]
 
@@ -284,13 +272,13 @@ As with questions about working time and wages, the schools of thought also see 
 
 The following figure shows the development of the unemployment rate in Switzerland since 1920. Unemployment was and is very low in Switzerland in international comparison. Especially during the post-war economic boom, there was almost no unemployment in Switzerland, which is why Switzerland brought in many workers from abroad -- who often worked under precarious conditions [@degenArbeitUndKapital2012]. Only with the crisis of the 1970s did unemployment return to Switzerland, although Switzerland prevented a sharp rise by exporting unemployment abroad -- by 1977, almost 250,000 foreign workers had to leave the country [@degenArbeitUndKapital2012, p. 910].
 
-![Unemployment in Switzerland 1920-2025. Source: Own illustration based on data from the Statistical Yearbook of Switzerland (1920-1996) and from SECO (1997-2019).](charts/figure11-unemployment-rate-switzerland/figure11-unemployment-rate-switzerland.png)
+![Unemployment in Switzerland 1920-2025. Source: Own illustration based on data from the Historical Statistics of Switzerland HSSO (1920-1995) and from SECO via the SNB data portal (1996-2025).](charts/figure11-unemployment-rate-switzerland/figure11-unemployment-rate-switzerland.png)
 
 #### Unpaid work
 
 Since 1997, the Federal Statistical Office (FSO) has recorded the monetary value and the quantity of unpaid work in Switzerland every four years with the household production satellite account ([SHHP](https://www.bfs.admin.ch/bfs/de/home/statistiken/arbeit-erwerb/erwerbstaetigkeit-arbeitszeit/vereinbarkeit-unbezahlte-arbeit/satellitenkonto-haushaltsproduktion.html){target="_blank"}). In Switzerland in 2020, 9.8 billion hours were worked unpaid (mostly by women), more than were spent on paid work (7.6 billion hours). All unpaid work in 2020 is estimated at a value of CHF 434 billion. If GDP is extended by total household production, the latter corresponds to 41.4% of the value added of the extended total economy. @fig-unpaid-paid shows how paid and unpaid work are distributed between the genders. Overall, women perform somewhat more working hours per week than men; the big difference is that the majority of these are not paid.
 
-![Time spent on paid and unpaid work, 2010-2024. Source: FSO (https://www.bfs.admin.ch/bfs/de/home/statistiken/arbeit-erwerb/erwerbstaetigkeit-arbeitszeit/vereinbarkeit-unbezahlte-arbeit.html).](images/fig5.png){#fig-unpaid-paid}
+![Time spent in paid and unpaid work, 2010-2024. Source: FSO, Swiss Labour Force Survey (SLFS), module "Unpaid work" (<https://www.bfs.admin.ch/bfs/en/home/statistics/work-income/employment-working-hours/balancing-unpaid-work.html>).](images/fig5.png){#fig-unpaid-paid}
 
 The question "Why do I earn as much as I do?" thus cannot be answered by individual productivity alone. It depends on which activities count as "work" at all, on how bargaining power and institutions shape the labour market, and on which historically grown norms determine whose work is visible and remunerated. Care work often remains unpaid -- not because it would be less necessary, but because our present notion of "productive" work is historically tied to the rise of paid employment in capitalism.
 
@@ -368,8 +356,6 @@ In categorizing goods, it should also be noted that this involves a reification.
 ::: callout-tip
 #### The tragedy of the commons and how to overcome it
 
-*↗ Textbook chapter 19*
-
 Actors cannot be excluded from the consumption of public and common-pool goods. This can result in overuse of these goods, which Garrett Hardin [-@hardinTragedyCommons1968] described as the tragedy of the commons. Privatization of these goods (so-called *enclosure*) is often put forward as a solution: through the allocation of clear property rights, actors can be excluded from use.
 
 Elinor Ostrom researched the same topic and observed how overuse can be counteracted through self-organized cooperation within clear boundaries even without the allocation of property rights. Working solutions against the overuse of non-excludable goods are, however, strongly context-dependent and thus hard to generalize. For her research on commons, Ostrom was awarded the Nobel Memorial Prize in Economic Sciences in 2009 [@ostromMarketsStatesPolycentric2010]. Commons research, which by now is rich, knows many studied examples of commons that were not overused and did not fall victim to the tragedy. There are examples of commons that have been managed collectively and sustainably for centuries [see, for example, @dekeyzerInclusiveCommonsSustainability2018; @demoorDilemmaCommonersUnderstanding2015]. The commons research of Ostrom and others accordingly shows that there are solutions beyond privatization and nationalization for preventing the tragedy of the commons. This also fundamentally breaks up the dichotomy of market and state and opens up points of connection beyond these two spheres. In Chapter 5, we turn in more detail to the relationship between market and state.
@@ -423,8 +409,6 @@ df |>
 :::
 
 ## Abstract Markets or Capitalist Production System
-
-*↗ Textbook chapter 18*
 
 ::: {.callout-note .guiding-question}
 #### Guiding question
@@ -534,9 +518,26 @@ This market mechanism of coordinating supply and demand is applied to various ma
 
 Given the great importance of the price mechanism for the functioning of markets, the price level in an economy is one of the most important variables that is observed and analysed. Price-level stability is measured by the inflation rate of goods and services. With low inflation of up to 2%, one speaks of a stable price level. Statistical offices use a standardized "basket of goods" to record how the price index of the cost of living changes over time. The composition of the basket differs between countries and mostly covers only goods markets, not capital markets.
 
-In Switzerland, the Federal Statistical Office (FSO) compiles the [Swiss Consumer Price Index (CPI)](https://www.bfs.admin.ch/bfs/de/home/statistiken/preise/erhebungen/lik/warenkorb.html){target="_blank"}. The figure below shows which consumer goods make up this index and in what proportions. The basket contains "the most important goods and services consumed by private households" [our translation]. The weighting is based on annual household surveys and is meant to reflect their actual consumption behaviour as accurately as possible.
+In Switzerland, the Federal Statistical Office (FSO) compiles the [Swiss Consumer Price Index (CPI)](https://www.bfs.admin.ch/bfs/de/home/statistiken/preise/erhebungen/lik/warenkorb.html){target="_blank"}. The table below shows which consumer goods make up this index and in what proportions. The basket contains "the most important goods and services consumed by private households" [our translation]. The weighting is based on annual household surveys and is meant to reflect their actual consumption behaviour as accurately as possible.
 
-![Composition of the basket of goods for the Swiss Consumer Price Index 2026. Source: @bfsLIK2026.](images/fig12.png)
+| Category                                  | Weight in % |
+|-------------------------------------------|------------:|
+| **Total**                                 | **100.000** |
+| Food and non-alcoholic beverages          |      10.307 |
+| Alcoholic beverages and tobacco           |       3.468 |
+| Clothing and footwear                     |       2.420 |
+| Housing and energy                        |      25.595 |
+| Household goods and housekeeping          |       3.302 |
+| Health                                    |      17.379 |
+| Transport                                 |      10.715 |
+| Information and communication             |       3.279 |
+| Leisure, sport, and culture               |       7.501 |
+| Education                                 |       0.851 |
+| Restaurants and hotels                    |       9.568 |
+| Insurance and financial services          |       2.252 |
+| Other goods and services                  |       3.363 |
+
+: Composition of the basket of goods for the Swiss Consumer Price Index (CPI) and weights, 2026. Source: @bfsLIK2026 (original in German, own translation). {#tbl-cpi-basket}
 :::
 
 ::: {.callout-tip collapse="true"}

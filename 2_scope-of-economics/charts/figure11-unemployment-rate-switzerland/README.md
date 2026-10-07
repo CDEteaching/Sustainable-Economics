@@ -1,28 +1,30 @@
-# Abbildung 11 — Arbeitslosigkeit in der Schweiz
+# Figure 11 — Unemployment in Switzerland
 
-CDE-Style-Grafik für `2_gegenstandsbereich/2_intro.qmd`, Abbildung 11. Zeigt **zwei Reihen auf zwei unabhängigen y-Achsen**: die Arbeitslosenquote (%, linke Achse) und die absolute Zahl registrierter Arbeitsloser (rechte Achse).
+CDE-style chart for `2_scope-of-economics/2_intro.qmd` (unemployment section). Shows **two series on two independent y-axes**: the unemployment rate (%, left axis) and the number of registered unemployed (right axis).
 
-Kein Standard-`cde-charts`-Template: `line_chart.py` unterstützt nur eine y-Achse mit bis zu 4 Reihen in derselben Einheit. Für diesen Fall wurde ein eigenständiges `dual_axis_chart.py` in diesem Ordner geschrieben, das dieselben `cde_style.py`-Bausteine (Farben, Schrift, Footer, PNG/GIF-Export) verwendet, aber `ax.twinx()` für die zweite Achse einsetzt.
+Not a standard `cde-charts` template: `line_chart.py` only supports one y-axis with up to 4 series in the same unit. A stand-alone `dual_axis_chart.py` was therefore written for this chart. It uses the same `cde_style.py` building blocks (colours, font, footer, PNG/GIF export) but adds a second axis with `ax.twinx()`.
 
-## Datenquellen
+English version of the chart in the German script (`Nachhaltig-Wirtschaften`, `abbildung11-arbeitslosenquote-schweiz`), same data, labels translated on 2026-10-07.
 
-1. **1920–1995**: **Historische Statistik der Schweiz (HSSO)**, Tab. F.18a „Stellensuchende und Arbeitslosenquote nach Geschlecht im Jahresmittel 1913–1995".
-   - Spalte „Total" (Ganzarbeitslose + Übrige, Total) → registrierte Arbeitslose (Anzahl).
-   - Spalte „Arbeitslosenquote (4)", Total → Arbeitslosenquote (%).
-   - Quelle: `https://hsso.ch/de/2012/f/18a`, XLSX-Download `https://hsso.ch/get/F.18a.xlsx`, heruntergeladen am 2026-08-17.
-2. **1996–2025**: **SNB-Datenportal**, Cube `amarbma` (Arbeitsmarkt) — Serie „Registrierte Arbeitslose – Total" (Anzahl) und Serie „Arbeitslosenquote – Total" (%, nicht saisonbereinigt); beides von SECO erhoben, von der SNB weiterveröffentlicht.
-   - Quelle: `https://data.snb.ch/api/cube/amarbma/data/json/de`, heruntergeladen am 2026-08-17.
-   - Aus den Monatswerten wurde pro Jahr das arithmetische Mittel der 12 Monatswerte gebildet (Jahresdurchschnitt). 2025 ist bereits ein vollständiges Jahr (12 Monate) und wurde einbezogen; 2026 (bisher nur 6 Monate) wurde nicht verwendet, um nur vollständige Jahresdurchschnitte zu zeigen.
+## Data sources
 
-## Transparenzhinweis
+1. **1920–1995**: **Historical Statistics of Switzerland (HSSO)**, table F.18a "Job seekers and unemployment rate by sex, annual mean 1913–1995".
+   - Column "Total" (fully unemployed + others, total) → registered unemployed (number).
+   - Column "Unemployment rate (4)", total → unemployment rate (%).
+   - Source: `https://hsso.ch/de/2012/f/18a`, XLSX download `https://hsso.ch/get/F.18a.xlsx`, downloaded 2026-08-17.
+2. **1996–2025**: **SNB data portal**, cube `amarbma` (labour market): series "Registered unemployed – total" (number) and "Unemployment rate – total" (%, not seasonally adjusted); both collected by SECO and republished by the SNB.
+   - Source: `https://data.snb.ch/api/cube/amarbma/data/json/de`, downloaded 2026-08-17.
+   - Annual values are the arithmetic mean of the 12 monthly values. 2025 is a complete year (12 months) and is included; 2026 (only 6 months at download) is not used, so that only complete annual means are shown.
 
-Diese Grafik wurde mit Unterstützung von Claude Code (Anthropic) erstellt — Transparenzhinweis gem. Art. 50 EU AI Act.
+## Transparency notice
 
-## Dateien
+This chart was created with the assistance of Claude Code (Anthropic) — transparency notice per EU AI Act Art. 50.
 
-- `abbildung11-arbeitslosenquote-schweiz.png` — eingebunden als `../../images/abb16.png` im qmd.
-- `abbildung11-arbeitslosenquote-schweiz.gif` — animierte Variante für eine Präsentation, falls gebraucht.
-- `abbildung11-arbeitslosenquote-schweiz.csv` — alle 106 geplotteten Werte (Quote + Anzahl, 1920–2025, ungekürzt) mit Quellenspalte pro Zeile — das ist jetzt identisch mit dem, was tatsächlich im Chart steht.
-- `hsso_f18a_full_1913-1995.csv` — Rohauszug direkt aus der HSSO-Quelldatei (1913–1995, weiter zurückreichend als der Chart), zur unabhängigen Prüfung gegen die Originalquelle.
-- `seco_amarbma_full_1984-2025.csv` — Rohauszug direkt aus der SNB-Quelldatei (1984–2025, weiter zurückreichend als der Chart), zur unabhängigen Prüfung gegen die Originalquelle.
-- `dual_axis_chart.py` + `cde_style.py` — das Skript, das die Grafik erzeugt (liest die beiden Rohauszüge oben direkt ein).
+## Files
+
+- `figure11-unemployment-rate-switzerland.png` — embedded directly in the qmd.
+- `figure11-unemployment-rate-switzerland.gif` — animated version for a presentation, if needed.
+- `figure11-unemployment-rate-switzerland.csv` — all 106 plotted values (rate + number, 1920–2025) with a source column per row.
+- `hsso_f18a_full_1913-1995.csv` — raw extract from the HSSO source file (1913–1995), for independent checking against the original.
+- `seco_amarbma_full_1984-2025.csv` — raw extract from the SNB source file (1984–2025), for independent checking against the original.
+- `dual_axis_chart.py` + `cde_style.py` — the script that produces the chart (reads the two raw extracts above).

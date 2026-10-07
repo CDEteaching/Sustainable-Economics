@@ -42,28 +42,6 @@ Following @rogallNachhaltigeOkonomieOkonomische2012 and Novy et al. [-@novyZukun
 
 6.  **Inter- and transdisciplinary collaboration**: The complexity of the challenges requires collaboration across disciplinary boundaries, between science, politics, and society.
 
-## Outlook: Approaches in the Self-Study Phase
-
-In the following self-study phases, we want to look more closely at possible approaches to sustainable economics and explore how we can achieve its goals. We will see that the possible approaches differ depending on which economic policy paradigm we take as our basis. We will focus on approaches within the welfare-capitalist paradigm and the post-growth paradigm, since, in our view, the market-liberal paradigm lies largely outside sustainable economics. In the next self-study phase, we will address the following approaches:
-
-Welfare-capitalist paradigm:
-
-- Green growth
-
-- Circular economy
-
-Post-growth paradigm:
-
-- Growth-independent institutions
-
-- Sufficient lifestyles
-
-- Collective action
-
-- Caring economy
-
-- Overcoming the imperial mode of living
-
 ::: {.callout-caution collapse="true"}
 ### Further reading
 

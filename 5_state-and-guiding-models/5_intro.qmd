@@ -6,8 +6,6 @@ tbl-cap-location: top
 fig-cap-location: bottom
 ---
 
-*↗ Textbook chapters 10 and 21*
-
 ::: {.callout-note .guiding-question collapse="false"}
 #### Guiding question
 
@@ -22,7 +20,7 @@ These different ideas about the state and the market do not simply stand side by
 
 ## Why "Market vs. State" Is Historically Not a Given
 
-![SRF report, 15 March 2023. Source: <https://www.srf.ch/news/schweiz/wohnungen-werden-knapper-staatliche-wohnbaufoerderung-oder-mehr-freier-markt>.](images/fig1.png)
+![SRF report, 15 March 2023. Translation: "Housing is becoming scarcer. State promotion of housing construction or more free market? There are many recipes against the looming housing shortage. One thing seems clear: something must be done soon." Source: <https://www.srf.ch/news/schweiz/wohnungen-werden-knapper-staatliche-wohnbaufoerderung-oder-mehr-freier-markt>.](images/fig1.png)
 
 That we can speak at all of the state "intervening in the market" is not a universal historical truth. For people who lived before the emergence of modern capitalism, this formulation would simply have made no sense. In this chapter, we explore the specific role of the state in capitalism and how the actions of state institutions in relation to the economy can be explained.
 

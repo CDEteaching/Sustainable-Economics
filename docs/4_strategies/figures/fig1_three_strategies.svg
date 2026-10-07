@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="547.2pt" viewBox="0 0 1008 547.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-07T11:41:19.435303</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 547.2 
+L 1008 547.2 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 252 306.36 
+C 284.747279 306.36 316.157722 293.349368 339.313545 270.193545 
+C 362.469368 247.037722 375.48 215.627279 375.48 182.88 
+C 375.48 150.132721 362.469368 118.722278 339.313545 95.566455 
+C 316.157722 72.410632 284.747279 59.4 252 59.4 
+C 219.252721 59.4 187.842278 72.410632 164.686455 95.566455 
+C 141.530632 118.722278 128.52 150.132721 128.52 182.88 
+C 128.52 215.627279 141.530632 247.037722 164.686455 270.193545 
+C 187.842278 293.349368 219.252721 306.36 252 306.36 
+z
+" clip-path="url(#p10e9bc7a3b)" style="fill: #869e2f; opacity: 0.78"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 163.8 450 
+C 196.547279 450 227.957722 436.989368 251.113545 413.833545 
+C 274.269368 390.677722 287.28 359.267279 287.28 326.52 
+C 287.28 293.772721 274.269368 262.362278 251.113545 239.206455 
+C 227.957722 216.050632 196.547279 203.04 163.8 203.04 
+C 131.052721 203.04 99.642278 216.050632 76.486455 239.206455 
+C 53.330632 262.362278 40.32 293.772721 40.32 326.52 
+C 40.32 359.267279 53.330632 390.677722 76.486455 413.833545 
+C 99.642278 436.989368 131.052721 450 163.8 450 
+z
+" clip-path="url(#p10e9bc7a3b)" style="fill: #e54d23; opacity: 0.78"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 340.2 450 
+C 372.947279 450 404.357722 436.989368 427.513545 413.833545 
+C 450.669368 390.677722 463.68 359.267279 463.68 326.52 
+C 463.68 293.772721 450.669368 262.362278 427.513545 239.206455 
+C 404.357722 216.050632 372.947279 203.04 340.2 203.04 
+C 307.452721 203.04 276.042278 216.050632 252.886455 239.206455 
+C 229.730632 262.362278 216.72 293.772721 216.72 326.52 
+C 216.72 359.267279 229.730632 390.677722 252.886455 413.833545 
+C 276.042278 436.989368 307.452721 450 340.2 450 
+z
+" clip-path="url(#p10e9bc7a3b)" style="fill: #003a70; opacity: 0.78"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 756 306.36 
+C 788.747279 306.36 820.157722 293.349368 843.313545 270.193545 
+C 866.469368 247.037722 879.48 215.627279 879.48 182.88 
+C 879.48 150.132721 866.469368 118.722278 843.313545 95.566455 
+C 820.157722 72.410632 788.747279 59.4 756 59.4 
+C 723.252721 59.4 691.842278 72.410632 668.686455 95.566455 
+C 645.530632 118.722278 632.52 150.132721 632.52 182.88 
+C 632.52 215.627279 645.530632 247.037722 668.686455 270.193545 
+C 691.842278 293.349368 723.252721 306.36 756 306.36 
+z
+" clip-path="url(#p10e9bc7a3b)" style="fill: #869e2f; opacity: 0.78"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 667.8 450 
+C 700.547279 450 731.957722 436.989368 755.113545 413.833545 
+C 778.269368 390.677722 791.28 359.267279 791.28 326.52 
+C 791.28 293.772721 778.269368 262.362278 755.113545 239.206455 
+C 731.957722 216.050632 700.547279 203.04 667.8 203.04 
+C 635.052721 203.04 603.642278 216.050632 580.486455 239.206455 
+C 557.330632 262.362278 544.32 293.772721 544.32 326.52 
+C 544.32 359.267279 557.330632 390.677722 580.486455 413.833545 
+C 603.642278 436.989368 635.052721 450 667.8 450 
+z
+" clip-path="url(#p10e9bc7a3b)" style="fill: #e54d23; opacity: 0.78"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 844.2 450 
+C 876.947279 450 908.357722 436.989368 931.513545 413.833545 
+C 954.669368 390.677722 967.68 359.267279 967.68 326.52 
+C 967.68 293.772721 954.669368 262.362278 931.513545 239.206455 
+C 908.357722 216.050632 876.947279 203.04 844.2 203.04 
+C 811.452721 203.04 780.042278 216.050632 756.886455 239.206455 
+C 733.730632 262.362278 720.72 293.772721 720.72 326.52 
+C 720.72 359.267279 733.730632 390.677722 756.886455 413.833545 
+C 780.042278 436.989368 811.452721 450 844.2 450 
+z
+" clip-path="url(#p10e9bc7a3b)" style="fill: #003a70; opacity: 0.78"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Roboto'; text-anchor: middle; fill: #6b685f" x="252" y="28.221563" transform="rotate(-0 252 28.221563)">Individual level</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Roboto'; text-anchor: middle; fill: #6b685f" x="756" y="28.221563" transform="rotate(-0 756 28.221563)">Societal level</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Roboto'; text-anchor: middle; fill: #ffffff" x="252" y="115.874687" transform="rotate(-0 252 115.874687)">Sufficiency</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(214.296797 169.62293)">“What do I really</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(214.565039 181.707773)">need, and why?”</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Roboto'; text-anchor: middle; fill: #ffffff" x="133.56" y="309.780625" transform="rotate(-0 133.56 309.780625)">Consistency</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(94.295742 357.734531)">“How can I make</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(106.70543 369.711094)">what I need</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(102.301172 381.687656)">sustainable?”</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Roboto'; text-anchor: middle; fill: #ffffff" x="370.44" y="309.914688" transform="rotate(-0 370.44 309.914688)">Efficiency</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(322.77082 351.74625)">“How can I minimize</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(334.827773 363.722812)">resource use in</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(335.228906 375.699375)">production and</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(335.420859 387.675937)">consumption?”</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Roboto'; text-anchor: middle; fill: #ffffff" x="756" y="115.874687" transform="rotate(-0 756 115.874687)">Sufficiency</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(715.726758 163.58625)">“What do we as a</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(711.800742 175.562812)">society really need,</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(732.315117 187.647656)">and why?”</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Roboto'; text-anchor: middle; fill: #ffffff" x="637.56" y="309.780625" transform="rotate(-0 637.56 309.780625)">Consistency</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(592.997344 357.734531)">“How can we make</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(605.407031 369.711094)">what we need</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(606.301172 381.687656)">sustainable?”</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Roboto'; text-anchor: middle; fill: #ffffff" x="874.44" y="309.914688" transform="rotate(-0 874.44 309.914688)">Efficiency</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(833.059336 357.680391)">“How can we as a</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(835.132266 369.656953)">society minimize</text>
+    <text style="font-size: 10.5px; font-family: 'Roboto'; fill: #ffffff" transform="translate(839.945039 381.741797)">resource use?”</text>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 7px; font-family: 'Roboto'; text-anchor: start; fill: #6b685f" x="20.16" y="539.026881" transform="rotate(-0 20.16 539.026881)">Figure created with the assistance of Claude Code (Anthropic) — transparency notice per EU AI Act Art. 50.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p10e9bc7a3b">
+   <rect x="0" y="1.44" width="1008" height="544.32"/>
+  </clipPath>
+ </defs>
+</svg>
