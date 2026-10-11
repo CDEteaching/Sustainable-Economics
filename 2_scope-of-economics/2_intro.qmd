@@ -84,8 +84,6 @@ This warning can be made concrete through several central points of criticism --
 
 - GDP is based on annual growth rates, which favours short-term thinking -- at the expense of long-term sustainability goals.
 
-In this excerpt from an [Arte documentary on economic growth (minutes 6:57-11:51)](https://www.youtube.com/watch?t=417&v=2Kl69bWbXnY&themeRefresh=1){target="_blank"}, the economists Irmi Seidl and Nils aus dem Moore illustrate the points of criticism of GDP set out here.
-
 @fig-GDP-CH shows how GDP per capita in Switzerland has developed over the last 150 years. It becomes apparent that GDP in Switzerland rose sharply above all in the post-war period. @fig-GDP-CH-comparison shows the development of Switzerland's GDP in comparison with selected other countries over the last 70 years.
 
 ![Development of GDP per capita in Switzerland at 2011 prices in USD. Source: Own illustration with data from The Maddison Project (2020).](images/fig0.png){#fig-GDP-CH}
