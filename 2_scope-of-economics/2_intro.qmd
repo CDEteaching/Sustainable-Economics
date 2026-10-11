@@ -418,7 +418,7 @@ Source: Own illustrations after @rogallVolkswirtschaftslehreFuerSozialwissenscha
 
 Other schools of thought take other forms of provision into consideration more explicitly. Feminist economics, for example, emphasizes the importance of unpaid work as the basis of the paid economy. Accordingly, it takes an important role in the depiction of economic activities. For illustration, @fig-circular-flow-model shows the circular flow model by Diane Elson, which makes unpaid work visible. Ecological economics also includes nature in such depictions, since nature too provides the basis for all economic activity. In Chapter 3.1, we will look at this in more detail.
 
-![Circular flow model including unpaid work. Source: Own illustration based on @elsonProgressWomenEmpowerment2000.](figures/fig8_circular_flow_elson.png){#fig-circular-flow-model}
+![Circular flow model including unpaid work. Source: Own illustration based on @elsonProgressWomenEmpowerment2000.](images/fig8.png){#fig-circular-flow-model}
 
 The schools of thought agree on the central importance of markets -- but not on *what* markets actually are and how they work. In what follows, we compare two fundamentally different answers to our guiding question: the abstract understanding of markets in neoclassical economics and the political-economy understanding of capitalist markets. A third perspective, institutional economics, which emphasizes the active shaping of markets, will be taken up again later in the discussion of the relationship between market and state (Chapter 5, *Role of the State and Policy Paradigm for Sustainability*).
 
