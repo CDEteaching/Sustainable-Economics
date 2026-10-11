@@ -22,6 +22,8 @@ book:
   page-navigation: true
   back-to-top-navigation: true
   search: true
+  # file name of the PDF (in a book, format-level output-file is ignored)
+  output-file: Script_SCsustainableEconomics
 
   sidebar:
     search: true
@@ -82,7 +84,6 @@ format:
     df-print: kable
 
   pdf:
-    output-file: Script_SCsustainableEconomics
     # render pdf to separate folder pdf/ (download for students) -> do it manually via terminal:
     # "quarto render --to pdf --output-dir pdf"
     title: "Introduction to Sustainable Economics"
