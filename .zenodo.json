@@ -1,0 +1,53 @@
+{
+  "title": "Introduction to Sustainable Economics",
+  "upload_type": "lesson",
+  "version": "1.0",
+  "language": "eng",
+  "description": "<p>A self-paced e-learning course that introduces a sustainable, pluralist perspective on economics. It is used for additional attainments in the Master's in Sustainability Transformations at the University of Bern, for students who need to catch up on the economic dimension of sustainability.</p><p>The course is based on the German original \"Einführung in Nachhaltige Ökonomie\", a full-fledged lecture in an inverted-classroom format at the University of Bern. In seven chapters, it covers how we can think about economics, the scope of economics, a problem analysis of ecological and social limits, strategies for a sustainable economy (efficiency, consistency, sufficiency), the role of the state and policy paradigms, a synthesis, and approaches to sustainable economics. Chapters 1 to 5 end with an ungraded self-test quiz, and interactive H5P exercises are embedded throughout.</p><p>The course is built with Quarto. The archive contains the source files and the rendered website (docs/); a PDF version of the script is included in pdf/.</p>",
+  "keywords": [
+    "Sustainable Economics",
+    "Plural Economics",
+    "Sustainability Transformations",
+    "Ecological Economics",
+    "Open Educational Resources",
+    "E-learning"
+  ],
+  "creators": [
+    {
+      "name": "Bader, Christoph",
+      "affiliation": "Centre for Development and Environment (CDE), University of Bern",
+      "orcid": "0000-0002-8991-353X"
+    },
+    {
+      "name": "Bezzola, Nicolà",
+      "affiliation": "Centre for Development and Environment (CDE), University of Bern"
+    },
+    {
+      "name": "Brülisauer, Samuel",
+      "affiliation": "Centre for Development and Environment (CDE), University of Bern",
+      "orcid": "0000-0002-2196-1922"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://cdeteaching.github.io/Sustainable-Economics/",
+      "relation": "isIdenticalTo",
+      "resource_type": "lesson",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/CDEteaching/Nachhaltig-Wirtschaften",
+      "relation": "isDerivedFrom",
+      "resource_type": "lesson",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/CDEteaching/SP_SustainableEconomics",
+      "relation": "isNewVersionOf",
+      "resource_type": "lesson",
+      "scheme": "url"
+    }
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "access_right": "open"
+}

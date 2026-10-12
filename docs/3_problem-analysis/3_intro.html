@@ -2721,15 +2721,18 @@ window.onload = function() {
   var meta = document.querySelector('meta[name="quarto:offset"]');
   var base = new URL((meta ? meta.getAttribute('content') : './') + 'h5p/', window.location.href).href;
 
-  // The player script is loaded once, on first need.
+  // The player script is loaded once, on first need. Its constructor is kept in
+  // a local variable: frame.bundle.js, which the first player loads into the page,
+  // registers under the same global name and overwrites window.H5PStandalone.
   var playerReady = null;
+  var Player = null;
   function loadPlayer() {
     if (!playerReady) {
       playerReady = new Promise(function (resolve, reject) {
         var script = document.createElement('script');
         script.src = base + 'player/main.bundle.js';
         script.charset = 'UTF-8';
-        script.onload = resolve;
+        script.onload = function () { Player = window.H5PStandalone.H5P; resolve(); };
         script.onerror = reject;
         document.body.appendChild(script);
       });
@@ -2738,11 +2741,9 @@ window.onload = function() {
   }
 
   function mount(el, i) {
-    if (el.dataset.h5pMounted) return;
-    el.dataset.h5pMounted = 'true';
     var name = el.getAttribute('data-h5p');
-    loadPlayer().then(function () {
-      return new H5PStandalone.H5P(el, {
+    return loadPlayer().then(function () {
+      return new Player(el, {
         id: 'h5p-' + name + '-' + i,
         h5pJsonPath: base + 'content/' + name,
         frameJs: base + 'player/frame.bundle.js',
@@ -2757,20 +2758,28 @@ window.onload = function() {
     }, function () {
       el.textContent = 'H5P player not found.';
     }).catch(function (err) {
-      el.textContent = 'This interactive exercise could not be loaded.';
+      el.textContent = 'This interactive exercise could not be loaded (' + (err && err.message ? err.message : err) + ').';
       console.error('H5P "' + name + '":', err);
     });
   }
 
-  // Elements inside a collapsed callout are mounted when the callout is first
-  // opened: a player started while hidden measures its height as 0.
+  // Mount the players one after another (as in the h5p-standalone docs for
+  // several players on one page); each one registers in the shared H5PIntegration.
+  var chain = Promise.resolve();
   els.forEach(function (el, i) {
-    var collapse = el.closest('.callout-collapse');
-    if (collapse && !collapse.classList.contains('show')) {
-      collapse.addEventListener('shown.bs.collapse', function () { mount(el, i); }, { once: true });
-    } else {
-      mount(el, i);
-    }
+    chain = chain.then(function () { return mount(el, i); });
+  });
+
+  // A player inside a closed callout box is laid out while hidden. When the box
+  // is opened, a resize event lets H5P recalculate the height.
+  document.querySelectorAll('.callout-collapse').forEach(function (collapse) {
+    if (!collapse.querySelector('.h5p-embed')) return;
+    collapse.addEventListener('shown.bs.collapse', function () {
+      window.dispatchEvent(new Event('resize'));
+      collapse.querySelectorAll('iframe').forEach(function (frame) {
+        try { frame.contentWindow.dispatchEvent(new Event('resize')); } catch (e) { /* cross-origin: ignore */ }
+      });
+    });
   });
 })();
 </script>

@@ -1,19 +1,22 @@
 # Sustainable-Economics
 
-Quarto book source code for **"Introduction to Sustainable Economics"**, the accompanying script for the course of the same name at the University of Bern. This is the English translation of the German original ([Nachhaltig-Wirtschaften](https://github.com/CDEteaching/Nachhaltig-Wirtschaften), "Einführung Nachhaltige Ökonomie").
+Quarto book source code for **"Introduction to Sustainable Economics"**, a self-paced e-learning course at the University of Bern.
 
 ## 🎓 About the Course
 
-*Introduction to Sustainable Economics* is a lecture at the University of Bern in an **inverted-classroom format**: students work through the course content in self-study phases using this accompanying script and additional materials on [ILIAS](https://ilias.unibe.ch/go/crs/3443640); in-person time is used for deepening, discussion, and application.
+*Introduction to Sustainable Economics* is based on the German original **"Einführung in Nachhaltige Ökonomie"** ([Nachhaltig-Wirtschaften](https://github.com/CDEteaching/Nachhaltig-Wirtschaften)), a full-fledged lecture in an inverted-classroom format at the University of Bern. The English edition adapts its accompanying script into an e-learning course and is used for **additional attainments in the Master's in Sustainability Transformations**: students who need to catch up on the economic dimension of sustainability work through the course at their own pace, with no in-person sessions. Assessment consists of a written exam on Chapters 1 to 3 and a reflection paper (see the preface).
 
-In six chapters, the script introduces a sustainable, pluralist perspective on economics:
+In seven chapters, the course introduces a sustainable, pluralist perspective on economics:
 
-1. How can we think about economics?
-2. Scope of economics
-3. Problem analysis: What ails our economy?
-4. Strategies for a sustainable economy: efficiency, consistency, sufficiency
-5. The role of the state and economic policy guiding models
-6. Sustainable economics: synthesis
+1. How Can We Think About Economics?
+2. Scope of Economics
+3. Problem Analysis: What Is Going Wrong?
+4. Strategies for a Sustainable Economy: Efficiency, Consistency, Sufficiency
+5. Role of the State and Policy Paradigm for Sustainability
+6. Sustainable Economics: A Synthesis
+7. Approaches to Sustainable Economics
+
+Chapters 1 to 5 end with an ungraded self-test quiz, and interactive H5P exercises are embedded throughout.
 
 ## 📚 CDE Open Educational Resources
 
@@ -39,7 +42,8 @@ Bader, C., Bezzola, N., Brülisauer, S. (eds.). (2026). Introduction to Sustaina
 
 - `_quarto.yml` — Quarto book configuration (title, chapter list, theme, sidebar).
 - `index.qmd` — Preface.
-- `1_thinking-economics/` … `6_synthesis/` — the six chapters, each with one `_intro.qmd` plus `images/`.
+- `1_thinking-economics/` … `7_approaches/` — the seven chapters, each with one `_intro.qmd` plus `images/` (Chapters 1 to 5 also include a generated `_quiz.qmd`).
+- `quizzes/` — source and generator of the self-test quizzes; `h5p/` and `_extensions/h5p/` — interactive H5P exercises (see below).
 - `references.qmd` / `references.bib` — Bibliography.
 - `theme.scss`, `theme.css`, `webex.css`, `webex.js` — Theme and self-check quiz assets, taken over from the reference repo.
 - `_extensions/coatless-quarto/custom-callout/` — Callout extension, taken over from the reference repo.

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this course, please cite it as below."
+type: dataset
+title: "Introduction to Sustainable Economics"
+abstract: "Self-paced e-learning course based on the German lecture \"Einführung in Nachhaltige Ökonomie\"; used for additional attainments in the Master's in Sustainability Transformations, University of Bern."
+version: "1.0"
+date-released: 2026-10-12
+license: "CC-BY-NC-SA-4.0"
+authors:
+  - given-names: "Christoph"
+    family-names: "Bader"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+    orcid: "https://orcid.org/0000-0002-8991-353X"
+  - given-names: "Nicolà"
+    family-names: "Bezzola"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+  - given-names: "Samuel"
+    family-names: "Brülisauer"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+    orcid: "https://orcid.org/0000-0002-2196-1922"
+keywords:
+  - "sustainable economics"
+  - "plural economics"
+  - "sustainability transformations"
+  - "open educational resources"
+repository-code: "https://github.com/CDEteaching/Sustainable-Economics"
+url: "https://cdeteaching.github.io/Sustainable-Economics/"
