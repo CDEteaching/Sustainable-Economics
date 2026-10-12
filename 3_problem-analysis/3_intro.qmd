@@ -105,6 +105,12 @@ In contrast to the confidence of neoclassical economists regarding substitutabil
 
 So far, the reduction of environmental pressures has mainly concentrated on end-of-pipe technologies, such as flue-gas cleaning systems on factory chimneys or catalytic converters in cars. At the same time, long-term environmental problems were pushed into the background by such measures as long as their effects were not perceived clearly enough, as in the case of climate change or the loss of biodiversity. This apparent protection of the environment is explained by the concept of **externalization**, in which environmental and social costs are shifted outwards, as described, for example, by @lessenichNebenUnsSintflut2018. This means that pricing takes into account only macroeconomic and business-economic costs, partly because these are easier to quantify, while the social and ecological costs of providing goods and services are left out or shifted outwards. This leads to distortions in market prices.
 
+::: {.callout-caution collapse="true"}
+#### Interactive exercise -- Weak or strong sustainability?
+
+{{< h5p ch3-weak-strong title="Weak or strong sustainability?" >}}
+:::
+
 ### Climate crisis -- market failure or systemic problem
 
 As explained above, climate change concerns one of the central planetary boundaries and is probably one of the greatest societal challenges of this century. Although all schools of economic thought recognize the climate crisis as a central problem, they differ greatly in how they understand and explain it and in what policy measures can be derived from it. While neoclassical economics sees the climate crisis above all as a major market failure, which can be solved by creating a functioning market, ecological economics, for example, sees the problem more fundamentally in the capitalist mode of production, that is, in the way we do business. In what follows, we look at the two understandings using climate change as an example. Such a juxtaposition could be applied in a similar way to many ecological crises, for example biodiversity loss, since the underlying differences lie in the understanding of the fundamental nature-economy relationship.

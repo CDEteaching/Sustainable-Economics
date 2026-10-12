@@ -84,6 +84,12 @@ This warning can be made concrete through several central points of criticism --
 
 - GDP is based on annual growth rates, which favours short-term thinking -- at the expense of long-term sustainability goals.
 
+::: {.callout-caution collapse="true"}
+#### Interactive exercise -- Does it count in GDP?
+
+{{< h5p ch2-gdp title="Does it count in GDP?" >}}
+:::
+
 @fig-GDP-CH shows how GDP per capita in Switzerland has developed over the last 150 years. It becomes apparent that GDP in Switzerland rose sharply above all in the post-war period. @fig-GDP-CH-comparison shows the development of Switzerland's GDP in comparison with selected other countries over the last 70 years.
 
 ![Development of GDP per capita in Switzerland at 2011 prices in USD. Source: Own illustration with data from The Maddison Project (2020).](images/fig0.png){#fig-GDP-CH}
@@ -156,6 +162,12 @@ For our starting question -- what is needed for prosperity to arise -- Polanyi's
 (4) Finally, **market exchange** defines the exchange of goods and services at market prices. This is the commodified[^2_intro-1] area of economic activity. Depending on the type of goods and services traded and on their reach and structure, these markets can differ. The logic of individual profit and ability to pay predominates in market relations.
 
 [^2_intro-1]: Commodification means that something becomes a commodity and is traded on markets. That is, something is produced and distributed according to a market logic that previously did not work according to this logic (for example food produced for self-sufficiency). In principle, almost anything can be affected by commodification, for example labour, goods, natural resources, CO~2~, and so on. With the development of capitalism, more and more areas of the economy were commodified, which is why this appears self-evident to us in many areas.
+
+::: {.callout-caution collapse="true"}
+#### Interactive exercise -- Polanyi's four forms of provision
+
+{{< h5p ch2-polanyi-provision title="Polanyi's four forms of provision" >}}
+:::
 
 ::: {.callout-caution collapse="true"}
 #### In-depth questions
@@ -259,6 +271,12 @@ The following figure shows the development of the unemployment rate in Switzerla
 ![Unemployment in Switzerland 1920-2025. Source: Own illustration based on data from the Historical Statistics of Switzerland HSSO (1920-1995) and from SECO via the SNB data portal (1996-2025).](charts/figure11-unemployment-rate-switzerland/figure11-unemployment-rate-switzerland.png)
 
 #### Unpaid work
+
+::: {.callout-caution}
+#### Interactive exercise -- Guess first: paid or unpaid?
+
+{{< h5p ch2-paid-unpaid title="Guess first: paid or unpaid?" >}}
+:::
 
 Since 1997, the Federal Statistical Office (FSO) has recorded the monetary value and the quantity of unpaid work in Switzerland every four years with the household production satellite account ([SHHP](https://www.bfs.admin.ch/bfs/en/home/statistics/work-income/employment-working-hours/balancing-unpaid-work/household-production-satellite-account.html){target="_blank"}). In Switzerland in 2020, 9.8 billion hours were worked unpaid (mostly by women), more than were spent on paid work (7.6 billion hours). All unpaid work in 2020 is estimated at a value of CHF 434 billion. If GDP is extended by total household production, the latter corresponds to 41.4% of the value added of the extended total economy. @fig-unpaid-paid shows how paid and unpaid work are distributed between the genders. Overall, women perform somewhat more working hours per week than men; the big difference is that the majority of these are not paid.
 
@@ -383,6 +401,12 @@ df |>
   column_spec(2:3, width = if (is_pdf) "6cm" else NA) |>
   row_spec(0, bold = TRUE)
 ```
+
+::: {.callout-caution collapse="true"}
+#### Interactive exercise -- External effects
+
+{{< h5p ch2-external-effects title="External effects" >}}
+:::
 
 ::: {.callout-caution collapse="true"}
 #### In-depth questions
@@ -624,6 +648,12 @@ The growth dynamic described and its tensions mean that capitalist economic syst
 This compulsion or dependency is reinforced by institutional factors. Modern, credit-based financial systems, for example, presuppose future growth so that loans can be repaid. In addition, in many countries -- including Switzerland -- social insurance systems are closely tied to paid employment. High employment and rising incomes thereby become important preconditions of societal stability. Growth is thus not only an economic goal but deeply embedded in societal institutions. According to Hartmut @rosaSocialAccelerationEthical2003a, growth has even become a central cultural expectation.
 
 From the perspective of ecological economics, this orientation towards growth is fundamentally problematic, since economic growth has historically been, and continues to be, closely coupled with rising energy and resource consumption. Whether growth can be permanently decoupled from environmental pressure is the central point of contention between green growth and post-growth approaches -- more on this in Chapter 7.
+
+::: {.callout-caution collapse="true"}
+#### Interactive exercise -- Why growth becomes a compulsion
+
+{{< h5p ch2-why-grow title="Why growth becomes a compulsion" >}}
+:::
 
 ### Are financial crises accidents -- or built into the system?
 

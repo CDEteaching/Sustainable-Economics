@@ -220,11 +220,12 @@ Before you set out to explore in the "scavenger hunt through pluralist economics
 
 Exploring Economics is an open project of the Network for Pluralist Economics, which cooperates with various international actors in designing the e-learning platform. The network consists of many local groups and individuals. There are numerous ways to take part and contribute. We believe that this open platform offers a great many good contributions. We have therefore designed a scavenger hunt through the platform so that you can get to know it in a playful way.
 
-::: {.callout-caution collapse="false"}
-#### Exercise -- Pluralist economics
+::: {.callout-caution collapse="true"}
+#### Interactive exercise -- Pluralist economics
 
-In this learning section, you solve the crossword puzzle ["Tour through economic theories"](https://ilias.unibe.ch/go/file/3550892){target="_blank"} using the [Exploring Economics platform](https://www.exploring-economics.org/en/){target="_blank"}. Under the heading "Orientation" there, you will find solutions to the terms sought in the puzzle. This gives you an overview of the different schools of thought in economics and of how these perspectives influence research and its results. This exercise is voluntary and is meant to allow you to get to know pluralist economics in a playful way.You are welcome to contact us to discuss any questions or clarify any uncertainties. On demand we provide you with the solutions of the crossword puzzle.
+In this learning section, you solve the crossword puzzle "A journey through economic theories" below using the [Exploring Economics platform](https://www.exploring-economics.org/en/){target="_blank"}. Under the heading "Orientation" there, you will find solutions to the terms sought in the puzzle. This gives you an overview of the different schools of thought in economics and of how these perspectives influence research and its results. This exercise is voluntary and is meant to allow you to get to know pluralist economics in a playful way. You can check your answers and display the solution directly in the crossword. You are welcome to contact us to discuss any questions or clarify any uncertainties.
 
+{{< h5p ch1-crossword-pluralecon title="Crossword: A journey through economic theories" >}}
 :::
 
 ![Excerpt from the Exploring Economics website, categorizing the different schools of thought according to the question. Source: [Exploring Economics](https://www.exploring-economics.org/en/){target="_blank"}.](images/fig4.png)
