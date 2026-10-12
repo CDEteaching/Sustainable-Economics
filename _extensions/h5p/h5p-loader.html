@@ -16,7 +16,7 @@
   if (window.location.protocol === 'file:') {
     els.forEach(function (el) {
       el.textContent = 'Interactive exercise: open this page via a web server ' +
-        '(GitHub Pages, quarto preview, or "python -m http.server" in docs/) to see it.';
+        '(GitHub Pages, quarto preview, or "python -m http.server --directory docs") to see it.';
     });
     return;
   }
@@ -26,13 +26,28 @@
   var meta = document.querySelector('meta[name="quarto:offset"]');
   var base = new URL((meta ? meta.getAttribute('content') : './') + 'h5p/', window.location.href).href;
 
-  var script = document.createElement('script');
-  script.src = base + 'player/main.bundle.js';
-  script.charset = 'UTF-8';
-  script.onload = function () {
-    els.forEach(function (el, i) {
-      var name = el.getAttribute('data-h5p');
-      new H5PStandalone.H5P(el, {
+  // The player script is loaded once, on first need.
+  var playerReady = null;
+  function loadPlayer() {
+    if (!playerReady) {
+      playerReady = new Promise(function (resolve, reject) {
+        var script = document.createElement('script');
+        script.src = base + 'player/main.bundle.js';
+        script.charset = 'UTF-8';
+        script.onload = resolve;
+        script.onerror = reject;
+        document.body.appendChild(script);
+      });
+    }
+    return playerReady;
+  }
+
+  function mount(el, i) {
+    if (el.dataset.h5pMounted) return;
+    el.dataset.h5pMounted = 'true';
+    var name = el.getAttribute('data-h5p');
+    loadPlayer().then(function () {
+      return new H5PStandalone.H5P(el, {
         id: 'h5p-' + name + '-' + i,
         h5pJsonPath: base + 'content/' + name,
         frameJs: base + 'player/frame.bundle.js',
@@ -43,15 +58,24 @@
         export: false,
         embed: false,
         icon: false
-      }).catch(function (err) {
-        el.textContent = 'This interactive exercise could not be loaded.';
-        console.error('H5P "' + name + '":', err);
       });
+    }, function () {
+      el.textContent = 'H5P player not found.';
+    }).catch(function (err) {
+      el.textContent = 'This interactive exercise could not be loaded.';
+      console.error('H5P "' + name + '":', err);
     });
-  };
-  script.onerror = function () {
-    els.forEach(function (el) { el.textContent = 'H5P player not found.'; });
-  };
-  document.body.appendChild(script);
+  }
+
+  // Elements inside a collapsed callout are mounted when the callout is first
+  // opened: a player started while hidden measures its height as 0.
+  els.forEach(function (el, i) {
+    var collapse = el.closest('.callout-collapse');
+    if (collapse && !collapse.classList.contains('show')) {
+      collapse.addEventListener('shown.bs.collapse', function () { mount(el, i); }, { once: true });
+    } else {
+      mount(el, i);
+    }
+  });
 })();
 </script>

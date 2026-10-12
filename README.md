@@ -60,9 +60,19 @@ H5P content is authored in [Lumi](https://app.lumi.education/) (free desktop edi
 
 1. In Lumi, create the element and save it as `h5p/source/<name>.h5p` (lower case, hyphens, e.g. `circular-flow.h5p`). Lumi `.h5p` files include all libraries the player needs.
 2. Run `powershell -ExecutionPolicy Bypass -File h5p\extract-h5p.ps1` to extract it to `h5p/content/<name>/`.
-3. Place `{{< h5p circular-flow >}}` in the `.qmd` where the element should appear (optional: `title="..."`, used in the PDF).
+3. Place `{{< h5p circular-flow >}}` in the `.qmd` where the element should appear (optional: `title="..."`, used in the PDF). Convention: put each element in a closed callout box, like this:
+
+   ```
+   ::: {.callout-caution collapse="true"}
+   #### Interactive exercise -- Label the circular flow
+
+   {{< h5p circular-flow title="Label the circular flow" >}}
+   :::
+   ```
+
+   The player inside a closed box only starts when the box is first opened (see `_extensions/h5p/h5p-loader.html`).
 4. Render. The HTML shows the element; the PDF shows a note pointing to the online version.
-5. To test locally, do not open `docs/*.html` by double-clicking (browsers block the player on `file://`). Use `quarto preview`, or run `python -m http.server 8000` in `docs/` and open <http://localhost:8000/>.
+5. To test locally, do not open `docs/*.html` by double-clicking (browsers block the player on `file://`). Use `quarto preview`, or run `python -m http.server 8000 --directory docs` from the repo root and open <http://localhost:8000/>. Do not start the server from inside `docs/`: Windows then locks the folder and the next render fails with "os error 32". Stop the server (Ctrl+C) before rendering.
 
 The font files in `h5p/player/fonts/` were renamed to short names (e.g. `open-sans-600italic.woff2`, references updated in `styles/h5p.css` and `styles/h5p-fonts.css`), because the original names exceeded the Windows path-length limit and Git could not add them. Repeat this if the player is ever updated.
 
