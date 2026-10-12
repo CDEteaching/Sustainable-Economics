@@ -44,6 +44,29 @@ Bader, C., Bezzola, N., Brülisauer, S. (eds.). (2026). Introduction to Sustaina
 - `theme.scss`, `theme.css`, `webex.css`, `webex.js` — Theme and self-check quiz assets, taken over from the reference repo.
 - `_extensions/coatless-quarto/custom-callout/` — Callout extension, taken over from the reference repo.
 
+## Self-test quizzes
+
+Chapters 1 to 5 end with an ungraded self-test quiz (40 questions in total). The questions live in `quizzes/quizzes.yml` (field descriptions at the top of the file). Each chapter's quiz is generated as `<chapter folder>/_quiz.qmd` and pulled in with `{{< include _quiz.qmd >}}` at the end of the chapter.
+
+1. Edit `quizzes/quizzes.yml`.
+2. Run `python quizzes/build_quizzes.py` (needs PyYAML) to regenerate the `_quiz.qmd` files. Do not edit those by hand.
+3. Render. The HTML shows interactive questions checked by `webex.js`, and the PDF shows the questions followed by an answer key.
+
+Convention: no questions on excursus boxes.
+
+## Interactive H5P elements
+
+H5P content is authored in [Lumi](https://app.lumi.education/) (free desktop editor) and played by a self-hosted copy of [h5p-standalone](https://github.com/tunapanda/h5p-standalone) v3.8.2 (MIT licence) in `h5p/player/`, so no H5P server or LMS is needed.
+
+1. In Lumi, create the element and save it as `h5p/source/<name>.h5p` (lower case, hyphens, e.g. `circular-flow.h5p`). Lumi `.h5p` files include all libraries the player needs.
+2. Run `powershell -ExecutionPolicy Bypass -File h5p\extract-h5p.ps1` to extract it to `h5p/content/<name>/`.
+3. Place `{{< h5p circular-flow >}}` in the `.qmd` where the element should appear (optional: `title="..."`, used in the PDF).
+4. Render. The HTML shows the element; the PDF shows a note pointing to the online version.
+
+The font files in `h5p/player/fonts/` were renamed to short names (e.g. `open-sans-600italic.woff2`, references updated in `styles/h5p.css` and `styles/h5p-fonts.css`), because the original names exceeded the Windows path-length limit and Git could not add them. Repeat this if the player is ever updated.
+
+Keep the `.h5p` file in `h5p/source/` so the element can be reopened and edited in Lumi; repeat step 2 after every edit. Results are not tracked (no LMS), so use H5P for self-tests and exploration only.
+
 ## Translation notes
 
 - Figures in the `images/` folders (and `2_scope-of-economics/charts/`) are copied unchanged from the German original and still carry German labels.

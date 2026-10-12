@@ -101,3 +101,5 @@ In this chapter, we have become acquainted with three economic policy paradigms 
 In the in-depth block, we orient ourselves towards these paradigms and the styles of thought underlying them, with a focus on the post-growth paradigm and, to a lesser extent, on green growth approaches within the welfare-capitalist paradigm. The following overview shows how the styles of thought feed into the three paradigms. This assignment is not set in stone, however: it can vary depending on one's standpoint, and some schools of thought cannot be clearly assigned to one of the three paradigms.
 
 ![Economic policy paradigms and schools of thought. Source: Own illustration based on the illustrations of [Exploring Economics](https://www.exploring-economics.org/en/){target="_blank"}.](images/fig2.png)
+
+{{< include _quiz.qmd >}}

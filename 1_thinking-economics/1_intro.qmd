@@ -244,3 +244,5 @@ We will not yet present a definition of sustainable economics here but will appr
 [^1_intro-2]: In this text, the English term economic man is used when the concern is, in general, the idea of an economic agent. This is because the term homo oeconomicus stands for the currently dominant conception, and economic man is used in this sense in the (predominantly English-language) literature. The term is problematic in that it implies the exclusion of an economic woman. If we look at the orientation of economics today and in history, however, such a portrayal of economics is unfortunately not that far-fetched, as feminist economics shows us.
 
 [^1_intro-3]: The term degrowth is also often used. Although the two terms are not entirely identical, they largely overlap. For simplicity, we will therefore use the term post-growth throughout. In our view, the strength of the term post-growth lies above all in the fact that it does not emphasize a possible shrinkage of the economy so much as the necessary growth independence.
+
+{{< include _quiz.qmd >}}

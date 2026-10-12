@@ -72,3 +72,5 @@ Critics consider the sufficiency strategy limited in its savings potential and i
 To explore the sufficiency strategy in more depth, read the Denknetz article ["The New Debate on Sufficiency"](https://ilias.unibe.ch/go/file/3803485){target="_blank"} (in German).
 
 :::
+
+{{< include _quiz.qmd >}}

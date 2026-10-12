@@ -1,0 +1,48 @@
+<style>
+  .h5p-embed { margin: 1.5rem 0; }
+  .h5p-embed iframe { border: 0; width: 100%; }
+</style>
+<script>
+// Loads the self-hosted h5p-standalone player (h5p/player/) once per page and
+// mounts every <div class="h5p-embed" data-h5p="name"> created by the h5p shortcode.
+(function () {
+  if (window.cdeH5pLoader) return;
+  window.cdeH5pLoader = true;
+
+  var els = document.querySelectorAll('.h5p-embed[data-h5p]');
+  if (!els.length) return;
+
+  // Quarto writes the path from this page to the site root into this meta tag,
+  // so the player is found from chapter subfolders and on GitHub Pages alike.
+  var meta = document.querySelector('meta[name="quarto:offset"]');
+  var base = new URL((meta ? meta.getAttribute('content') : './') + 'h5p/', window.location.href).href;
+
+  var script = document.createElement('script');
+  script.src = base + 'player/main.bundle.js';
+  script.charset = 'UTF-8';
+  script.onload = function () {
+    els.forEach(function (el, i) {
+      var name = el.getAttribute('data-h5p');
+      new H5PStandalone.H5P(el, {
+        id: 'h5p-' + name + '-' + i,
+        h5pJsonPath: base + 'content/' + name,
+        frameJs: base + 'player/frame.bundle.js',
+        frameCss: base + 'player/styles/h5p.css',
+        frame: true,
+        copyright: true,
+        fullScreen: true,
+        export: false,
+        embed: false,
+        icon: false
+      }).catch(function (err) {
+        el.textContent = 'This interactive exercise could not be loaded.';
+        console.error('H5P "' + name + '":', err);
+      });
+    });
+  };
+  script.onerror = function () {
+    els.forEach(function (el) { el.textContent = 'H5P player not found.'; });
+  };
+  document.body.appendChild(script);
+})();
+</script>

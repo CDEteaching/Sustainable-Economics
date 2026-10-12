@@ -7,6 +7,9 @@ project:
     - "*.jpeg"
     - "*.jfif"
     - "*.svg"
+    # H5P player and extracted content, used by the {{< h5p name >}} shortcode
+    - "h5p/player/**"
+    - "h5p/content/**"
 
 execute:
   engine: knitr

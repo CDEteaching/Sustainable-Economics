@@ -646,3 +646,5 @@ The tensions described, as well as the instability of the financial system, do n
 
 In 2020, Carmen Losmann made a [documentary film](https://www.3sat.de/film/dokumentarfilm/oeconomia-100.html) (in German) on the relationship between economic growth, debt, inequality, and profits. The film deals with these complex relationships in a very accessible way and stimulates reflection. Even though the film is in part somewhat imprecise, it is well worth watching as an introduction.
 :::
+
+{{< include _quiz.qmd >}}

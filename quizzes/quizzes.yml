@@ -1,0 +1,409 @@
+# Self-test quizzes, one per chapter (Chapters 1 to 5).
+# Source of truth for the quizzes: edit here, then run
+#   python quizzes/build_quizzes.py
+# which regenerates <chapter folder>/_quiz.qmd (included at the end of each chapter).
+#
+# Question fields:
+#   type      mcq (one correct option) | torf (true/false) | fitb (fill in the blank)
+#   section   section the question is based on (shown to students)
+#   question  question text
+#   options   mcq only: answer options in display order
+#   answer    mcq: index of the correct option, counting from 0; torf: true or false
+#   accept    fitb only: accepted answers (lower case, compared case-insensitively)
+#   feedback  explanation shown after answering
+# Convention (review 2026-10-12): no questions on excursus boxes.
+
+chapters:
+- chapter: 1
+  title: How Can We Think About Economics?
+  questions:
+  - type: mcq
+    section: '1.1'
+    question: An economist analyses why people marry and have children as a decision under scarcity of time, money and affection. Which understanding of economics does this reflect?
+    options:
+    - A substantivist understanding, because family life is part of the economy
+    - A formal understanding, because economics is defined by its analytical approach, regardless of the subject matter
+    - The understanding of classical political economy, because it concerns the reproduction of the working class
+    - A feminist understanding, because it makes unpaid care work visible
+    answer: 1
+    feedback: 'Polanyi distinguishes two understandings. The formal one defines economics by an analytical approach (choice under scarcity, following Robbins) and applies it to any subject, including marriage. Gary Becker received the Nobel Memorial Prize for exactly this extension. A substantivist understanding would instead start from the economy as a subject matter: how people provide their means of subsistence.'
+  - type: mcq
+    section: '1.1'
+    question: Which of the following questions is typical of a substantivist understanding of economics?
+    options:
+    - How does a student best divide three free hours between studying, sport and friends?
+    - How does a household maximize its utility given its budget?
+    - How is bread produced and distributed, and who gets how much of societal wealth?
+    - How do prices adjust until supply equals demand?
+    answer: 2
+    feedback: 'The substantivist understanding defines economics through its subject matter: how a society, in relation to its environment, provides the means of subsistence and distributes prosperity. The other three questions start from the analytical approach of choice under scarcity or the price mechanism, which is the formal understanding of the mainstream.'
+  - type: mcq
+    section: '1.1'
+    question: What changed with the marginalist revolution at the end of the 19th century?
+    options:
+    - The focus shifted from household management to the wealth of entire nations
+    - The focus shifted from social classes, production and distribution to individual decisions on markets
+    - The focus shifted from individual markets to economy-wide relationships
+    - Economics was re-embedded in a moral and religious order
+    answer: 1
+    feedback: Classical political economy (Smith, Ricardo, Marx) looked at whole economies, social classes and the distribution of the societal surplus. With Jevons, Menger and Walras, the starting point became the rational individual who maximizes utility or profit on markets. The shift from household to national wealth happened earlier (classical political economy), and the return to economy-wide questions came later with Keynes.
+  - type: torf
+    section: '1.1'
+    question: In ancient Greece, chrematistics, the accumulation of money, was regarded as the core of economics.
+    answer: false
+    feedback: False. Economics (oikos + nemein) meant household management embedded in politics and ethics, with the happy life (eudaimonia) as the ultimate goal. Chrematistics, which aimed at accumulating money, stood in sharp contrast to it and was rejected.
+  - type: mcq
+    section: '1.3'
+    question: Which statement reflects a positivist view of economics?
+    options:
+    - Facts and values are often intertwined and cannot be clearly separated
+    - Economics can describe the economy “as it is”, and positive statements can be clearly separated from normative ones
+    - Different schools of thought can legitimately arrive at different interpretations of economic reality
+    - Which questions researchers ask depends on their social and historical context
+    answer: 1
+    feedback: 'Positivism assumes a reality governed by universal laws that can be described objectively, so economics should stick to positive statements (how the world is). The other options describe the critique: Putnam’s entanglement of facts and values and the constructivist view that knowledge is shaped by social contexts and perspectives.'
+  - type: mcq
+    section: '1.4'
+    question: According to Ludwik Fleck, why do members of different thought collectives often have difficulty following each other’s arguments?
+    options:
+    - Because one collective usually has access to better data
+    - Because they share a style of thought with its own concepts and methods, so they think, argue and understand in fundamentally different ways
+    - Because thought collectives are organized along national language borders
+    - Because only one collective can be scientifically correct at any time
+    answer: 1
+    feedback: A thought collective shares a style of thought, a particular pair of “glasses” with its own concepts and methods. Collectives tend to resist change, and people from different collectives see the world through different glasses. Fleck stressed that knowledge always depends on values and contexts, which is why the script argues for pluralist economics.
+  - type: mcq
+    section: '1.6'
+    question: How does sustainable economics, as understood in this script, position itself in the debate between green growth and post-growth?
+    options:
+    - It sides with green growth, because decoupling has been achieved worldwide
+    - It sides with post-growth, because the economy must shrink
+    - It first asks what ecological and social sustainability require and only then derives what role growth can or must play
+    - It treats growth as irrelevant and focuses only on distribution
+    answer: 2
+    feedback: 'The polarization is didactically useful because it makes a real debate visible, but taken literally it is misleading. Sustainable economics does not start from a fixed answer (“more green growth” or “shrinkage”) but from the goals of economic activity: respecting ecological limits while enabling a good life for all.'
+- chapter: 2
+  title: Scope of Economics
+  questions:
+  - type: mcq
+    section: 2.1.1
+    question: A storm destroys houses in a village, and the reconstruction is financed and carried out within the same year. What happens to GDP?
+    options:
+    - GDP falls, because wealth was destroyed
+    - GDP can rise, because the reconstruction is recorded as production, even though well-being has worsened
+    - GDP stays the same, because destruction and reconstruction cancel each other out
+    - GDP is not affected, because natural disasters are excluded from national accounts
+    answer: 1
+    feedback: 'GDP measures the market value of goods and services produced, not the losses. Reconstruction counts as output, so a disaster can paradoxically raise GDP. This is one of the main criticisms: GDP ignores social and ecological consequences and says little about actual well-being.'
+  - type: mcq
+    section: 2.1.2
+    question: Which indicator includes negative factors such as environmental pollution and social inequality as well as the value of unpaid work?
+    options:
+    - Gross domestic product (GDP)
+    - Human Development Index (HDI)
+    - Genuine Progress Indicator (GPI)
+    - Consumer Price Index (CPI)
+    answer: 2
+    feedback: The GPI combines about 26 economic, social and ecological indicators, including negative ones and the value of unpaid work. The HDI supplements GDP with life expectancy and education. The CPI measures the price level, not prosperity.
+  - type: mcq
+    section: '2.2'
+    question: Your neighbour helps you move house, and a few weeks later you look after their cat while they are on holiday. Which of Polanyi’s forms of provision is this?
+    options:
+    - Householding
+    - Reciprocity
+    - Redistribution
+    - Market exchange
+    answer: 1
+    feedback: Reciprocity is give-and-take between people beyond market and state, for example among neighbours, friends or in associations. To endure, giving and taking must not get too far out of balance. Householding is self-provision within the household, redistribution flows through an administrative centre (for example a tax-financed pension system), and market exchange happens at market prices.
+  - type: mcq
+    section: 2.3.3
+    question: Feminist economics often uses the third-person principle to define work. Which activity counts as work under this principle?
+    options:
+    - Jogging to stay fit
+    - Sleeping
+    - Cooking dinner for your family
+    - Reading a novel for pleasure
+    answer: 2
+    feedback: Under the third-person principle, any activity that could in principle be done by a paid third person counts as work, whether it is paid or not. Someone else could cook for your family, but nobody can jog, sleep or enjoy a novel on your behalf.
+  - type: mcq
+    section: 2.4.1
+    question: Deep-sea fishing grounds are hard to exclude anyone from, but every fish caught is no longer available to others. Which type of good are they?
+    options:
+    - Private good
+    - Toll (club) good
+    - Common-pool good
+    - Public good
+    answer: 2
+    feedback: Common-pool goods are non-excludable but rival in consumption. This combination creates the risk of overuse that Hardin called the tragedy of the commons. Elinor Ostrom showed that self-organized cooperation within clear boundaries can prevent overuse without privatization or nationalization.
+  - type: torf
+    section: 2.4.1
+    question: Whether a good is excludable is a fixed, natural property of the good itself.
+    answer: false
+    feedback: False. Excludability depends above all on technical possibilities, societal negotiation and power relations. Water can be made accessible or excludable, and even sunlight could in theory be made excludable (Mr Burns in The Simpsons). So the question is less whether the sun is a public good than whether it is treated as one.
+  - type: mcq
+    section: 2.4.2
+    question: Why is a flight often cheaper than a train ride, even though it harms the environment much more?
+    options:
+    - Because airlines are more efficient than railways
+    - Because many of the real costs, such as climate damage, are not included in the ticket price and are borne by third parties
+    - Because train tickets include a tax that subsidizes air travel
+    - Because demand for flights is lower than demand for trains
+    answer: 1
+    feedback: 'This is a negative external effect: costs are shifted onto third parties such as other people, future generations or nature. Neoclassical economics treats such externalities as exceptions. William Kapp argued that the more a system is based on maximizing private profit, the stronger the incentive to shift costs, so externalization is built into capitalism.'
+  - type: mcq
+    section: 2.5.2
+    question: A small town has only one supermarket, and all residents shop there. Which precondition of perfect competition is violated?
+    options:
+    - Complete information
+    - A large number of suppliers and buyers (polypoly)
+    - No preferences for individual suppliers
+    - None, the market is still perfectly competitive
+    answer: 1
+    feedback: With only one supplier and many buyers, the market is a monopoly, not a polypoly. Under perfect competition, individual suppliers have no influence on the price because buyers could switch to other suppliers. If the preconditions are not met, neoclassical economics speaks of market failure, which justifies state intervention.
+  - type: mcq
+    section: 2.5.4
+    question: According to the political-economy perspective in the script, what drives the compulsion of capitalist economies to grow?
+    options:
+    - Population growth, which constantly increases demand
+    - The individual greed of managers
+    - Competitive pressure that forces firms to reinvest profits, so that capital must continuously multiply (M–C–M′)
+    - Central banks, which set growth targets
+    answer: 2
+    feedback: 'Firms produce to make profits and reinvest them. Firms that do not invest, innovate or raise productivity risk losing market share, so competition creates systemic growth pressure. Institutions reinforce this dependency: credit-based finance presupposes growth, and social insurance is tied to paid employment.'
+- chapter: 3
+  title: 'Problem Analysis: What Is Going Wrong?'
+  questions:
+  - type: mcq
+    section: 3.1.1
+    question: Which two planetary boundaries are considered core boundaries, because they combine the processes of many other subsystems?
+    options:
+    - Ocean acidification and aerosol loading
+    - Climate change and biosphere integrity
+    - Land-use change and freshwater use
+    - Stratospheric ozone and novel entities
+    answer: 1
+    feedback: Climate change and biosphere integrity act at a supraregional level and integrate many other subsystems. Reaching tipping points in these two systems can push the entire Earth system into a new state. According to the 2025 Planetary Health Check, seven of the nine boundaries have been crossed.
+  - type: mcq
+    section: 3.1.2
+    question: A government argues that extracting more oil is sustainable because the revenues are invested in schools and new technologies, so total capital is maintained. Which position does this reflect?
+    options:
+    - Strong sustainability
+    - Weak sustainability
+    - The precautionary principle
+    - Sufficiency
+    answer: 1
+    feedback: Weak sustainability assumes that natural capital can in principle be substituted by manufactured or human capital, as long as total capital and total utility are maintained. This requires putting a monetary value on everything. Strong sustainability regards natural capital as only partly substitutable and relies on prevention rather than compensation.
+  - type: fitb
+    section: 3.1.2
+    question: In ecological economics, the economy draws energy and raw materials from the ecosystem (source function) and releases waste and emissions back into it. What is this second function called? (One word.)
+    accept:
+    - sink
+    - sink function
+    feedback: The sink function. The economy is a subsystem of a finite global ecosystem and depends on both functions. Only solar energy enters the system from outside, while waste heat leaves it.
+  - type: mcq
+    section: 3.1.3
+    question: From a neoclassical perspective, why are CO₂ emissions too high?
+    options:
+    - Because firms are not aware of climate change
+    - Because only private costs are reflected in the price, fossil-based goods are too cheap and the equilibrium quantity is too high
+    - Because markets are generally unable to coordinate production
+    - Because economic growth inevitably increases emissions
+    answer: 1
+    feedback: Climate change is a negative externality and therefore a market failure. The social marginal costs lie above the private ones, so the market equilibrium (A) produces more than the social optimum (B), causing a welfare loss. The policy answer is to internalize the costs, for example with a CO₂ tax or emissions trading. Option D reflects the ecological economics view.
+  - type: mcq
+    section: 3.1.3
+    question: GDP grows by 3% per year, while CO₂ emissions grow by 1% per year. What is this called?
+    options:
+    - Absolute decoupling
+    - Relative decoupling
+    - A rebound effect
+    - No decoupling
+    answer: 1
+    feedback: Relative decoupling means emissions or resource use grow more slowly than GDP but still grow. Absolute decoupling would require emissions to fall while GDP grows. Absolute decoupling of CO₂ can be observed in some countries of the Global North, but not at the global level, and not for resource consumption.
+  - type: mcq
+    section: 3.1.3
+    question: A household buys a fuel-efficient car and, because driving is now cheaper, drives longer distances. What is this an example of?
+    options:
+    - A direct rebound effect
+    - An indirect rebound effect
+    - Absolute decoupling
+    - The sufficiency strategy
+    answer: 0
+    feedback: A direct rebound effect occurs when efficiency gains make the same service cheaper and people use more of it. If the household instead spent the savings on a holiday flight, that would be an indirect rebound effect. Rebound effects are why ecological economics sees efficiency as necessary but not sufficient.
+  - type: mcq
+    section: 3.2.2
+    question: A policy makes some people better off by CHF 100 in total and others worse off by CHF 40 in total. The losers are not compensated. How do the two efficiency criteria judge this policy?
+    options:
+    - It is a Pareto improvement and meets the Kaldor-Hicks criterion
+    - It is not a Pareto improvement, but it meets the Kaldor-Hicks criterion
+    - It is a Pareto improvement, but it does not meet the Kaldor-Hicks criterion
+    - It meets neither criterion
+    answer: 1
+    feedback: A Pareto improvement requires that nobody is made worse off, which is not the case here. The Kaldor-Hicks criterion only requires that the winners could hypothetically compensate the losers and still be better off (100 > 40), whether or not compensation actually happens. That is why the script says Kaldor-Hicks brings us back to the utilitarian view.
+  - type: mcq
+    section: 3.2.2
+    question: According to John Rawls’s difference principle, when are social and economic inequalities acceptable?
+    options:
+    - When they result from free market exchange
+    - When they maximize total utility in society
+    - When they are to the greatest benefit of the least advantaged, and positions are open to all under fair equality of opportunity
+    - Never, because justice requires equal outcomes
+    answer: 2
+    feedback: Behind a “veil of ignorance”, people who do not know their own position or abilities would accept inequalities only under these two conditions. Option B is utilitarianism, which accepts inequality whenever total utility rises, regardless of distribution.
+  - type: mcq
+    section: 3.2.5
+    question: According to the script, what is an important reason why the labour share of income has been falling in many countries?
+    options:
+    - Workers have become less productive
+    - Power relations have shifted in favour of capital, because capital is highly mobile in an open world economy while labour is not
+    - Wages have risen faster than profits since the 1980s
+    - Most people now live from capital income
+    answer: 1
+    feedback: Financial capital can move around the world in seconds, while borders, families and friendships keep workers in place. This weakened the post-war compromise between firms and trade unions. Technological change, including artificial intelligence, reinforces the trend. Until the 1970s, more than half of GDP was earned through labour; in the 2000s the share fell below 50% in most countries.
+- chapter: 4
+  title: Strategies for a Sustainable Economy
+  questions:
+  - type: mcq
+    section: 4.1–4.3
+    question: Replacing incandescent bulbs with LED lamps is an example of which strategy?
+    options:
+    - Efficiency
+    - Consistency
+    - Sufficiency
+    answer: 0
+    feedback: Efficiency means using fewer resources and less energy for the same output. LEDs provide the same light with less electricity. The strategy starts on the production side and relies mainly on technological progress.
+  - type: mcq
+    section: 4.1–4.3
+    question: Switching from fossil fuels to solar, wind and hydropower is an example of which strategy?
+    options:
+    - Efficiency
+    - Consistency
+    - Sufficiency
+    answer: 1
+    feedback: Consistency (eco-effectiveness) seeks compatibility between technology and natural cycles rather than simply using less. Renewable energy works with natural rhythms instead of consuming fossil stocks. Electronics designed for repair and recycling (“cradle to cradle”) are another example.
+  - type: mcq
+    section: 4.1–4.3
+    question: Reducing working time in order to lower production and resource use is an example of which strategy?
+    options:
+    - Efficiency
+    - Consistency
+    - Sufficiency
+    answer: 2
+    feedback: Sufficiency asks how much we need for a good life and aims to reduce demand for resource-intensive goods and services. It can be practised by individuals (sharing instead of buying), companies (sufficiency-oriented product design) and governments (sufficiency policy, such as working-time reduction).
+  - type: mcq
+    section: 4.1–4.3
+    question: Which strategy focuses mainly on the consumption side rather than the production side?
+    options:
+    - Efficiency
+    - Consistency
+    - Sufficiency
+    answer: 2
+    feedback: Efficiency and consistency both start on the production side. Sufficiency focuses on consumption and needs, though not exclusively.
+  - type: mcq
+    section: '4.1'
+    question: What is the main criticism of relying on the efficiency strategy alone?
+    options:
+    - It is too expensive for companies
+    - Rebound effects can reduce or even cancel out the savings from efficiency gains
+    - It requires people to give up their standard of living
+    - It only works for renewable energy
+    answer: 1
+    feedback: Efficiency gains often make goods and services cheaper, which can increase demand (see Chapter 3.1.3). Critics therefore warn against overestimating the effect of efficiency on absolute resource use.
+  - type: torf
+    section: '4.2'
+    question: With today’s best technology, material cycles can be fully closed without any losses of mass or energy.
+    answer: false
+    feedback: False. Material cycles always involve losses of mass and energy, and even fully biodegradable products need energy to produce. Absolute consistency is an unattainable ideal, but it still serves as a target for reducing resource use and emissions as far as possible.
+  - type: mcq
+    section: 4 (Introduction)
+    question: What does the script conclude about the three strategies?
+    options:
+    - Efficiency alone will be sufficient if technology advances fast enough
+    - Consistency should replace the other two strategies
+    - Achieving the sustainability goals probably requires all three strategies working together
+    - Sufficiency is the only strategy that really works
+    answer: 2
+    feedback: Practically all approaches to sustainable development build on the three strategies, but they weigh and prioritize them differently. The script’s conclusion is that the goals will probably only be achieved if all three work together.
+- chapter: 5
+  title: Role of the State and Policy Paradigm for Sustainability
+  questions:
+  - type: mcq
+    section: '5.1'
+    question: Why does the script say that speaking of “state intervention in the market” is not a historical given?
+    options:
+    - Because markets did not exist before the 19th century
+    - Because under feudalism economic and political rule were inseparably linked; the economy came to be seen as a separate sphere only with industrial capitalism and liberalism
+    - Because states have always controlled all economic activity
+    - Because the term was invented by Keynes in the 1930s
+    answer: 1
+    feedback: Ellen Meiksins Wood shows that under feudalism the nobility appropriated production through direct political coercion. Only with industrial capitalism was the economy conceived as a sphere protected from the state, especially through private property. If the separation is historically made, how state and market should relate is always also a political question.
+  - type: mcq
+    section: '5.2'
+    question: In the market-liberal paradigm, which set of tasks is assigned to the state?
+    options:
+    - Stabilizing aggregate demand and building a welfare state
+    - Setting physical limits on resource use and limiting income inequality
+    - Guaranteeing property rights, preventing market power, and correcting market failure and externalities
+    - Actively shaping markets through mission-oriented investment
+    answer: 2
+    feedback: These four concepts define the role of the state in the most widely used economics textbook (Mankiw). The market is considered efficient, and deviations require justification. Option A is the welfare-capitalist paradigm, option B the post-growth paradigm, and option D Mazzucato’s shaping state.
+  - type: mcq
+    section: '5.2'
+    question: Michel Foucault and Quinn Slobodian criticize the idea of the “night-watchman state”. What is their point?
+    options:
+    - The state should own all means of production
+    - Enforcing, maintaining and managing markets requires a strong state, not a weak one
+    - Markets can function entirely without a state
+    - The night-watchman state is the most efficient form of government
+    answer: 1
+    feedback: Even the market-liberal paradigm depends on a state that creates and protects markets, property rights and competition. So the opposition between “free market” and “strong state” is misleading.
+  - type: mcq
+    section: 5.2.1
+    question: What is the core of Samuel Bowles’s critique of the market-liberal paradigm?
+    options:
+    - Markets are inefficient because firms lack information about prices
+    - Markets not only allocate resources but also shape culture, preferences and power, so market failure is structural rather than an exception
+    - Markets work perfectly as long as contracts are complete
+    - Markets should be replaced by central planning
+    answer: 1
+    feedback: Bowles argues that markets are “as much political and cultural institutions as economic ones”. Participants are endogenous (markets change their preferences and abilities), many markets are contested (power relations arise), contracts are always incomplete, and exchange is constitutive (“gifts make friends”).
+  - type: mcq
+    section: '5.3'
+    question: According to Keynes, what should the state do in an economic crisis?
+    options:
+    - Cut spending to balance the budget
+    - Stay out, because markets return to equilibrium on their own
+    - Stabilize aggregate demand countercyclically, if necessary by increasing debt-financed spending
+    - Nationalize all banks
+    answer: 2
+    feedback: Keynes argued that market economies generate uncertainty and instability from their own logic. In crises, uncertainty leads to underinvestment and lower consumption, so the state should stabilize demand and investment. This idea underlies the welfare-capitalist paradigm.
+  - type: mcq
+    section: 5.3.1
+    question: What does Mariana Mazzucato mean by “market shaping, not fixing”?
+    options:
+    - The state should only correct market failures once they occur
+    - The state should actively co-shape markets, for example through risky early investment in core technologies such as the forerunner of the internet
+    - The state should withdraw from markets entirely
+    - Markets should be fixed in size so they cannot grow
+    answer: 1
+    feedback: Many groundbreaking technologies (Arpanet, innovations from NASA’s space programmes) were first made possible by massive public investment that was too expensive and risky for private funders. Mazzucato therefore treats market failure as the rule, not the exception, and calls for a proactive, shaping state.
+  - type: mcq
+    section: '5.4'
+    question: How does a cap-auction-trade system, as proposed by Herman Daly, work?
+    options:
+    - The market sets the cap, and the state auctions the remaining resources
+    - The state sets a physical upper limit for resource use and emissions, auctions the usage rights, and leaves allocation to the market only within this limit
+    - Firms trade emission rights freely without any upper limit
+    - The state distributes resources directly to households without a market
+    answer: 1
+    feedback: In Daly’s steady-state economy, the market remains useful as an allocation mechanism, but only the state can legitimately set and enforce the limit itself. Daly combines this with limits on income and wealth inequality and with population policy.
+  - type: mcq
+    section: 5.4.1
+    question: Why does Marxist political economy doubt that even a “big green state” can overcome the growth imperative?
+    options:
+    - Because the state lacks the technical knowledge to plan the economy
+    - 'Because the state is not neutral: as the “ideal collective capitalist” it depends on growth via tax revenue, employment and social insurance'
+    - Because green technologies are too expensive
+    - Because post-growth policies are unpopular with voters
+    answer: 1
+    feedback: 'MPE sees the state as acting in the interest of maintaining capitalism as a whole. A cap-auction-trade system, for example, auctions usage rights to the same actors who profited from overuse. MPE therefore looks for alternatives outside market and capitalist state: commons, cooperatives and collective self-management.'
