@@ -23,8 +23,9 @@ foreach ($f in $files) {
     $dest = Join-Path $content $id
     if (Test-Path $dest) { Remove-Item $dest -Recurse -Force }
     New-Item -ItemType Directory $dest | Out-Null
-    # tar (bsdtar, built into Windows 10+) reads zip archives whatever the extension
-    tar -xf $f.FullName -C $dest
+    # Windows tar (bsdtar, built into Windows 10+) reads zip archives whatever the extension.
+    # Called by full path: Git's GNU tar, if first on PATH, mistakes "C:" for a remote host.
+    & (Join-Path $env:SystemRoot 'System32\tar.exe') -xf $f.FullName -C $dest
     if (-not (Test-Path (Join-Path $dest 'h5p.json'))) {
         Write-Warning "$($f.Name): no h5p.json after extraction, is this a valid .h5p file?"
         continue

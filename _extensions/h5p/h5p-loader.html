@@ -12,6 +12,15 @@
   var els = document.querySelectorAll('.h5p-embed[data-h5p]');
   if (!els.length) return;
 
+  // Browsers block fetch() on file:// pages, so the player cannot load its JSON.
+  if (window.location.protocol === 'file:') {
+    els.forEach(function (el) {
+      el.textContent = 'Interactive exercise: open this page via a web server ' +
+        '(GitHub Pages, quarto preview, or "python -m http.server" in docs/) to see it.';
+    });
+    return;
+  }
+
   // Quarto writes the path from this page to the site root into this meta tag,
   // so the player is found from chapter subfolders and on GitHub Pages alike.
   var meta = document.querySelector('meta[name="quarto:offset"]');

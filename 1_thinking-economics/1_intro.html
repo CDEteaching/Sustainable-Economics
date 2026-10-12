@@ -56,7 +56,7 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../2_scope-of-economics/2_intro.html" rel="next">
-<link href="../index.html" rel="prev">
+<link href="../docs/index.html" rel="prev">
 <link href="../images/cdelogo_e.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -295,7 +295,7 @@ div.csl-indent {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../index.html" class="sidebar-logo-link">
+      <a href="../docs/index.html" class="sidebar-logo-link">
       <img src="../images/cdelogo_e.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
       <img src="../images/cdelogo_e.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
@@ -321,7 +321,7 @@ div.csl-indent {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../docs/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
@@ -506,6 +506,7 @@ div.csl-indent {
 <p>From this analytical starting point, the actions of actors in the economy are then analysed, with a strong focus on markets, the price mechanism, and utility-optimizing individuals. Markets form the framework within which individuals try to optimize their utility through decisions under scarcity. This means that questions outside this framework often receive no attention. In this <a href="https://www.youtube.com/watch?v=D-6rQmHpGfE" target="_blank">video</a>, the economist Ha-Joon Chang talks about the neoclassical understanding, which, through its underlying analytical starting point, already gives a certain orientation and systematically screens out certain aspects <span class="citation" data-cites="changLifeUniverseEverything2014">(see also <a href="#ref-changLifeUniverseEverything2014" role="doc-biblioref">Chang and Chang 2014</a>)</span>. And because this approach is not tied to a particular subject matter, in practice it is also applied to topics that one would not intuitively call “economic” – for example, the question of why people marry or have children (analysed as an “economic decision” under scarcity of, for example, time, money, and affection). In 1992, the economist Gary Becker received the Nobel Memorial Prize in Economic Sciences for precisely this extension of the field of application.</p>
 <p>Many other schools of thought, by contrast, continue to define economics through its subject matter: the economy itself. They thus follow a substantivist understanding. The subject matter, and above all its boundaries (what belongs to the economy), can be defined in different ways. For Polanyi, the substantivist understanding is about examining how humans, as a society and in relation to their environment, provide the means of subsistence and distribute material prosperity. Concretely, this means questions such as “How is bread produced and distributed?” or “Who gets how much of societal wealth?” – regardless of the analytical approach used to examine these questions. As mentioned above, however, there are also different views on how exactly this subject matter should be delimited. <em>Feminist economics</em>, for example, emphasizes that activities outside the market, such as unpaid care work, are a central area of the economy and must be included in the analysis. <em>Ecological economics</em> similarly emphasizes that the economy is embedded in nature, that nature forms the basis of all economic activity, and that it must therefore be included in economic analysis. In line with the different understandings of the subject matter, different schools of thought also focus on different aspects, such as power structures, institutions, or economy-wide and societal relationships and structures. In the section on pluralist economics (see Chapter 1.5, <em>Pluralist Economics</em>), we will look more closely at what characterizes neoclassical economics (the mainstream) and get to know some of the other schools of thought.</p>
 <p>In this script, we follow a substantivist understanding and define economics through the subject matter of the economy. In Chapter 2 (<em>Scope of Economics</em>), we will then examine this subject matter in more detail.</p>
+<div class="h5p-embed" data-h5p="ch1-substantivist-formal"></div>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -2488,7 +2489,7 @@ window.onload = function() {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Preface">
+      <a href="../docs/index.html" class="pagination-link" aria-label="Preface">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
       </a>          
   </div>
@@ -2512,6 +2513,54 @@ window.onload = function() {
 </div>
   </div>
 </footer>
+<style>
+  .h5p-embed { margin: 1.5rem 0; }
+  .h5p-embed iframe { border: 0; width: 100%; }
+</style>
+<script>
+// Loads the self-hosted h5p-standalone player (h5p/player/) once per page and
+// mounts every <div class="h5p-embed" data-h5p="name"> created by the h5p shortcode.
+(function () {
+  if (window.cdeH5pLoader) return;
+  window.cdeH5pLoader = true;
+
+  var els = document.querySelectorAll('.h5p-embed[data-h5p]');
+  if (!els.length) return;
+
+  // Quarto writes the path from this page to the site root into this meta tag,
+  // so the player is found from chapter subfolders and on GitHub Pages alike.
+  var meta = document.querySelector('meta[name="quarto:offset"]');
+  var base = new URL((meta ? meta.getAttribute('content') : './') + 'h5p/', window.location.href).href;
+
+  var script = document.createElement('script');
+  script.src = base + 'player/main.bundle.js';
+  script.charset = 'UTF-8';
+  script.onload = function () {
+    els.forEach(function (el, i) {
+      var name = el.getAttribute('data-h5p');
+      new H5PStandalone.H5P(el, {
+        id: 'h5p-' + name + '-' + i,
+        h5pJsonPath: base + 'content/' + name,
+        frameJs: base + 'player/frame.bundle.js',
+        frameCss: base + 'player/styles/h5p.css',
+        frame: true,
+        copyright: true,
+        fullScreen: true,
+        export: false,
+        embed: false,
+        icon: false
+      }).catch(function (err) {
+        el.textContent = 'This interactive exercise could not be loaded.';
+        console.error('H5P "' + name + '":', err);
+      });
+    });
+  };
+  script.onerror = function () {
+    els.forEach(function (el) { el.textContent = 'H5P player not found.'; });
+  };
+  document.body.appendChild(script);
+})();
+</script>
 <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
 (function() {
   let previousOnload = window.onload;

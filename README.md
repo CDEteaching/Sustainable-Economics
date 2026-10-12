@@ -62,6 +62,7 @@ H5P content is authored in [Lumi](https://app.lumi.education/) (free desktop edi
 2. Run `powershell -ExecutionPolicy Bypass -File h5p\extract-h5p.ps1` to extract it to `h5p/content/<name>/`.
 3. Place `{{< h5p circular-flow >}}` in the `.qmd` where the element should appear (optional: `title="..."`, used in the PDF).
 4. Render. The HTML shows the element; the PDF shows a note pointing to the online version.
+5. To test locally, do not open `docs/*.html` by double-clicking (browsers block the player on `file://`). Use `quarto preview`, or run `python -m http.server 8000` in `docs/` and open <http://localhost:8000/>.
 
 The font files in `h5p/player/fonts/` were renamed to short names (e.g. `open-sans-600italic.woff2`, references updated in `styles/h5p.css` and `styles/h5p-fonts.css`), because the original names exceeded the Windows path-length limit and Git could not add them. Repeat this if the player is ever updated.
 

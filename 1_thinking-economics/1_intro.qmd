@@ -74,6 +74,8 @@ Many other schools of thought, by contrast, continue to define economics through
 
 In this script, we follow a substantivist understanding and define economics through the subject matter of the economy. In Chapter 2 (*Scope of Economics*), we will then examine this subject matter in more detail.
 
+{{< h5p ch1-substantivist-formal title="Substantivist or formal?" >}}
+
 ::: {.callout-note collapse="true"}
 #### Further reading
 
