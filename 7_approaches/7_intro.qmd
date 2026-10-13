@@ -32,11 +32,16 @@ By the end of this chapter, students...
 ## Approaches of Sustainable Economics
 
 ::: {.callout-caution}
-#### Self-study phase
+#### Exercise -- Approaches of sustainable economics
 
 Below you will find a list of different approaches within sustainable economics and corresponding material for each approach. Please choose two of the following approaches and work through the material for each of them.
 
-[On Mural](https://app.mural.co/t/cde6674/m/cde6674/1759743384617/4b38e44dea858b12fbb1cca4bc38b88505fed944?sender=ua98dc58f8437b9b336bb4662){target="_blank"}, you will find questions on the approaches. Try to answer the questions for the approaches you have chosen. In this way, you can also gain an overview of the other approaches based on the work of other students. The lecturers will regularly check the Mural board and delete statements that are clearly incorrect or misleading; however, they will not correct every answer.
+Use the following guiding questions to work through each of the two approaches you have chosen:
+
+-   What goals and visions are pursued in this approach?
+-   How can the degree of sustainability of this approach be described (weak or strong sustainability)?
+-   What causes of the overuse of natural resources does this approach identify?
+-   What are the strengths, weaknesses, and blind spots of this approach?
 :::
 
 ::::::::::: {.content-visible when-format="html"}
