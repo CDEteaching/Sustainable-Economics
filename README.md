@@ -28,7 +28,7 @@ Unless otherwise stated, all materials are licensed under the [CC-BY-NC-SA 4.0 I
 
 ## 📖 Citation
 
-Bader, C., Bezzola, N., Brülisauer, S. (eds.). (2026). Introduction to Sustainable Economics [Accompanying script]. CDE, University of Bern.
+Bader, C., Bezzola, N., Brülisauer, S. (eds.). (2026). Introduction to Sustainable Economics [E-learning course]. CDE, University of Bern.
 
 ## 🧩 Contribution Matrix (CRediT Taxonomy)
 
