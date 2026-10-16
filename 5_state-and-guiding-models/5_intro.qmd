@@ -38,7 +38,7 @@ David Harvey summarizes the prevailing basic idea of the role of the state from 
 
 > "State interventions in markets (once they have been created) must be kept to an absolute minimum, because according to the theory the state cannot possibly have enough information to anticipate market signals (prices)" [translated from @harveyBriefHistoryNeoliberalism2005, p. 3]
 
-Today, this understanding is often referred to by the term *night-watchman state*. In contrast, critics such as Michel Foucault and Quinn Slobodian point out that enforcing, maintaining, and managing markets by no means results in a weak state but requires a strong one [@slobodianGlobalistsEndEmpire2018].
+Today, this understanding is often referred to by the term *night-watchman state*. In contrast, critics such as Quinn Slobodian point out that enforcing, maintaining, and managing markets by no means results in a weak state but requires a strong one [@slobodianGlobalistsEndEmpire2018].
 
 We call the role of the state described here on the basis of a neoclassical understanding -- limited to guaranteeing private ownership of the means of production (property rights), preventing monopolies (market power), and limited interventions to correct market outcomes (market failure and externalities) -- the **market-liberal paradigm**.
 

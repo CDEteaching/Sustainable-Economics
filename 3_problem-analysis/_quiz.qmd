@@ -45,7 +45,7 @@ Pick an answer (or type it in) to see at once whether it is correct, then open t
 <label><input type="radio" autocomplete="off" name="q3-4"><span>c) Because markets are generally unable to coordinate production</span></label>
 <label><input type="radio" autocomplete="off" name="q3-4"><span>d) Because economic growth inevitably increases emissions</span></label>
 </div>
-<details class="quiz-feedback"><summary>Show explanation</summary><p>Climate change is a negative externality and therefore a market failure. The social marginal costs lie above the private ones, so the market equilibrium (A) produces more than the social optimum (B), causing a welfare loss. The policy answer is to internalize the costs, for example with a CO₂ tax or emissions trading. Option D reflects the ecological economics view.</p></details>
+<details class="quiz-feedback"><summary>Show explanation</summary><p>Climate change is a negative externality and therefore a market failure. The social marginal costs lie above the private ones, so the market equilibrium (A) produces more than the social optimum (B), causing a welfare loss. The policy answer is to internalize the costs, for example with a CO₂ tax or emissions trading.</p></details>
 </div>
 <div class="webex-box quiz-question">
 <p class="quiz-meta">Question 3.5 &middot; Based on section 3.1.3</p>
@@ -193,7 +193,7 @@ d) Most people now live from capital income
 
 **3.3** “sink” / “sink function”. The sink function. The economy is a subsystem of a finite global ecosystem and depends on both functions. Only solar energy enters the system from outside, while waste heat leaves it.
 
-**3.4** b). Climate change is a negative externality and therefore a market failure. The social marginal costs lie above the private ones, so the market equilibrium (A) produces more than the social optimum (B), causing a welfare loss. The policy answer is to internalize the costs, for example with a CO₂ tax or emissions trading. Option D reflects the ecological economics view.
+**3.4** b). Climate change is a negative externality and therefore a market failure. The social marginal costs lie above the private ones, so the market equilibrium (A) produces more than the social optimum (B), causing a welfare loss. The policy answer is to internalize the costs, for example with a CO₂ tax or emissions trading.
 
 **3.5** b). Relative decoupling means emissions or resource use grow more slowly than GDP but still grow. Absolute decoupling would require emissions to fall while GDP grows. Absolute decoupling of CO₂ can be observed in some countries of the Global North, but not at the global level, and not for resource consumption.
 

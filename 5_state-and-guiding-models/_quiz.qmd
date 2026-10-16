@@ -13,7 +13,7 @@ Pick an answer (or type it in) to see at once whether it is correct, then open t
 <p class="quiz-stem">Why does the script say that speaking of “state intervention in the market” is not a historical given?</p>
 <div class="webex-radiogroup" id="webex-q5-1" data-answer="[0, 1, 0, 0]">
 <label><input type="radio" autocomplete="off" name="q5-1"><span>a) Because markets did not exist before the 19th century</span></label>
-<label><input type="radio" autocomplete="off" name="q5-1"><span>b) Because under feudalism economic and political rule were inseparably linked; the economy came to be seen as a separate sphere only with industrial capitalism and liberalism</span></label>
+<label><input type="radio" autocomplete="off" name="q5-1"><span>b) Because in other economic systems, such as feudalism, economic and political rule were inseparably linked; the economy came to be seen as a separate sphere only with industrial capitalism and liberalism</span></label>
 <label><input type="radio" autocomplete="off" name="q5-1"><span>c) Because states have always controlled all economic activity</span></label>
 <label><input type="radio" autocomplete="off" name="q5-1"><span>d) Because the term was invented by Keynes in the 1930s</span></label>
 </div>
@@ -28,11 +28,11 @@ Pick an answer (or type it in) to see at once whether it is correct, then open t
 <label><input type="radio" autocomplete="off" name="q5-2"><span>c) Guaranteeing property rights, preventing market power, and correcting market failure and externalities</span></label>
 <label><input type="radio" autocomplete="off" name="q5-2"><span>d) Actively shaping markets through mission-oriented investment</span></label>
 </div>
-<details class="quiz-feedback"><summary>Show explanation</summary><p>These four concepts define the role of the state in the most widely used economics textbook (Mankiw). The market is considered efficient, and deviations require justification. Option A is the welfare-capitalist paradigm, option B the post-growth paradigm, and option D Mazzucato’s shaping state.</p></details>
+<details class="quiz-feedback"><summary>Show explanation</summary><p>These four concepts define the role of the state in the most widely used economics textbook. The market is considered efficient, and deviations require justification. Option A is the welfare-capitalist paradigm, option B the post-growth paradigm, and option D Mazzucato’s shaping state.</p></details>
 </div>
 <div class="webex-box quiz-question">
 <p class="quiz-meta">Question 5.3 &middot; Based on section 5.2</p>
-<p class="quiz-stem">Michel Foucault and Quinn Slobodian criticize the idea of the “night-watchman state”. What is their point?</p>
+<p class="quiz-stem">Quinn Slobodian criticizes the idea of the “night-watchman state”. What is the point of this critique?</p>
 <div class="webex-radiogroup" id="webex-q5-3" data-answer="[0, 1, 0, 0]">
 <label><input type="radio" autocomplete="off" name="q5-3"><span>a) The state should own all means of production</span></label>
 <label><input type="radio" autocomplete="off" name="q5-3"><span>b) Enforcing, maintaining and managing markets requires a strong state, not a weak one</span></label>
@@ -106,7 +106,7 @@ Pick an answer (or type it in) to see at once whether it is correct, then open t
 Why does the script say that speaking of “state intervention in the market” is not a historical given?
 
 a) Because markets did not exist before the 19th century
-b) Because under feudalism economic and political rule were inseparably linked; the economy came to be seen as a separate sphere only with industrial capitalism and liberalism
+b) Because in other economic systems, such as feudalism, economic and political rule were inseparably linked; the economy came to be seen as a separate sphere only with industrial capitalism and liberalism
 c) Because states have always controlled all economic activity
 d) Because the term was invented by Keynes in the 1930s
 
@@ -121,7 +121,7 @@ d) Actively shaping markets through mission-oriented investment
 
 **Question 5.3** (based on section 5.2)
 
-Michel Foucault and Quinn Slobodian criticize the idea of the “night-watchman state”. What is their point?
+Quinn Slobodian criticizes the idea of the “night-watchman state”. What is the point of this critique?
 
 a) The state should own all means of production
 b) Enforcing, maintaining and managing markets requires a strong state, not a weak one
@@ -177,7 +177,7 @@ d) Because post-growth policies are unpopular with voters
 
 **5.1** b). Ellen Meiksins Wood shows that under feudalism the nobility appropriated production through direct political coercion. Only with industrial capitalism was the economy conceived as a sphere protected from the state, especially through private property. If the separation is historically made, how state and market should relate is always also a political question.
 
-**5.2** c). These four concepts define the role of the state in the most widely used economics textbook (Mankiw). The market is considered efficient, and deviations require justification. Option A is the welfare-capitalist paradigm, option B the post-growth paradigm, and option D Mazzucato’s shaping state.
+**5.2** c). These four concepts define the role of the state in the most widely used economics textbook. The market is considered efficient, and deviations require justification. Option A is the welfare-capitalist paradigm, option B the post-growth paradigm, and option D Mazzucato’s shaping state.
 
 **5.3** b). Even the market-liberal paradigm depends on a state that creates and protects markets, property rights and competition. So the opposition between “free market” and “strong state” is misleading.
 
