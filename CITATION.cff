@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this course, please cite it as below."
-type: lesson
 title: "Introduction to Sustainable Economics"
 abstract: "Self-paced e-learning course based on the German lecture \"Einführung in Nachhaltige Ökonomie\"; used for additional attainments in the Master's in Sustainability Transformations, University of Bern."
 version: "1.0"
-date-released: 2026-10-12
+date-released: 2026-10-16
+doi: "10.5281/zenodo.23422183"
 license: "CC-BY-NC-SA-4.0"
 authors:
   - given-names: "Christoph"
@@ -25,3 +25,7 @@ keywords:
   - "open educational resources"
 repository-code: "https://github.com/CDEteaching/Sustainable-Economics"
 url: "https://cdeteaching.github.io/Sustainable-Economics/"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23422184"
+    description: "Version 1.0"

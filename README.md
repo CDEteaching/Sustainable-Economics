@@ -1,5 +1,7 @@
 # Sustainable-Economics
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23422183.svg)](https://doi.org/10.5281/zenodo.23422183)
+
 Quarto book source code for **"Introduction to Sustainable Economics"**, a self-paced e-learning course at the University of Bern.
 
 ## 🎓 About the Course
